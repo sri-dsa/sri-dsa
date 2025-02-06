@@ -43,12 +43,32 @@
 
 ---
 
-# Contact
-- **LinkedIn**: [Srivathsan Karthikeyan](https://www.linkedin.com/in/srivak/)  
-- **HackerRank**: [sk_data](https://www.hackerrank.com/profile/sk_data)  
-- **Email**: [sk.data@icloud.com](mailto:sk.data@icloud.com)
+# Contact   [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srivak/) [![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/sk_data)   [![iCloud](https://img.shields.io/badge/iCloud-3693F3?style=for-the-badge&logo=icloud&logoColor=white)](mailto:sk.data@icloud.com)
+
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" />
+  <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=keras&logoColor=white" height="30">
+  <img src="https://img.shields.io/badge/OpenCV-%23FFBB00.svg?style=for-the-badge&logo=opencv&logoColor=white" height="30">
+  <img src="https://img.shields.io/badge/NLTK-%234A90E2.svg?style=for-the-badge&logo=python&logoColor=white" height="30">
+  <img src="https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black" height="30">
+  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-%23CC2927.svg?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" height="30">
+  <img src="https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" height="30">
+  <img src="https://img.shields.io/badge/Tableau-%23E97627.svg?style=for-the-badge&logo=tableau&logoColor=white" height="30">
+  <img src="https://img.shields.io/badge/Microsoft%20Excel-%2300A651.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" height="30">
+  <img src="https://skillicons.dev/icons?i=docker,git" />
+</p>
+
+
+
+
+
 
 <!-- GitHub stats and activity overview -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=radical&hide_border=false&include_all_commits=true&count_private=true" />
 </p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=radical&hide_border=true" />
+</p>
+
