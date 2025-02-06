@@ -47,17 +47,17 @@
 
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv" />
-  <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=keras&logoColor=white" height="30">
-  <img src="https://img.shields.io/badge/NLTK-%234A90E2.svg?style=for-the-badge&logo=python&logoColor=white" height="30">
-  <img src="https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black" height="30">
-  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-%23CC2927.svg?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" height="30">
-  <img src="https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" height="30">
-  <img src="https://img.shields.io/badge/Tableau-%23E97627.svg?style=for-the-badge&logo=tableau&logoColor=white" height="30">
-  <img src="https://img.shields.io/badge/Microsoft%20Excel-%2300A651.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" height="30">
-  <img src="https://skillicons.dev/icons?i=docker,github" />
-
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv" style="display: inline-block;"/>
+  <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=keras&logoColor=white" height="30" style="display: inline-block;"/>
+  <img src="https://img.shields.io/badge/NLTK-%234A90E2.svg?style=for-the-badge&logo=python&logoColor=white" height="30" style="display: inline-block;"/>
+  <img src="https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black" height="30" style="display: inline-block;"/>
+  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-%23CC2927.svg?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" height="30" style="display: inline-block;"/>
+  <img src="https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" height="30" style="display: inline-block;"/>
+  <img src="https://img.shields.io/badge/Tableau-%23E97627.svg?style=for-the-badge&logo=tableau&logoColor=white" height="30" style="display: inline-block;"/>
+  <img src="https://img.shields.io/badge/Microsoft%20Excel-%2300A651.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" height="30" style="display: inline-block;"/>
+  <img src="https://skillicons.dev/icons?i=docker,github" style="display: inline-block;"/>
 </p>
+
 
 
 
