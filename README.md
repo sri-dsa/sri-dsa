@@ -35,7 +35,6 @@
 # Contact
 - **LinkedIn**: [Srivathsan Karthikeyan](https://www.linkedin.com/in/srivak/)  
 - **HackerRank**: [sk_data](https://www.hackerrank.com/profile/sk_data)  
-- **Phone**: +44 744 200 2336  
 - **Email**: [sk.data@icloud.com](mailto:sk.data@icloud.com)
 
 <!-- GitHub stats from https://github.com/anuraghazra/github-readme-stats -->
