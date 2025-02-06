@@ -28,10 +28,25 @@
 | **Data Science and Analytics**  | **Control Engineering and Instrumentation** |
 |   <a href="Leeds.pdf" target="_blank">![🎓 **University of Leeds**, Leeds, United Kingdom](Uo.png)</a> |  <a href="Trichy.pdf" target="_blank">![🎓 **National Institute of Technology**, Tiruchirappalli, India](NIT.png)</a> |
 | *2022 - 2024*               | *2018 - 2022*                        |
-|**🇬🇧** | **🇮🇳** |
+| [**🇬🇧**](https://en.wikipedia.org/wiki/University_of_Leeds) | [**🇮🇳**](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli) |
 | **Click to View**: <a href="Leeds.pdf" target="_blank">Degree Certificate </a> | **Click to View**: <a href="Trichy.pdf" target="_blank">Degree Certificate</a> |
 
 ---
+
+## **Experience**
+
+| **Role** | **Company** | **Duration** | **Location** | **Proof** |
+|:--:|:--:|:--:|:--:|:--:|
+| **Research Assistant** | <a href="NITT_Experience.pdf" target="_blank"><img src="NITT.png" width="120"></a> <br> **NIT Trichy** | *Oct 2021 - Aug 2022* | 🇮🇳 India | [📜 View Certificate](NITT_Experience.pdf) |
+| **Analytics Intern** | <a href="NI_Experience.pdf" target="_blank"><img src="NI.png" width="120"></a> <br> **National Instruments** | *May 2020 - Jan 2021* | 🇮🇳 India | [📜 View Certificate](NI_Experience.pdf) |
+| **ML Engineer Intern** | <a href="IS_Experience.pdf" target="_blank"><img src="IS.png" width="120"></a> <br> **Indian Servers** | *June 2019 - March 2020* | 🇮🇳 India | [📜 View Certificate](IS_Experience.pdf) |
+
+---
+
+
+
+
+
 
 # Contact
 - **LinkedIn**: [Srivathsan Karthikeyan](https://www.linkedin.com/in/srivak/)  
@@ -39,4 +54,4 @@
 - **Email**: [sk.data@icloud.com](mailto:sk.data@icloud.com)
 
 <!-- GitHub stats from https://github.com/anuraghazra/github-readme-stats -->
-![](https://github-readme-stats.vercel.app/api?username=Thatch-aka-BlackBeard&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
