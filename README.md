@@ -35,11 +35,11 @@
 
 ## **Experience**
 
-| **Role** | **Company** | **Duration** | **Location** | **Proof** |
-|:--:|:--:|:--:|:--:|:--:|
-| **Research Assistant** | <a href="NITT_Experience.pdf" target="_blank"><img src="NITT.png" width="120"></a> <br> **NIT Trichy** | *Oct 2021 - Aug 2022* | 🇮🇳 India | [📜 View Certificate](NITT_Experience.pdf) |
-| **Analytics Intern** | <a href="NI_Experience.pdf" target="_blank"><img src="NI.png" width="120"></a> <br> **National Instruments** | *May 2020 - Jan 2021* | 🇮🇳 India | [📜 View Certificate](NI_Experience.pdf) |
-| **ML Engineer Intern** | <a href="IS_Experience.pdf" target="_blank"><img src="IS.png" width="120"></a> <br> **Indian Servers** | *June 2019 - March 2020* | 🇮🇳 India | [📜 View Certificate](IS_Experience.pdf) |
+| **Role** | **Company** | **Office** | **Duration** | **Location** | **Proof** |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| **Research Assistant** | <a href="NITT_Experience.pdf" target="_blank"><img src="nitt_l.png" width="120"></a> <br> **NIT Trichy** |Department of Electronics and Communication Engineering| *Oct 2021 - Aug 2022* | Trichy,India | [📜 View Certificate](NITT_Experience.pdf) |
+| **Analytics Intern** | <a href="NI_Experience.pdf" target="_blank"><img src="NI.png" width="120"></a> <br> **National Instruments** |Centre of Excellence| *May 2020 - Jan 2021* | Greater Noida, India | [📜 View Certificate](NI_Experience.pdf) |
+| **ML Engineer Intern** | <a href="IS_Experience.pdf" target="_blank"><img src="unnamed.jpg" width="120"></a> <br> **Indian Servers** |Hybrid | *June 2019 - March 2020* | Hyderabad, India | [📜 View Certificate](IS_Experience.pdf) |
 
 ---
 
