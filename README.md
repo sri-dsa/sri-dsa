@@ -1,5 +1,10 @@
 # Tech Stack
 
+
+
+
+
+
 <table>
   <tr>
     <!-- First Action Button: ML | DL | CV Projects -->
