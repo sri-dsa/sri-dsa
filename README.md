@@ -33,7 +33,7 @@
 
 ---
 
-## **Experience**
+## Experience
 
 | **Role** | **Company** | **Office** | **Duration** | **Location** | **View Certificate** |
 |:--:|:--:|:--:|:--:|:--:|:--:|
