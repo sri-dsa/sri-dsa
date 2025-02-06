@@ -28,12 +28,9 @@
 |   [![🎓 **University of Leeds**, Leeds, United Kingdom](Uo.png)](Leeds.pdf) |  [![🎓 **National Institute of Technology**, Tiruchirappalli, India](NIT.png)](Trichy.pdf) |
 | **MSc Data Science and Analytics**  | **B.Tech Control Engineering** |
 | *2022 - 2024*               | *2018 - 2022*                        |
-| **Click to View Certificate**: [University of Leeds Degree](Leeds.pdf) | **Click to View Certificate**: [NIT Trichy Degree](Trichy.pdf) |
+| **Click to View Certificate**: [University of Leeds Degree](Leeds.pdf){:target="_blank"} | **Click to View Certificate**: [NIT Trichy Degree](Trichy.pdf){:target="_blank"} |
 
 ---
-
-
-
 
 # Contact
 - **LinkedIn**: [Srivathsan Karthikeyan](https://www.linkedin.com/in/srivak/)  
@@ -41,8 +38,5 @@
 - **Phone**: +44 744 200 2336  
 - **Email**: [sk.data@icloud.com](mailto:sk.data@icloud.com)
 
-
 <!-- GitHub stats from https://github.com/anuraghazra/github-readme-stats -->
 ![](https://github-readme-stats.vercel.app/api?username=Thatch-aka-BlackBeard&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
-
-
