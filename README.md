@@ -1,4 +1,4 @@
-# 💻 Tech Stack
+# Tech Stack
 
 <table>
   <tr>
@@ -29,7 +29,7 @@
 |   <a href="Leeds.pdf" target="_blank">![🎓 **University of Leeds**, Leeds, United Kingdom](Uo.png)</a> |  <a href="Trichy.pdf" target="_blank">![🎓 **National Institute of Technology**, Tiruchirappalli, India](NIT.png)</a> |
 | 2022 - 2024               | 2018 - 2022                        |
 | [**🇬🇧**](https://en.wikipedia.org/wiki/University_of_Leeds) | [**🇮🇳**](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli) |
-| **Click to View**: <a href="Leeds.pdf" target="_blank">Degree Certificate </a> | **Click to View**: <a href="Trichy.pdf" target="_blank">Degree Certificate</a> |
+| **Click to View**: <a href="Leeds.pdf" target="_blank">📜 Degree Certificate </a> | **Click to View**: <a href="Trichy.pdf" target="_blank"> 📜 Degree Certificate</a> |
 
 ---
 
