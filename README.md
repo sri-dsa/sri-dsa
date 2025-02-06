@@ -43,15 +43,13 @@
 
 ---
 
-
-
-
-
-
 # Contact
 - **LinkedIn**: [Srivathsan Karthikeyan](https://www.linkedin.com/in/srivak/)  
 - **HackerRank**: [sk_data](https://www.hackerrank.com/profile/sk_data)  
 - **Email**: [sk.data@icloud.com](mailto:sk.data@icloud.com)
 
-<!-- GitHub stats from https://github.com/anuraghazra/github-readme-stats -->
-![](https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+<!-- GitHub stats and activity overview -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=radical&hide_border=false&include_all_commits=true&count_private=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sri-dsa&theme=radical" width="48%" />
+</p>
