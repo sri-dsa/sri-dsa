@@ -56,7 +56,6 @@
   <img src="https://img.shields.io/badge/Tableau-%23E97627.svg?style=for-the-badge&logo=tableau&logoColor=white" height="30">
   <img src="https://img.shields.io/badge/Microsoft%20Excel-%2300A651.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" height="30">
   <img src="https://skillicons.dev/icons?i=docker,github" />
-  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="30">
 
 </p>
 
