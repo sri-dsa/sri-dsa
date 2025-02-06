@@ -25,10 +25,11 @@
 
 | **Masters Degree**              | **Bachelors Degree**  |
 |:-----------------------------:|:---------------------------------------:|
+| **Data Science and Analytics**  | **Control Engineering and Instrumentation** |
 |   <a href="Leeds.pdf" target="_blank">![🎓 **University of Leeds**, Leeds, United Kingdom](Uo.png)</a> |  <a href="Trichy.pdf" target="_blank">![🎓 **National Institute of Technology**, Tiruchirappalli, India](NIT.png)</a> |
-| **MSc Data Science and Analytics**  | **B.Tech Control Engineering** |
 | *2022 - 2024*               | *2018 - 2022*                        |
-| **Click to View Certificate**: <a href="Leeds.pdf" target="_blank">University of Leeds Degree</a> | **Click to View Certificate**: <a href="Trichy.pdf" target="_blank">NIT Trichy Degree</a> |
+|**🇬🇧** | **🇮🇳** |
+| **Click to View**: <a href="Leeds.pdf" target="_blank">Degree Certificate </a> | **Click to View**: <a href="Trichy.pdf" target="_blank">Degree Certificate</a> |
 
 ---
 
