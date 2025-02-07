@@ -76,10 +76,21 @@
 
 <!-- GitHub stats and activity overview -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=radical&hide_border=false&include_all_commits=true&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true" />
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=radical&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" />
+  <br/>
 </p>
+
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img alt="sri-dsa's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=sri-dsa&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/>
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff" height="192px"/>
+  </a>
+</p>
+
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sri-dsa&color=blue)
