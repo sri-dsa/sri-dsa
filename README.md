@@ -53,20 +53,52 @@
 # Contact   [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srivak/) [![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/sk_data)   [![iCloud](https://img.shields.io/badge/iCloud-3693F3?style=for-the-badge&logo=icloud&logoColor=white)](mailto:sk.data@icloud.com)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue&labelColor=grey" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=keras&logoColor=white" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/NLTK-%234A90E2.svg?style=for-the-badge&logo=python&logoColor=white" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-%23CC2927.svg?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/Tableau-%23E97627.svg?style=for-the-badge&logo=tableau&logoColor=white" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/Microsoft%20Excel-%2300A651.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+  <!-- First Repository: ML | DL | CV Projects -->
+  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+    <img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue&labelColor=grey" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+    <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=keras&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+    <img src="https://img.shields.io/badge/NLTK-%234A90E2.svg?style=for-the-badge&logo=python&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+  </a>
+
+  <!-- Second Repository: Data Analytics Projects -->
+  <a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+    <img src="https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+    <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-%23CC2927.svg?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+    <img src="https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+    <img src="https://img.shields.io/badge/Tableau-%23E97627.svg?style=for-the-badge&logo=tableau&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+    <img src="https://img.shields.io/badge/Microsoft%20Excel-%2300A651.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+  </a>
+
+  <!-- GitHub Profile -->
+  <a href="https://github.com/sri-dsa" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+  </a>
 </p>
+
 
 <div align="center">
 
