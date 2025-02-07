@@ -54,22 +54,22 @@
 
 <p align="center">
   <!-- First Repository: ML | DL | CV Projects -->
-  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+  <a href="https://sri-dsa.github.io/ML/" target="_blank">
     <img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue&labelColor=grey" height="30" style="display: inline-block;"/>
   </a>
-  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+  <a href="https://sri-dsa.github.io/ML/" target="_blank">
     <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" height="30" style="display: inline-block;"/>
   </a>
-  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+  <a href="https://sri-dsa.github.io/ML/" target="_blank">
     <img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=keras&logoColor=white" height="30" style="display: inline-block;"/>
   </a>
-  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+  <a href="https://sri-dsa.github.io/ML/" target="_blank">
     <img src="https://img.shields.io/badge/NLTK-%234A90E2.svg?style=for-the-badge&logo=python&logoColor=white" height="30" style="display: inline-block;"/>
   </a>
-  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+  <a href="https://sri-dsa.github.io/ML/" target="_blank">
     <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
   </a>
-  <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+  <a href="https://sri-dsa.github.io/ML/" target="_blank">
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
   </a>
 
