@@ -125,6 +125,3 @@
   <img src="https://github.com/sri-dsa/sri-dsa/raw/main/whydowefall.jpg" alt="Why do we fall?" />
 </p>
 
-
-
-![snake gif](https://github.com/sri-dsa/sri-dsa/blob/output/github-contribution-grid-snake.gif)
