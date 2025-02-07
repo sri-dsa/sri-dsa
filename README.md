@@ -68,16 +68,11 @@
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
 </p>
 
-
 <div align="center">
 
   ![](https://komarev.com/ghpvc/?username=sri-dsa)  [![GitHub followers](https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/sri-dsa?tab=followers)
 
 </div>
-
-
-
-
 
 <!-- GitHub stats and activity overview -->
 <p align="center">
@@ -94,3 +89,6 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://github.com/sri-dsa/sri-dsa/raw/main/whydowefall.jpg" alt="Why do we fall?" />
+</p>
