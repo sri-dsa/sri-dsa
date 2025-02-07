@@ -69,6 +69,11 @@
 </p>
 
 
+<div align="center">
+
+  ![](https://komarev.com/ghpvc/?username=sri-dsa)  [![GitHub followers](https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/sri-dsa?tab=followers)
+
+</div>
 
 
 
@@ -92,5 +97,3 @@
   </a>
 </p>
 
-
-![Profile Views](https://komarev.com/ghpvc/?username=sri-dsa&color=blue)
