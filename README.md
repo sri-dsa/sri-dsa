@@ -9,7 +9,7 @@
   <tr>
     <!-- First Action Button: ML | DL | CV Projects -->
     <td align="center" width="50%">
-      <a href="https://github.com/sri-dsa/MachineLearningProjects" target="_blank">
+      <a href="https://sri-dsa.github.io/ML/" target="_blank">
         <img src="MLDLCV Vision.png" alt="ML | DL | CV" width="600" style="border-radius: 1px;">
         <br>
         <p><strong>ML | DL | CV Projects </strong></p>
