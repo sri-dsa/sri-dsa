@@ -44,7 +44,7 @@
 
 | **Role** | **Company** | **Office** | **Duration** | **Location** | **View Certificate** |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| **Research Assistant** | <a href="ml_LOR.pdf" target="_blank"><img src="nitt_l.png" width="120"></a> <br> **NIT Trichy** |<a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/pattern_recognition_and_computat" target="_blank">Department of Electronics and Communication Engineering </a>| *October 2021 - August 2022* | Trichy,India | [📜 Click here](ml_LOR.pdf) |
+| **Research Assistant** | <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank"><img src="nitt_l.png" width="120"></a> <br> **NIT Trichy** |<a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/pattern_recognition_and_computat" target="_blank">Department of Electronics and Communication Engineering </a>| *October 2021 - August 2022* | Trichy,India | [📜 Click here](https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing) |
 | **Analytics Intern** | <a href="ni.pdf" target="_blank"><img src="NI.png" width="120"></a> <br> **National Instruments** |<a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a>| *Jan 2021 - June 2021* | Noida, India | [📜  Click here](ni.pdf) |
 | **ML Engineer Intern** | <a href="IS.pdf" target="_blank"><img src="unnamed.jpg" width="120"></a> <br> **Indian Servers** |Hybrid | *June 2019 - March 2020* | Hyderabad, India | [📜 Click here](IS.pdf) |
 
