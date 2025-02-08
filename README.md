@@ -10,7 +10,7 @@
     <!-- First Action Button: ML | DL | CV Projects -->
     <td align="center" width="50%">
       <a href="https://sri-dsa.github.io/ML/" target="_blank">
-        <img src="MLDLCV Vision.png" alt="ML | DL | CV" width="600" style="border-radius: 1px;">
+        <img src="MLDLCV Vision.png" alt="ML | DL | CV" width="50%" style="border-radius: 1px;">
         <br>
         <p><strong>ML | DL | CV Projects </strong></p>
       </a>
@@ -18,7 +18,7 @@
     <!-- Second Action Button: Data Analytics Projects -->
     <td align="center" width="50%">
       <a href="https://sri-dsa.github.io/DA/" target="_blank">
-        <img src="Azure.png" alt="Data Analytics" width="600" style="border-radius: 1px;">
+        <img src="Azure.png" alt="Data Analytics" width="50%" style="border-radius: 1px;">
         <br>
         <p><strong>Data Analytics Projects </strong></p>
       </a>
