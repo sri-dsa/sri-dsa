@@ -74,22 +74,22 @@
 </a>
 
 <!-- Second Repository: Data Analytics Projects -->
-<a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+<a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black" height="30" style="display: inline-block;"/>
 </a>
-<a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+<a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-%23CC2927.svg?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" height="30" style="display: inline-block;"/>
 </a>
-<a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+<a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" height="30" style="display: inline-block;"/>
 </a>
-<a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+<a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Tableau-%23E97627.svg?style=for-the-badge&logo=tableau&logoColor=white" height="30" style="display: inline-block;"/>
 </a>
-<a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+<a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Microsoft%20Excel-%2300A651.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" height="30" style="display: inline-block;"/>
 </a>
-<a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+<a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
 </a>
 
