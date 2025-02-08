@@ -1,26 +1,20 @@
-# Projects Portfolios
-
-
-
-
-
-
+# Portfolios
 <table>
   <tr>
     <!-- First Action Button: ML | DL | CV Projects -->
-    <td align="center" width="50%">
+    <td style="width: 50%; text-align: center;">
       <a href="https://sri-dsa.github.io/ML/" target="_blank">
-        <img src="MLDLCV Vision.png" alt="ML | DL | CV" width="50%" style="border-radius: 1px;">
+        <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="max-width: 100%; border-radius: 5px;">
         <br>
-        <p><strong>ML | DL | CV Projects </strong></p>
+        <p><strong>ML | DL | CV Projects</strong></p>
       </a>
     </td>
     <!-- Second Action Button: Data Analytics Projects -->
-    <td align="center" width="50%">
+    <td style="width: 50%; text-align: center;">
       <a href="https://sri-dsa.github.io/DA/" target="_blank">
-        <img src="Azure.png" alt="Data Analytics" width="50%" style="border-radius: 1px;">
+        <img src="Azure.png" alt="Data Analytics" style="max-width: 100%; border-radius: 5px;">
         <br>
-        <p><strong>Data Analytics Projects </strong></p>
+        <p><strong>Data Analytics Projects</strong></p>
       </a>
     </td>
   </tr>
