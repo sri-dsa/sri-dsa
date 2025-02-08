@@ -1,28 +1,25 @@
 # Portfolios
 
-
-<table>
+<table style="width: 100%; table-layout: fixed;">
   <tr>
     <!-- First Action Button: ML | DL | CV Projects -->
-    <td align="center" width="50%">
+    <td align="center" style="width: 50%; padding: 10px;">
       <a href="https://sri-dsa.github.io/ML/" target="_blank">
-        <img src="MLDLCV Vision.png" alt="ML | DL | CV" width="600" style="border-radius: 1px;">
+        <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="max-width: 100%; height: auto; border-radius: 1px;">
         <br>
         <p><strong>ML | DL | CV Projects </strong></p>
       </a>
     </td>
     <!-- Second Action Button: Data Analytics Projects -->
-    <td align="center" width="50%">
+    <td align="center" style="width: 50%; padding: 10px;">
       <a href="https://sri-dsa.github.io/DA/" target="_blank">
-        <img src="Azure.png" alt="Data Analytics" width="600" style="border-radius: 1px;">
+        <img src="Azure.png" alt="Data Analytics" style="max-width: 100%; height: auto; border-radius: 1px;">
         <br>
         <p><strong>Data Analytics Projects </strong></p>
       </a>
     </td>
   </tr>
 </table>
-
-
 
 # Education
 
@@ -40,9 +37,9 @@
 
 | **Role** | **Company** | **Office** | **Duration** | **Location** | **View Certificate** |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| **Research Assistant** | <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank"><img src="nitt_l.png" width="120"></a> <br> **NIT Trichy** | <a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of Electronics and Communication Engineering</a> | *October 2021 - August 2022* | Trichy, India | [📜 Click here](https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing) |
-| **Analytics Intern** | <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank"><img src="NI.png" width="120"></a> <br> **National Instruments** |<a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a>| *Jan 2021 - June 2021* | Noida, India | [📜  Click here](https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing) |
-| **ML Engineer Intern** | <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank"><img src="unnamed.jpg" width="120"></a> <br> **Indian Servers** |Hybrid | *June 2019 - March 2020* | Hyderabad, India | [📜 Click here](https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing) |
+| **Research Assistant** | <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank"><img src="nitt_l.png" style="width: 100%; max-width: 120px;"></a> <br> **NIT Trichy** | <a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of Electronics and Communication Engineering</a> | *October 2021 - August 2022* | Trichy, India | [📜 Click here](https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing) |
+| **Analytics Intern** | <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank"><img src="NI.png" style="width: 100%; max-width: 120px;"></a> <br> **National Instruments** |<a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a>| *Jan 2021 - June 2021* | Noida, India | [📜  Click here](https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing) |
+| **ML Engineer Intern** | <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank"><img src="unnamed.jpg" style="width: 100%; max-width: 120px;"></a> <br> **Indian Servers** |Hybrid | *June 2019 - March 2020* | Hyderabad, India | [📜 Click here](https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing) |
 
 ---
 
@@ -94,7 +91,6 @@
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
   </a>
 </p>
-
 
 <div align="center">
 
