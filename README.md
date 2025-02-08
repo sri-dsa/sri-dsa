@@ -45,7 +45,7 @@
 |:--:|:--:|:--:|:--:|:--:|:--:|
 | **Research Assistant** | <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank"><img src="nitt_l.png" style="width: 100px;"></a> <br> **NIT Trichy** | <a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of ECE</a> | *Oct 2021 - Aug 2022* | Trichy, India | [📜 Click here](https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing) |
 | **Analytics Intern** | <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank"><img src="NI.png" style="width: 100px;"></a> <br> **National Instruments** |<a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a>| *Jan 2021 - Jun 2021* | Noida, India | [📜 Click here](https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing) |
-
+| **ML Engineer Intern** | <a href="IS.pdf" target="_blank"><img src="unnamed.jpg" width="120"></a> <br> **Indian Servers** |Hybrid | *June 2019 - March 2020* | Hyderabad, India | [📜 Click here](IS.pdf) |
 </div>
 
 ---
