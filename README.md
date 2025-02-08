@@ -55,15 +55,91 @@
     <td><a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing">📜 View Degree Certificate</a></td>
   </tr>
 </table>
+
 ---
 
 # Experience
 
-| **Role** | **Company** | **Office** | **Duration** | **Location** | **View Certificate** |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Research Assistant** | <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank"><img src="nitt_l.png" style="width: 120px; height: auto;"></a> <br> **NIT Trichy** | <a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of Electronics and Communication Engineering</a> | *October 2021 - August 2022* | Trichy, India | [📜 Click here](https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing) |
-| **Analytics Intern** | <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank"><img src="NI.png" style="width: 120px; height: auto;"></a> <br> **National Instruments** |<a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a>| *Jan 2021 - June 2021* | Noida, India | [📜  Click here](https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing) |
-| **ML Engineer Intern** | <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank"><img src="unnamed.jpg" style="width: 120px; height: auto;"></a> <br> **Indian Servers** |Hybrid | *June 2019 - March 2020* | Hyderabad, India | [📜 Click here](https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing) |
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Company</th>
+      <th>Office</th>
+      <th>Duration</th>
+      <th>Location</th>
+      <th>Certificate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Research Assistant</strong></td>
+      <td>
+        <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">
+          <img src="nitt_l.png" width="100px" alt="NIT Trichy">
+        </a>
+        <br><strong>NIT Trichy</strong>
+      </td>
+      <td>
+        <a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">
+          Department of Electronics and Communication Engineering
+        </a>
+      </td>
+      <td>October 2021 - August 2022</td>
+      <td>Trichy, India</td>
+      <td>
+        <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">
+          📜 Click here
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td><strong>Analytics Intern</strong></td>
+      <td>
+        <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">
+          <img src="NI.png" width="100px" alt="National Instruments">
+        </a>
+        <br><strong>National Instruments</strong>
+      </td>
+      <td>
+        <a href="https://education.ni.com/center-of-excellence" target="_blank">
+          Centre of Excellence
+        </a>
+      </td>
+      <td>Jan 2021 - June 2021</td>
+      <td>Noida, India</td>
+      <td>
+        <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">
+          📜 Click here
+        </a>
+      </td>
+    </tr>
+
+    <tr>
+      <td><strong>ML Engineer Intern</strong></td>
+      <td>
+        <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">
+          <img src="unnamed.jpg" width="100px" alt="Indian Servers">
+        </a>
+        <br><strong>Indian Servers</strong>
+      </td>
+      <td>Hybrid</td>
+      <td>June 2019 - March 2020</td>
+      <td>Hyderabad, India</td>
+      <td>
+        <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">
+          📜 Click here
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
 ---
 
 # Connect with me via:   [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srivak/) [![Email](https://img.shields.io/badge/Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sk.data@icloud.com) [![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/sk_data)   
