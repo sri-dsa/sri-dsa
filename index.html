@@ -46,6 +46,37 @@
             background-color: #f4f4f4; /* Light gray background for header */
             font-weight: bold;
         }
+
+        /* Adjust margins for laptop screens */
+        @media (min-width: 768px) {
+            body {
+                margin: 10px;
+                padding: 10px;
+            }
+            .profile-container {
+                margin-bottom: 10px;
+            }
+            .markdown-content table {
+                margin: 15px auto;
+            }
+        }
+
+        /* Remove margins for smaller screens (mobile devices) */
+        @media (max-width: 767px) {
+            body {
+                margin: 5px;
+                padding: 5px;
+            }
+            .profile-container {
+                margin-bottom: 5px;
+            }
+            .markdown-content table {
+                margin: 0 auto;
+            }
+            .markdown-content th, .markdown-content td {
+                padding: 5px; /* Reduce padding on smaller screens */
+            }
+        }
     </style>
 </head>
 <body>
