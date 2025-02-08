@@ -17,7 +17,7 @@
     </td>
     <!-- Second Action Button: Data Analytics Projects -->
     <td align="center" width="50%">
-      <a href="https://github.com/sri-dsa/DataAnalyticsProjects" target="_blank">
+      <a href="https://sri-dsa.github.io/DA/" target="_blank">
         <img src="Azure.png" alt="Data Analytics" width="600" style="border-radius: 1px;">
         <br>
         <p><strong>Data Analytics Projects </strong></p>
