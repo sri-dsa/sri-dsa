@@ -68,68 +68,66 @@
 
 
 ---
-
-## Experience
+# Experience
 
 <div style="overflow-x: auto;">
 
-<table>
+<table style="width: 100%; table-layout: auto;">
   <thead>
     <tr align="center">
-      <th><b>Role</b></th>
-      <th><b>Company</b></th>
-      <th><b>Office</b></th>
-      <th><b>Duration</b></th>
-      <th><b>Location</b></th>
-      <th><b>View Certificate</b></th>
+      <th style="padding: 8px;"><b>Role</b></th>
+      <th style="padding: 8px;"><b>Company</b></th>
+      <th style="padding: 8px;"><b>Office</b></th>
+      <th style="padding: 8px;"><b>Duration</b></th>
+      <th style="padding: 8px;"><b>Location</b></th>
+      <th style="padding: 8px;"><b>View Certificate</b></th>
     </tr>
   </thead>
   <tbody>
     <tr align="center">
-      <td><b><a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">Research Assistant</a></b></td>
-      <td>
+      <td style="padding: 8px;"><b><a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">Research Assistant</a></b></td>
+      <td style="padding: 8px;">
         <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">
-          <img src="nitt_l.png" width="100">
+          <img src="nitt_l.png" width="100" style="max-width: 100%; height: auto;">
         </a>
         <br> <b>NIT Trichy</b>
       </td>
-      <td><a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of ECE</a></td>
-      <td><i>Oct 2021 - Aug 2022</i></td>
-      <td>Trichy, India</td>
-      <td><a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">📜 Click here</a></td>
+      <td style="padding: 8px;"><a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of ECE</a></td>
+      <td style="padding: 8px;"><i>Oct 2021 - Aug 2022</i></td>
+      <td style="padding: 8px;">Trichy, India</td>
+      <td style="padding: 8px;"><a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">📜 Click here</a></td>
     </tr>
     <tr align="center">
-      <td><b> <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">Analytics Intern</a></b></td>
-      <td>
+     <td style="padding: 8px;"><b> <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">Analytics Intern</a></b></td>
+      <td style="padding: 8px;">
         <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">
-          <img src="NI.png" width="100">
+          <img src="NI.png" width="100" style="max-width: 100%; height: auto;">
         </a>
         <br> <b>National Instruments</b>
       </td>
-      <td><a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a></td>
-      <td><i>Jan 2021 - Jun 2021</i></td>
-      <td>Noida, India</td>
-      <td><a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">📜 Click here</a></td>
+      <td style="padding: 8px;"><a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a></td>
+      <td style="padding: 8px;"><i>Jan 2021 - Jun 2021</i></td>
+      <td style="padding: 8px;">Noida, India</td>
+      <td style="padding: 8px;"><a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">📜 Click here</a></td>
     </tr>
     <tr align="center">
-      <td><b><a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">ML Engineer Intern</a></b></td>
-      <td>
+      <td style="padding: 8px;"><b><a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">ML Engineer Intern</a></b></td>
+      <td style="padding: 8px;">
         <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">
-          <img src="unnamed.jpg" width="120">
+          <img src="unnamed.jpg" width="120" style="max-width: 100%; height: auto;">
         </a>
         <br> <b>Indian Servers</b>
       </td>
-      <td>Hybrid</td>
-      <td><i>June 2019 - March 2020</i></td>
-      <td>Hyderabad, India</td>
-      <td><a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">📜 Click here</a></td>
+      <td style="padding: 8px;">Hybrid</td>
+      <td style="padding: 8px;"><i>June 2019 - March 2020</i></td>
+      <td style="padding: 8px;">Hyderabad, India</td>
+      <td style="padding: 8px;"><a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">📜 Click here</a></td>
     </tr>
   </tbody>
 </table>
 
 </div>
 
----
 
 # Connect with me
 
