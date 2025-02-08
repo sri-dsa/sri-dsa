@@ -33,14 +33,13 @@
 
 ---
 
-## Experience
+# Experience
 
 | **Role** | **Company** | **Office** | **Duration** | **Location** | **View Certificate** |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| **Research Assistant** | <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank"><img src="nitt_l.png" width="100%" style="max-width: 120px; width: auto;"></a> <br> **NIT Trichy** | <a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of Electronics and Communication Engineering</a> | *October 2021 - August 2022* | Trichy, India | [📜 Click here](https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing) |
-| **Analytics Intern** | <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank"><img src="NI.png" width="100%" style="max-width: 120px; width: auto;"></a> <br> **National Instruments** |<a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a>| *Jan 2021 - June 2021* | Noida, India | [📜  Click here](https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing) |
-| **ML Engineer Intern** | <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank"><img src="unnamed.jpg" width="100%" style="max-width: 120px; width: auto;"></a> <br> **Indian Servers** |Hybrid | *June 2019 - March 2020* | Hyderabad, India | [📜 Click here](https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing) |
-
+| **Research Assistant** | <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank"><img src="nitt_l.png" style="width: 120px; height: auto;"></a> <br> **NIT Trichy** | <a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of Electronics and Communication Engineering</a> | *October 2021 - August 2022* | Trichy, India | [📜 Click here](https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing) |
+| **Analytics Intern** | <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank"><img src="NI.png" style="width: 120px; height: auto;"></a> <br> **National Instruments** |<a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a>| *Jan 2021 - June 2021* | Noida, India | [📜  Click here](https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing) |
+| **ML Engineer Intern** | <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank"><img src="unnamed.jpg" style="width: 120px; height: auto;"></a> <br> **Indian Servers** |Hybrid | *June 2019 - March 2020* | Hyderabad, India | [📜 Click here](https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing) |
 ---
 
 # Connect with me via:   [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srivak/) [![Email](https://img.shields.io/badge/Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sk.data@icloud.com) [![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/sk_data)   
