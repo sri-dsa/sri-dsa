@@ -14,86 +14,70 @@
         }
         
         .profile-container {
-    display: flex;
-    transform: scale(1.2);
-    margin-left: 25%; /* Adjust percentage to move right */
-}
+            display: flex;
+            align-items: center; /* Ensure vertical alignment */
+            gap: 20px; /* Space between image and name */
+            margin-bottom: 20px;
+            justify-content: center; /* Center align on the page */
+        }
 
-        
         .profile-container img {
             border-radius: 50%;
-            max-width: 150px; /* Optional cap for very large screens */
-            max-height: 150px;
-            margin-bottom: 2%;
-}
-
+            width: 120px; /* Standard size */
+            height: 120px;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
 
         .profile-container img:hover {
-            transform: scale(1.2);  /* Image will enlarge */
-            box-shadow: 0 0 15px rgba(0, 153, 255, 0.8);  /* Glow effect */
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 153, 255, 0.6);
         }
 
         .profile-container h2 {
-            font-size: 3em;  /* Enlarge name */
-            margin-left: 20px;  /* Space between image and name */
+            font-size: 2.2em;
             font-weight: bold;
-        }
-
-        .profile-container p {
-            margin: 5px 0;
+            margin: 0;
         }
 
         .markdown-content {
-            max-width: 1000px;
+            max-width: 800px;
             margin: auto;
         }
 
-        /* Ensure the table stays centered */
         .markdown-content table {
             width: 100%;
-            margin: 20px auto;  /* Center the table */
-            border-collapse: collapse; /* Makes the borders look cleaner */
+            margin: 20px auto;
+            border-collapse: collapse;
         }
 
         .markdown-content th, .markdown-content td {
-            border: 1px solid #ddd; /* Light gray border */
+            border: 1px solid #ddd;
             padding: 8px;
-            text-align: center; /* Ensure text is centered in cells */
+            text-align: center;
         }
 
         .markdown-content th {
-            background-color: #f4f4f4; /* Light gray background for header */
+            background-color: #f4f4f4;
             font-weight: bold;
         }
 
-        /* Adjust margins for laptop screens */
-        @media (min-width: 768px) {
+        /* Responsive Design */
+        @media (max-width: 768px) {
             body {
-                margin: 10px;
-                padding: 10px;
+                margin: 5%;
+                padding: 5%;
             }
             .profile-container {
-                margin-bottom: 10px;
+                flex-direction: column;
+                text-align: center;
             }
-            .markdown-content table {
-                margin: 15px auto;
+            .profile-container img {
+                width: 100px;
+                height: 100px;
             }
-        }
-
-        /* Remove margins for smaller screens (mobile devices) */
-        @media (max-width: 767px) {
-            body {
-                margin: 5px;
-                padding: 5px;
-            }
-            .profile-container {
-                margin-bottom: 5px;
-            }
-            .markdown-content table {
-                margin: 0 auto;
-            }
-            .markdown-content th, .markdown-content td {
-                padding: 5px; /* Reduce padding on smaller screens */
+            .profile-container h2 {
+                font-size: 1.8em;
             }
         }
     </style>
@@ -114,7 +98,6 @@
                 });
         </script>
         
-        <!-- Include your Markdown content here -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
         <script>
             fetch('README.md')
