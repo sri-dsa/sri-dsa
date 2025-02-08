@@ -1,8 +1,23 @@
 # Portfolios
+
+<style>
+  table {
+    width: 100%;
+    text-align: center;
+  }
+  td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  p {
+    text-align: center;
+  }
+</style>
+
 <table>
   <tr>
     <!-- First Action Button: ML | DL | CV Projects -->
-    <td style="width: 50%; text-align: center;">
+    <td style="width: 50%;">
       <a href="https://sri-dsa.github.io/ML/" target="_blank">
         <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="max-width: 100%; border-radius: 5px;">
         <br>
@@ -10,7 +25,7 @@
       </a>
     </td>
     <!-- Second Action Button: Data Analytics Projects -->
-    <td style="width: 50%; text-align: center;">
+    <td style="width: 50%;">
       <a href="https://sri-dsa.github.io/DA/" target="_blank">
         <img src="Azure.png" alt="Data Analytics" style="max-width: 100%; border-radius: 5px;">
         <br>
@@ -20,7 +35,7 @@
   </tr>
 </table>
 
-
+# Education
 
 <table>
   <tr>
