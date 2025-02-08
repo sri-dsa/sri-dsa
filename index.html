@@ -72,9 +72,20 @@
         }
 
         /* Apply scale effect to multiple elements inside markdown content */
-.markdown-content h1:hover,
-.markdown-content h2:hover,
+/* Apply scale effect to multiple elements inside markdown content */
 .markdown-content img:hover,
+.markdown-content a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Prevent table scaling when hovering other elements */
+.markdown-content table:hover {
+    transform: scale(1);
+    transition: none;
+}
+
+/* Optionally, apply hover effect on table */
 .markdown-content table:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
