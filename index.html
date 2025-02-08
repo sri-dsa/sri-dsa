@@ -11,13 +11,13 @@
             position: fixed;
             width: 100%;
             height: 100%;
-            background: black;
+            background: white;
             z-index: -1;
         }
 
         body {
             font-family: Arial, sans-serif;
-            color: white; /* Text visible on black background */
+            color: black; /* Font color for text */
             background: transparent; /* Allow particles to show */
             margin: 3% auto;
             padding: 2% 5%;
@@ -43,7 +43,7 @@
 
         .profile-container img:hover {
             transform: scale(1.1);
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); /* Green glow */
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); /* Green glow for profile hover */
         }
 
         .profile-container h2 {
@@ -64,23 +64,23 @@
         }
 
         .markdown-content th, .markdown-content td {
-            border: 1px solid #00ff00; /* Light green border */
+            border: 1px solid #444444; /* Dark grey table border */
             padding: 8px;
             text-align: center;
         }
 
         .markdown-content th {
-            background-color: #004400; /* Dark green for better contrast */
+            background-color: #f4f4f4; /* Light background for table headers */
             font-weight: bold;
         }
 
         /* Links should be clearly visible */
         a {
-            color: #00ffff; /* Cyan */
+            color: #003366; /* Dark blue for links */
         }
 
         a:hover {
-            color: #ff0000; /* Red on hover */
+            color: #ff0000; /* Red on hover for links */
         }
 
         /* Responsive Design */
@@ -146,7 +146,7 @@
                     }
                 },
                 "color": {
-                    "value": "#00ff00"
+                    "value": "#000000"
                 },
                 "shape": {
                     "type": "circle",
@@ -164,7 +164,7 @@
                 },
                 "line_linked": {
                     "enable": true,
-                    "distance": 128,
+                    "distance": 0,
                     "color": "#ff0000",
                     "opacity": 1,
                     "width": 3.3
@@ -175,7 +175,7 @@
                 }
             },
             "interactivity": {
-                "detect_on": "window",
+                "detect_on": "canvas",
                 "events": {
                     "onhover": {
                         "enable": true,
