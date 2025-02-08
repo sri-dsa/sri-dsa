@@ -38,7 +38,7 @@
 <a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
 </a>
-
+</p>
 # Portfolios
 
 <table style="max-width: 100%; width: 100%;">
@@ -214,15 +214,15 @@
 <a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
 </a>
+</p>
 
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=sri-dsa" alt="Profile Views">  
+    <a href="https://github.com/sri-dsa?tab=followers">
+      <img src="https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000" alt="GitHub followers">
+    </a>
+  </p>
 
-
-
-<div align="center">
-
-![](https://komarev.com/ghpvc/?username=sri-dsa)  [![GitHub followers](https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/sri-dsa?tab=followers)
-
-</div>
 
 <!-- GitHub stats -->
 <p align="center">
