@@ -118,10 +118,23 @@
                 .then(response => response.text())
                 .then(markdown => {
                     var converter = new showdown.Converter();
-                    document.querySelector('.markdown-content').innerHTML = converter.makeHtml(markdown);
+                    var htmlContent = converter.makeHtml(markdown); // Convert the markdown to HTML
+
+                    // Extract the first <p> tag using regex
+                    var firstParagraph = htmlContent.match(/<p>.*?<\/p>/); 
+                    
+                    if (firstParagraph) {
+                        // Modify or add content before the first paragraph
+                        var newContent = "<p><strong>Extra content before the first paragraph!</strong></p>" + firstParagraph[0];
+                        htmlContent = htmlContent.replace(firstParagraph[0], newContent); // Replace the first <p> with the new content
+
+                        // Insert the rest of the HTML
+                        document.querySelector('.markdown-content').innerHTML = htmlContent;
+                    }
                 });
         </script>
     </div>
 </body>
+
 
 </html>
