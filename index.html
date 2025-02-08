@@ -71,6 +71,15 @@
             margin: auto;
         }
 
+        /* Apply scale effect to multiple elements inside markdown content */
+.markdown-content h1:hover,
+.markdown-content h2:hover,
+.markdown-content img:hover,
+.markdown-content table:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
         .markdown-content table {
             width: 100%;
             margin: 20px auto;
