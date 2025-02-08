@@ -16,71 +16,73 @@
             text-align: center;
             margin-bottom: 20px;
         }
-        .profile-container img {
+        .profile-img {
             border-radius: 50%;
             width: 120px;
             height: 120px;
+            transition: transform 0.3s ease-in-out;
         }
-        .profile-container p {
-            margin: 5px 0;
-        }
-        .markdown-content {
-            max-width: 800px;
-            margin: auto;
-        }
-
-        /* Ensure the table stays centered */
-        .markdown-content table {
-            width: 100%;
-            margin: 20px auto;  /* Center the table */
-            border-collapse: collapse; /* Makes the borders look cleaner */
-        }
-
-        .markdown-content th, .markdown-content td {
-            border: 1px solid #ddd; /* Light gray border */
-            padding: 8px;
-            text-align: center; /* Ensure text is centered in cells */
-        }
-
-        .markdown-content th {
-            background-color: #f4f4f4; /* Light gray background for header */
+        .profile-name {
+            font-size: 24px;
             font-weight: bold;
+        }
+        .profile-links {
+            margin-top: 20px;
+        }
+        .profile-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+            margin: 10px 0;
+            transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+        }
+        .profile-link:hover {
+            font-size: 22px; /* Increase size on hover */
+            transform: translateY(-5px); /* Slightly lift the element */
+        }
+        .profile-link .icon {
+            width: 20px;
+            margin-right: 10px;
+            transition: width 0.3s ease-in-out;
+        }
+        .profile-link:hover .icon {
+            width: 25px; /* Enlarge icon on hover */
         }
     </style>
 </head>
 <body>
     <div class="profile-container">
-        <img id="profile-pic" src="" alt="GitHub Profile Picture">
-        <h2 id="profile-name"></h2>
-        <p id="profile-location"></p>
-        <p id="profile-links"></p>
-        <p><strong>Followers:</strong> <span id="followers"></span> | <strong>Following:</strong> <span id="following"></span></p>
+        <img id="profile-pic" src="" alt="GitHub Profile Picture" class="profile-img">
+        <h2 id="profile-name" class="profile-name"></h2>
+        <div class="profile-links">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" class="profile-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" class="icon">
+                LinkedIn
+            </a>
+            <!-- Email -->
+            <a href="mailto:youremail@example.com" class="profile-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Email_icon.svg" alt="Email" class="icon">
+                youremail@example.com
+            </a>
+            <!-- Location -->
+            <a href="https://www.google.com/maps?q=your+location" target="_blank" class="profile-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Google_Maps_Logo.svg" alt="Location" class="icon">
+                Your Location
+            </a>
+        </div>
     </div>
     
-    <div class="markdown-content">
-        <script>
-            fetch('https://api.github.com/users/sri-dsa')
-                .then(response => response.json())
-                .then(data => {
-                    document.getElementById('profile-pic').src = data.avatar_url;
-                    document.getElementById('profile-name').textContent = data.name || "sri-dsa";
-                    document.getElementById('profile-location').textContent = data.location || "Location not specified";
-                    document.getElementById('profile-links').innerHTML = data.blog ? `<a href="${data.blog}" target="_blank">${data.blog}</a>` : "No website linked";
-                    document.getElementById('followers').textContent = data.followers;
-                    document.getElementById('following').textContent = data.following;
-                });
-        </script>
-        
-        <!-- Include your Markdown content here -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
-        <script>
-            fetch('README.md')
-                .then(response => response.text())
-                .then(markdown => {
-                    var converter = new showdown.Converter();
-                    document.querySelector('.markdown-content').innerHTML = converter.makeHtml(markdown);
-                });
-        </script>
-    </div>
+    <script>
+        fetch('https://api.github.com/users/sri-dsa')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('profile-pic').src = data.avatar_url;
+                document.getElementById('profile-name').textContent = data.name || "sri-dsa";
+            });
+    </script>
 </body>
 </html>
