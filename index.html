@@ -79,11 +79,12 @@
         }
 
         /* Adjust badge size via CSS */
-        #profile-links img {
-            width: 50%;
-            height: Auto;
-            border-radius: 0 !important; /* Maintain rectangular shape */
-        }
+#profile-links img {
+    border-radius: 0 !important; /* Maintain rectangular shape */
+    width: 180px;  /* Adjust the width */
+    height: 36px;  /* Adjust the height */
+    object-fit: contain; /* Ensures content fits properly inside the image box */
+}
     </style>
 </head>
 <body>
