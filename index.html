@@ -19,21 +19,23 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0; /* Remove default margin */
-            padding: 2% 5%; /* Padding for content spacing */
-            max-width: 1000px;
-            overflow-x: hidden; /* Ensure no horizontal overflow */
+            padding: 0; /* Remove padding around body */
             background-color: transparent; /* Transparent background to allow particles to show */
             color: #333; /* Darker text color for readability */
             text-align: center; /* Center align the content */
+            display: flex; /* Make the body a flex container */
+            justify-content: center; /* Horizontally center content */
+            align-items: center; /* Vertically center content */
+            min-height: 100vh; /* Ensure it takes full screen height */
         }
 
         /* Add a background color for content region */
         .content-wrapper {
             background-color: #f4f4f4; /* Light grey background for the content */
             border-radius: 10px; /* Rounded corners for the content area */
-            padding: 20px;
+            padding: 20px; /* Reduced padding */
+            width: 100%; /* Make it responsive */
             max-width: 900px; /* Limit max width */
-            margin: auto; /* Center align the content */
         }
 
         .profile-container {
@@ -88,10 +90,6 @@
 
         /* Responsive Design */
         @media (max-width: 768px) {
-            body {
-                margin: 2%;
-                padding: 2%;
-            }
             .profile-container {
                 flex-direction: column;
                 text-align: center;
