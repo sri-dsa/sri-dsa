@@ -77,6 +77,12 @@
                 padding: 5px; /* Reduce padding on smaller screens */
             }
         }
+
+        /* Adjust badge size via CSS */
+        #profile-links img {
+            width: 200px;  /* Maintain rectangular shape */
+            height: 40px;  /* Maintain rectangular shape */
+        }
     </style>
 </head>
 <body>
@@ -87,15 +93,15 @@
         <p id="profile-links">
             <!-- Website Badge (rectangular) -->
             <a href="https://sri-dsa.github.io/sri-dsa/" target="_blank">
-                <img src="https://img.shields.io/badge/Website-%230A65C9?style=flat-square&logo=googlechrome&logoColor=white&width=200&height=40" alt="Website Link" />
+                <img src="https://img.shields.io/badge/Website-%230A65C9?style=flat-square&logo=googlechrome&logoColor=white" alt="Website Link" />
             </a>
             <!-- LinkedIn Badge (rectangular) -->
             <a href="https://www.linkedin.com/in/srivak/" target="_blank">
-                <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=flat-square&logo=linkedin&logoColor=white&width=200&height=40" alt="LinkedIn Profile" />
+                <img src="https://img.shields.io/badge/LinkedIn-%230077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
             </a>
             <!-- Email Badge (rectangular) -->
             <a href="mailto:sk.data@icloud.com">
-                <img src="https://img.shields.io/badge/Email-%23D14836?style=flat-square&logo=gmail&logoColor=white&width=200&height=40" alt="Email" />
+                <img src="https://img.shields.io/badge/Email-%23D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
             </a>
         </p>
     </div>
@@ -118,23 +124,9 @@
                 .then(response => response.text())
                 .then(markdown => {
                     var converter = new showdown.Converter();
-                    var htmlContent = converter.makeHtml(markdown); // Convert the markdown to HTML
-
-                    // Extract the first <p> tag using regex
-                    var firstParagraph = htmlContent.match(/<p>.*?<\/p>/); 
-                    
-                    if (firstParagraph) {
-                        // Modify or add content before the first paragraph
-                        var newContent = "<p><strong>Extra content before the first paragraph!</strong></p>" + firstParagraph[0];
-                        htmlContent = htmlContent.replace(firstParagraph[0], newContent); // Replace the first <p> with the new content
-
-                        // Insert the rest of the HTML
-                        document.querySelector('.markdown-content').innerHTML = htmlContent;
-                    }
+                    document.querySelector('.markdown-content').innerHTML = converter.makeHtml(markdown);
                 });
         </script>
     </div>
 </body>
-
-
 </html>
