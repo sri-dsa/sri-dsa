@@ -4,35 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Profile</title>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <style>
         /* Fullscreen particles background */
         #particles-js {
-            position: fixed;
-            top : 0;
-            left : 0;
+            position: fixed; /* Fix it to the screen */
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
-            background: white;
-            z-index: -1;
+            background: white; /* Background behind particles */
+            z-index: -1; /* Keep it behind other content */
             overflow: hidden; /* Ensure particles don't overflow off the screen */
         }
 
         body {
             font-family: Arial, sans-serif;
-            color: black; /* Font color for text */
-            background: transparent; /* Allow particles to show */
-            margin: 3% auto;
-            padding: 2% 5%;
+            color: #333; /* Darker text color for better readability */
+            background: #f4f4f4; /* Light grey background for the whole page */
+            margin: 0; /* Remove default margin */
+            padding: 2% 5%; /* Padding for content spacing */
             max-width: 1000px;
             overflow-x: hidden; /* Ensure no horizontal overflow */
         }
-        
+
         .profile-container {
             display: flex;
             align-items: center;
             gap: 20px;
-            margin-top: 5px;
+            margin-top: 0.75px; /* Reduced for most screens */
             margin-bottom: 20px;
             justify-content: center;
         }
@@ -47,7 +46,7 @@
 
         .profile-container img:hover {
             transform: scale(1.1);
-            box-shadow: 0 0 10px rgba(0, 255, 0, 0.6); /* Green glow for profile hover */
+            box-shadow: 0 0 10px rgba(0, 153, 255, 0.6);
         }
 
         .profile-container h2 {
@@ -68,23 +67,14 @@
         }
 
         .markdown-content th, .markdown-content td {
-            border: 1px solid #444444; /* Dark grey table border */
+            border: 1px solid #333; /* Darker borders */
             padding: 8px;
             text-align: center;
         }
 
         .markdown-content th {
-            background-color: #f4f4f4; /* Light background for table headers */
+            background-color: #eeeeee; /* Light grey background for headers */
             font-weight: bold;
-        }
-
-        /* Links should be clearly visible */
-        a {
-            color: #003366; /* Dark blue for links */
-        }
-
-        a:hover {
-            color: #ff0000; /* Red on hover for links */
         }
 
         /* Responsive Design */
@@ -96,7 +86,7 @@
             .profile-container {
                 flex-direction: column;
                 text-align: center;
-                margin-top: 5px;
+                margin-top: 5px; /* Reduce gap further on smaller screens */
             }
             .profile-container img {
                 width: 100px;
@@ -109,8 +99,7 @@
     </style>
 </head>
 <body>
-    <!-- Particles Background -->
-    <div id="particles-js"></div>
+    <div id="particles-js"></div> <!-- Particles background -->
 
     <div class="profile-container">
         <img id="profile-pic" src="" alt="GitHub Profile Picture">
@@ -137,62 +126,5 @@
                 });
         </script>
     </div>
-
-    <!-- Particles.js Script -->
-    <script>
-        particlesJS("particles-js", {
-            "particles": {
-                "number": {
-                    "value": 600,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#000000"
-                },
-                "shape": {
-                    "type": "circle",
-                    "stroke": {
-                        "width": 11,
-                        "color": "#000000"
-                    }
-                },
-                "opacity": {
-                    "value": 1
-                },
-                "size": {
-                    "value": 6,
-                    "random": true
-                },
-                "line_linked": {
-                    "enable": true,
-                    "distance": 0,
-                    "color": "#ff0000",
-                    "opacity": 1,
-                    "width": 3.3
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 6
-                }
-            },
-            "interactivity": {
-                "detect_on": "window",
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "push"
-                    }
-                }
-            },
-            "retina_detect": true
-        });
-    </script>
 </body>
 </html>
