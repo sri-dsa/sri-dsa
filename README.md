@@ -21,16 +21,40 @@
   </tr>
 </table>
 
-# Education
-
-| **Masters Degree**              | **Bachelors Degree**  |
-|:-----------------------------:|:---------------------------------------:|
-| **Data Science and Analytics**  | **Control Engineering and Instrumentation** |
-|   <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">![🎓 **University of Leeds**, Leeds, United Kingdom](Uo.png)</a> |  <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">![🎓 **National Institute of Technology**, Tiruchirappalli, India](NIT.png)</a> |
-| 2022 - 2024               | 2018 - 2022                        |
-| [**🇬🇧**](https://en.wikipedia.org/wiki/University_of_Leeds) | [**🇮🇳**](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli) |
-| **Click to View**: <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">📜 Degree Certificate </a> | **Click to View**: <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank"> 📜 Degree Certificate</a> |
-
+<table>
+  <tr>
+    <th>Masters Degree</th>
+    <th>Bachelors Degree</th>
+  </tr>
+  <tr>
+    <td><strong>Data Science and Analytics</strong></td>
+    <td><strong>Control Engineering and Instrumentation</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">
+        <img src="Uo.png" alt="University of Leeds" style="max-width: 100%;">
+      </a>
+    </td>
+    <td>
+      <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">
+        <img src="NIT.png" alt="National Institute of Technology" style="max-width: 100%;">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>2022 - 2024</td>
+    <td>2018 - 2022</td>
+  </tr>
+  <tr>
+    <td><a href="https://en.wikipedia.org/wiki/University_of_Leeds">🇬🇧 University of Leeds</a></td>
+    <td><a href="https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli">🇮🇳 NIT Trichy</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing">📜 View Degree Certificate</a></td>
+    <td><a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing">📜 View Degree Certificate</a></td>
+  </tr>
+</table>
 ---
 
 # Experience
