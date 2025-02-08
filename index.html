@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: black;
+            background: white;
+            margin: 20px;
+            padding: 20px;
+        }
+        .profile-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-container img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+        }
+        .profile-container p {
+            margin: 5px 0;
+        }
+        .markdown-content {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <img id="profile-pic" src="" alt="GitHub Profile Picture">
+        <h2 id="profile-name"></h2>
+        <p id="profile-location"></p>
+        <p id="profile-links"></p>
+        <p><strong>Followers:</strong> <span id="followers"></span> | <strong>Following:</strong> <span id="following"></span></p>
+    </div>
+    
+    <div class="markdown-content">
+        <script>
+            fetch('https://api.github.com/users/sri-dsa')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('profile-pic').src = data.avatar_url;
+                    document.getElementById('profile-name').textContent = data.name || "sri-dsa";
+                    document.getElementById('profile-location').textContent = data.location || "Location not specified";
+                    document.getElementById('profile-links').innerHTML = data.blog ? `<a href="${data.blog}" target="_blank">${data.blog}</a>` : "No website linked";
+                    document.getElementById('followers').textContent = data.followers;
+                    document.getElementById('following').textContent = data.following;
+                });
+        </script>
+        
+        <!-- Include your Markdown content here -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+        <script>
+            fetch('README.md')
+                .then(response => response.text())
+                .then(markdown => {
+                    var converter = new showdown.Converter();
+                    document.querySelector('.markdown-content').innerHTML = converter.makeHtml(markdown);
+                });
+        </script>
+    </div>
+</body>
+</html>
