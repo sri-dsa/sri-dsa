@@ -84,8 +84,17 @@
         <img id="profile-pic" src="" alt="GitHub Profile Picture">
         <h2 id="profile-name"></h2>
         <p id="profile-location"></p>
-        <p id="profile-links"></p>
-        <p><strong>Followers:</strong> <span id="followers"></span> | <strong>Following:</strong> <span id="following"></span></p>
+        <div id="profile-links">
+            <a href="https://sri-dsa.github.io/sri-dsa/" target="_blank">
+                <img src="https://img.shields.io/badge/Website-%230A65C9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website Link" />
+            </a>
+            <a href="https://www.linkedin.com/in/srivak/" target="_blank">
+                <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+            </a>
+            <a href="mailto:sk.data@icloud.com">
+                <img src="https://img.shields.io/badge/Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+            </a>
+        </div>
     </div>
     
     <div class="markdown-content">
@@ -96,9 +105,6 @@
                     document.getElementById('profile-pic').src = data.avatar_url;
                     document.getElementById('profile-name').textContent = data.name || "sri-dsa";
                     document.getElementById('profile-location').textContent = data.location || "Location not specified";
-                    document.getElementById('profile-links').innerHTML = data.blog ? `<a href="${data.blog}" target="_blank">${data.blog}</a>` : "No website linked";
-                    document.getElementById('followers').textContent = data.followers;
-                    document.getElementById('following').textContent = data.following;
                 });
         </script>
         
