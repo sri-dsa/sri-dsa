@@ -6,35 +6,75 @@
     <title>My GitHub Profile</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
+        /* Global Styles */
         body {
             font-family: Arial, sans-serif;
             background-color: #1F222E;
             color: white;
             text-align: center;
             padding: 20px;
+            margin: 0;
         }
+
+        /* Profile Section */
         .profile-container {
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-wrap: wrap;  /* Ensures wrapping on smaller screens */
             gap: 20px;
             margin-bottom: 20px;
         }
+
         .profile-img {
             border-radius: 50%;
-            width: 300px;
-            height: 300px;
-            border: 10px solid #F85D7F;
+            width: 250px;  /* Default size */
+            height: 250px;
+            border: 5px solid #F85D7F;
         }
+
         .stats-container {
             text-align: left;
+            max-width: 400px;  /* Prevents text from stretching */
         }
+
+        /* Content Box */
         #content {
             max-width: 800px;
             margin: auto;
             background: rgba(255, 255, 255, 0.1);
             padding: 20px;
             border-radius: 10px;
+        }
+
+        /* 🔹 Responsive Styles */
+        @media screen and (max-width: 768px) {
+            .profile-container {
+                flex-direction: column;  /* Stack profile picture & stats */
+                text-align: center;
+            }
+            .profile-img {
+                width: 200px;
+                height: 200px;
+                border-width: 4px;
+            }
+            .stats-container {
+                text-align: center;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            .profile-img {
+                width: 150px;
+                height: 150px;
+                border-width: 3px;
+            }
+            #content {
+                padding: 15px;
+            }
         }
     </style>
 </head>
