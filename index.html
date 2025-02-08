@@ -22,11 +22,12 @@
 
         
         .profile-container img {
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
-        }
+    width: 15vw;  /* Scales with viewport width */
+    height: 15vw; /* Keep it perfectly round */
+    max-width: 300px; /* Optional cap for very large screens */
+    max-height: 300px;
+}
+
 
         .profile-container img:hover {
             transform: scale(1.2);  /* Image will enlarge */
