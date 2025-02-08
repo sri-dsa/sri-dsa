@@ -23,17 +23,49 @@
 
 # Education
 
-<div style="overflow-x: auto;">
+<div align="center">
 
-| **Masters Degree**              | **Bachelors Degree**  |
-|:-----------------------------:|:---------------------------------------:|
-| **Data Science and Analytics**  | **Control Engineering and Instrumentation** |
-|   <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">![🎓 **University of Leeds**, Leeds, United Kingdom](Uo.png)</a> |  <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">![🎓 **National Institute of Technology**, Tiruchirappalli, India](NIT.png)</a> |
-| 2022 - 2024               | 2018 - 2022                        |
-| [**🇬🇧**](https://en.wikipedia.org/wiki/University_of_Leeds) | [**🇮🇳**](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli) |
-| **Click to View**: <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">📜 Degree Certificate </a> | **Click to View**: <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank"> 📜 Degree Certificate</a> |
+<table>
+  <thead>
+    <tr>
+      <th><b>Masters Degree</b></th>
+      <th><b>Bachelors Degree</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center" width="50%">
+      <td><b>Data Science and Analytics</b></td>
+      <td><b>Control Engineering and Instrumentation</b></td>
+    </tr>
+    <tr align="center" width="50%">
+      <td>
+        <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">
+          <img src="Uo.png" alt="🎓 University of Leeds" style="max-width: 100%; height: auto;">
+        </a>
+      </td>
+      <td>
+        <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">
+          <img src="NIT.png" alt="🎓 National Institute of Technology" style="max-width: 100%; height: auto;">
+        </a>
+      </td>
+    </tr>
+    <tr align="center" width="50%">
+      <td>2022 - 2024</td>
+      <td>2018 - 2022</td>
+    </tr>
+    <tr align="center" width="50%">
+      <td><a href="https://en.wikipedia.org/wiki/University_of_Leeds" target="_blank">🇬🇧</a></td>
+      <td><a href="https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli" target="_blank">🇮🇳</a></td>
+    </tr>
+    <tr align="center" width="50%">
+      <td><b>Click to View:</b> <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">📜 Degree Certificate</a></td>
+      <td><b>Click to View:</b> <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">📜 Degree Certificate</a></td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
+
 
 ---
 
@@ -41,11 +73,60 @@
 
 <div style="overflow-x: auto;">
 
-| **Role** | **Company** | **Office** | **Duration** | **Location** | **View Certificate** |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Research Assistant** | <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank"><img src="nitt_l.png" style="width: 100px;"></a> <br> **NIT Trichy** | <a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of ECE</a> | *Oct 2021 - Aug 2022* | Trichy, India | [📜 Click here](https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing) |
-| **Analytics Intern** | <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank"><img src="NI.png" style="width: 100px;"></a> <br> **National Instruments** |<a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a>| *Jan 2021 - Jun 2021* | Noida, India | [📜 Click here](https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing) |
-| **ML Engineer Intern** | <a href="IS.pdf" target="_blank"><img src="unnamed.jpg" width="120"></a> <br> **Indian Servers** |Hybrid | *June 2019 - March 2020* | Hyderabad, India | [📜 Click here](IS.pdf) |
+<table>
+  <thead>
+    <tr>
+      <th><b>Role</b></th>
+      <th><b>Company</b></th>
+      <th><b>Office</b></th>
+      <th><b>Duration</b></th>
+      <th><b>Location</b></th>
+      <th><b>View Certificate</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Research Assistant</b></td>
+      <td>
+        <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">
+          <img src="nitt_l.png" width="100">
+        </a>
+        <br> **NIT Trichy**
+      </td>
+      <td><a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of ECE</a></td>
+      <td>*Oct 2021 - Aug 2022*</td>
+      <td>Trichy, India</td>
+      <td><a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">📜 Click here</a></td>
+    </tr>
+    <tr>
+      <td><b>Analytics Intern</b></td>
+      <td>
+        <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">
+          <img src="NI.png" width="100">
+        </a>
+        <br> **National Instruments**
+      </td>
+      <td><a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a></td>
+      <td>*Jan 2021 - Jun 2021*</td>
+      <td>Noida, India</td>
+      <td><a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">📜 Click here</a></td>
+    </tr>
+    <tr>
+      <td><b>ML Engineer Intern</b></td>
+      <td>
+        <a href="IS.pdf" target="_blank">
+          <img src="unnamed.jpg" width="120">
+        </a>
+        <br> **Indian Servers**
+      </td>
+      <td>Hybrid</td>
+      <td>*June 2019 - March 2020*</td>
+      <td>Hyderabad, India</td>
+      <td><a href="IS.pdf" target="_blank">📜 Click here</a></td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 
 ---
