@@ -117,7 +117,7 @@
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" height="192px"/>
+    <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" height="192px"/>
   </a>
 </p>
 
