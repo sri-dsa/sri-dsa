@@ -38,8 +38,12 @@
 <a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
 </a>
+<a href="https://sri-dsa.github.io/DA/" target="_blank">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+</a>
 </p>
-# Portfolios
+
+#Portfolios
 
 <table style="max-width: 100%; width: 100%;">
 <tr>
