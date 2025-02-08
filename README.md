@@ -75,7 +75,7 @@
 
 <table>
   <thead>
-    <tr>
+    <tr align="center">
       <th><b>Role</b></th>
       <th><b>Company</b></th>
       <th><b>Office</b></th>
@@ -85,44 +85,44 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td><b>Research Assistant</b></td>
+    <tr align="center">
+      <td><b><a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">Research Assistant</a></b></td>
       <td>
         <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">
           <img src="nitt_l.png" width="100">
         </a>
-        <br> **NIT Trichy**
+        <br> <b>NIT Trichy</b>
       </td>
       <td><a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Department of ECE</a></td>
-      <td>*Oct 2021 - Aug 2022*</td>
+      <td><i>Oct 2021 - Aug 2022</i></td>
       <td>Trichy, India</td>
       <td><a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">📜 Click here</a></td>
     </tr>
-    <tr>
-      <td><b>Analytics Intern</b></td>
+    <tr align="center">
+      <td><b> <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">Analytics Intern</a></b></td>
       <td>
         <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">
           <img src="NI.png" width="100">
         </a>
-        <br> **National Instruments**
+        <br> <b>National Instruments</b>
       </td>
       <td><a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a></td>
-      <td>*Jan 2021 - Jun 2021*</td>
+      <td><i>Jan 2021 - Jun 2021</i></td>
       <td>Noida, India</td>
       <td><a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">📜 Click here</a></td>
     </tr>
-    <tr>
-      <td><b>ML Engineer Intern</b></td>
+    <tr align="center">
+      <td><b><a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">ML Engineer Intern</a></b></td>
       <td>
-        <a href="IS.pdf" target="_blank">
+        <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">
           <img src="unnamed.jpg" width="120">
         </a>
-        <br> **Indian Servers**
+        <br> <b>Indian Servers</b>
       </td>
       <td>Hybrid</td>
-      <td>*June 2019 - March 2020*</td>
+      <td><i>June 2019 - March 2020</i></td>
       <td>Hyderabad, India</td>
-      <td><a href="IS.pdf" target="_blank">📜 Click here</a></td>
+      <td><a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">📜 Click here</a></td>
     </tr>
   </tbody>
 </table>
