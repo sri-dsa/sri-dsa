@@ -1,23 +1,9 @@
 # Portfolios
 
-<style>
-  table {
-    width: 100%;
-    text-align: center;
-  }
-  td {
-    text-align: center;
-    vertical-align: middle;
-  }
-  p {
-    text-align: center;
-  }
-</style>
-
-<table>
+<table align="center">
   <tr>
     <!-- First Action Button: ML | DL | CV Projects -->
-    <td style="width: 50%;">
+    <td style="text-align: center; width: 50%;">
       <a href="https://sri-dsa.github.io/ML/" target="_blank">
         <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="max-width: 100%; border-radius: 5px;">
         <br>
@@ -25,7 +11,7 @@
       </a>
     </td>
     <!-- Second Action Button: Data Analytics Projects -->
-    <td style="width: 50%;">
+    <td style="text-align: center; width: 50%;">
       <a href="https://sri-dsa.github.io/DA/" target="_blank">
         <img src="Azure.png" alt="Data Analytics" style="max-width: 100%; border-radius: 5px;">
         <br>
@@ -35,6 +21,42 @@
   </tr>
 </table>
 
+# Education
+
+<table align="center">
+  <tr>
+    <th>Masters Degree</th>
+    <th>Bachelors Degree</th>
+  </tr>
+  <tr>
+    <td><strong>Data Science and Analytics</strong></td>
+    <td><strong>Control Engineering and Instrumentation</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">
+        <img src="Uo.png" alt="University of Leeds" style="max-width: 100%;">
+      </a>
+    </td>
+    <td>
+      <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">
+        <img src="NIT.png" alt="National Institute of Technology" style="max-width: 100%;">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>2022 - 2024</td>
+    <td>2018 - 2022</td>
+  </tr>
+  <tr>
+    <td><a href="https://en.wikipedia.org/wiki/University_of_Leeds">🇬🇧 University of Leeds</a></td>
+    <td><a href="https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli">🇮🇳 NIT Trichy</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing">📜 View Degree Certificate</a></td>
+    <td><a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing">📜 View Degree Certificate</a></td>
+  </tr>
+</table>
 # Education
 
 <table>
