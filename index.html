@@ -39,7 +39,7 @@
             .then(data => {
                 document.getElementById('profile-pic').src = data.avatar_url;
                 document.getElementById('profile-name').textContent = data.name || "sri-dsa";
-                document.getElementByID('location').textContent = data.location || "Not available";
+                document.getElementById('location').textContent = data.location || "Not available";
             });
 
         fetch('README.md')
