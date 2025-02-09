@@ -73,14 +73,24 @@
 
         /* Apply scale effect to multiple elements inside markdown content */
         /* Apply scale effect to multiple elements inside markdown content */
-        .markdown-content img:hover {
+        /* Apply scale effect to images inside links */
+        .markdown-content a:hover img {
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
         }
-
+        /* Apply scale effect directly to links that are not images */
         .markdown-content a:hover {
-            transform: scale(1.3);
+            transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
+        }
+        /* Make sure the links are styled properly */
+        .markdown-content a {
+            text-decoration: none; /* Remove underline */
+            color: #007bff; /* Set link color */
+        }
+        /* Change link color on hover */
+        .markdown-content a:hover {
+            color: #0056b3; /* Change link color on hover */
         }
 
         .markdown-content table {
