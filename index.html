@@ -10,6 +10,11 @@
             --text-color: #FFFFFF;
             --button-bg: #222;
             --button-text: #FFD700;
+            --table-bg: #000000;
+            --table-border: #333;
+            --table-header-bg: #333333;
+            --link-color: #4CAF50;
+            --link-hover: #00FF00;
         }
 
         .light-mode {
@@ -17,6 +22,11 @@
             --text-color: #000000;
             --button-bg: #DDD;
             --button-text: #FF8C00;
+            --table-bg: #FFFFFF;
+            --table-border: #000000;
+            --table-header-bg: #E0E0E0;
+            --link-color: #0000EE;
+            --link-hover: #551A8B;
         }
 
         body {
@@ -87,6 +97,34 @@
         .theme-toggle:hover {
             background: var(--button-text);
             color: var(--button-bg);
+        }
+
+        .markdown-content a {
+            text-decoration: underline;
+            color: var(--link-color);
+        }
+
+        .markdown-content a:hover {
+            color: var(--link-hover);
+        }
+
+        .markdown-content table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: var(--table-bg);
+        }
+
+        .markdown-content th, .markdown-content td {
+            border: 1px solid var(--table-border);
+            padding: 8px;
+            text-align: center;
+            color: var(--text-color);
+        }
+
+        .markdown-content th {
+            background-color: var(--table-header-bg);
+            font-weight: bold;
         }
 
         @media (max-width: 768px) {
