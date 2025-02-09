@@ -261,9 +261,9 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sri-dsa" alt="Profile Views" style=" width: 30%; height: auto;">
+  <img src="https://komarev.com/ghpvc/?username=sri-dsa" alt="Profile Views" style=" width: 10%; height: auto;">
   <a href="https://github.com/sri-dsa?tab=followers">
-    <img src="https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000" alt="GitHub followers" style=" width: 30%; height: auto">
+    <img src="https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000" alt="GitHub followers" style=" width: 10%; height: auto">
   </a>
 </p>
 
