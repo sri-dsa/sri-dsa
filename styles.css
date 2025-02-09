@@ -86,7 +86,7 @@ body {
 }
 
 .icon-links a:hover {
-    transform: scale(1.2) !important;
+    transform: scale(1.5) !important;
     color: var(--link-hover) !important;
 }
 
