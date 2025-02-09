@@ -79,8 +79,8 @@
   </thead>
   <tbody>
     <tr align="center" width="50%">
-      <td><b>Data Science and Analytics</b></td>
-      <td><b>Control Engineering and Instrumentation</b></td>
+      <td><a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank"><b>Data Science and Analytics</b></a></td>
+      <td><a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank"><b>Control Engineering and Instrumentation</b></a></td>
     </tr>
     <tr align="center" width="50%">
       <td>
