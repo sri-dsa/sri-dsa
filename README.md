@@ -233,6 +233,11 @@
 <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true"/>
 </p>
 
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" />
+</p>
+
+
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=sri-dsa" alt="Profile Views">  
     <a href="https://github.com/sri-dsa?tab=followers">
@@ -242,9 +247,7 @@
 
 
 
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" />
-</p>
+
 
 <p align="center">
 <img src="https://github.com/sri-dsa/sri-dsa/raw/main/whydowefall.jpg"; alt="Why do we fall?" />
