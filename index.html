@@ -29,9 +29,8 @@
             min-height: 100vh; /* Ensure it takes full screen height */
         }
 
-        /* Add a background color for content region */
+        /* Removed background color to let profile-container take the particles background */
         .content-wrapper {
-            background-color: #000000; /* Light grey background for the content */
             border-radius: 10px; /* Rounded corners for the content area */
             padding: 20px; /* Reduced padding */
             width: 100%; /* Make it responsive */
@@ -45,6 +44,9 @@
             margin-top: 0.75px; /* Reduced for most screens */
             margin-bottom: 20px;
             justify-content: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            border-radius: 10px;
+            padding: 20px;
         }
 
         .profile-container img {
@@ -65,6 +67,7 @@
             text-align: center;
             font-weight: bold;
             margin: 0;
+            opacity: 0.8; /* Add opacity to make the text a bit transparent */
         }
 
         .markdown-content {
@@ -87,6 +90,7 @@
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
         }
+
         .markdown-content a:hover {
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
@@ -102,25 +106,26 @@
         .markdown-content a:hover {
             color: #0056b3; /* Change link color on hover */
         }
-/* Modify the table styles */
-.markdown-content table {
-    width: 100%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: #000000; /* Set table background to black */
-}
 
-.markdown-content th, .markdown-content td {
-    border: 1px solid #333; /* Darker borders */
-    padding: 8px;
-    text-align: center;
-    color: #FFFFFF; /* Set table text color to white */
-}
+        /* Modify the table styles */
+        .markdown-content table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #000000; /* Set table background to black */
+        }
 
-.markdown-content th {
-    background-color: #333333; /* Slightly darker background for headers */
-    font-weight: bold;
-}
+        .markdown-content th, .markdown-content td {
+            border: 1px solid #333; /* Darker borders */
+            padding: 8px;
+            text-align: center;
+            color: #FFFFFF; /* Set table text color to white */
+        }
+
+        .markdown-content th {
+            background-color: #333333; /* Slightly darker background for headers */
+            font-weight: bold;
+        }
 
         /* Responsive Design */
         @media (max-width: 768px) {
