@@ -233,7 +233,7 @@
 
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true style="max-width: 500px; width: 100%; height: auto;"/>
+<img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true style="max-width: 800px; width: 100%; height: auto;"/>
 </p>
 
  <p align="center">
