@@ -257,11 +257,17 @@
 
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" style="max-width: 800px; width: 70%; height: auto;" />
+  <a href="https://github.com/sri-dsa?tab=repositories">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" 
+         style="max-width: 800px; width: 70%; height: auto;" 
+         alt="GitHub Streak Stats">
+  </a>
 </p>
 
 <p align="center">
+  <a href="https://github.com/sri-dsa">
   <img src="https://komarev.com/ghpvc/?username=sri-dsa" alt="Profile Views" style=" width: 15%; height: auto;">
+    </a>
   <a href="https://github.com/sri-dsa?tab=followers">
     <img src="https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000" alt="GitHub followers" style=" width: 15%; height: auto">
   </a>
