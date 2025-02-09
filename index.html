@@ -76,23 +76,86 @@
             margin: 0;
         }
 
-        .icons {
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: var(--button-bg);
+            border: none;
+            cursor: pointer;
+            font-size: 36px;
+            color: var(--button-text);
             display: flex;
-            gap: 10px;
+            align-items: center;
             justify-content: center;
-            margin-top: 10px;
+            transition: background 0.3s, color 0.3s, transform 0.2s;
         }
 
-        .icons a {
-            display: inline-block;
-            transition: transform 0.2s ease-in-out, opacity 0.3s ease-in-out;
+        .theme-toggle:hover {
+            transform: scale(1.1);
         }
 
-        .icons a:hover {
-            transform: scale(1.9);
-            opacity: 0.8;
+        @media (max-width: 768px) {
+            .theme-toggle {
+                width: 50px;
+                height: 50px;
+                font-size: 24px;
+            }
         }
 
+        .markdown-content a {
+            text-decoration: underline;
+            color: var(--link-color);
+            transition: transform 0.3s;
+        }
+
+        .markdown-content a:hover {
+            transform: scale(1.2);
+        }
+
+        .markdown-content a img {
+            transition: transform 0.3s;
+        }
+
+        .markdown-content a:hover img {
+            transform: scale(1.1);
+        }
+
+        .markdown-content table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: var(--table-bg);
+        }
+
+        .markdown-content th, .markdown-content td {
+            border: 1px solid var(--table-border);
+            padding: 8px;
+            text-align: center;
+            color: var(--text-color);
+        }
+
+        .markdown-content th {
+            background-color: var(--table-header-bg);
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .profile-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .profile-container img {
+                width: 100px;
+                height: 100px;
+            }
+            .profile-container h2 {
+                font-size: 1.8em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -103,24 +166,6 @@
             <img id="profile-pic" src="" alt="GitHub Profile Picture">
             <h2 id="profile-name"></h2>
         </div>
-        
-        <ul class="icons">
-            <li>
-                <a href="https://www.linkedin.com/in/srivak/" class="icon brands alt fa-linkedin">
-                    <span class="label">LinkedIn</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/sri-dsa" class="icon brands alt fa-github">
-                    <span class="label">GitHub</span>
-                </a>
-            </li>
-            <li>
-                <a href="mailto:your-email@example.com" class="icon solid alt fa-envelope">
-                    <span class="label">Email</span>
-                </a>
-            </li>
-        </ul>
         
         <div class="markdown-content"></div>
     </div>
