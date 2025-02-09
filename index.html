@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Profile</title>
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
     <style>
         :root {
             --bg-color: #000000;
@@ -57,12 +58,13 @@
             justify-content: center;
             gap: 20px;
             margin-bottom: 20px;
+            flex-wrap: wrap;
         }
 
         .profile-container img {
             border-radius: 50%;
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             object-fit: cover;
             transition: transform 0.3s ease-in-out;
         }
@@ -71,22 +73,44 @@
             transform: scale(1.2);
         }
 
-        .profile-container h2 {
-            font-size: 3.5em;
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-info h2 {
+            font-size: 2.5em;
             margin: 0;
+        }
+
+        .icons {
+            display: flex;
+            gap: 15px;
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        .icons a {
+            color: var(--text-color);
+            transition: transform 0.3s;
+        }
+
+        .icons a:hover {
+            transform: scale(1.2);
         }
 
         .theme-toggle {
             position: absolute;
             top: 20px;
             right: 20px;
-            width: 80px;
-            height: 80px;
+            width: 50px;
+            height: 50px;
             border-radius: 50%;
             background: var(--button-bg);
             border: none;
             cursor: pointer;
-            font-size: 36px;
+            font-size: 24px;
             color: var(--button-text);
             display: flex;
             align-items: center;
@@ -99,61 +123,15 @@
         }
 
         @media (max-width: 768px) {
-            .theme-toggle {
-                width: 50px;
-                height: 50px;
-                font-size: 24px;
-            }
-        }
-
-        .markdown-content a {
-            text-decoration: underline;
-            color: var(--link-color);
-            transition: transform 0.3s;
-        }
-
-        .markdown-content a:hover {
-            transform: scale(1.2);
-        }
-
-        .markdown-content a img {
-            transition: transform 0.3s;
-        }
-
-        .markdown-content a:hover img {
-            transform: scale(1.1);
-        }
-
-        .markdown-content table {
-            width: 100%;
-            margin: 20px auto;
-            border-collapse: collapse;
-            background-color: var(--table-bg);
-        }
-
-        .markdown-content th, .markdown-content td {
-            border: 1px solid var(--table-border);
-            padding: 8px;
-            text-align: center;
-            color: var(--text-color);
-        }
-
-        .markdown-content th {
-            background-color: var(--table-header-bg);
-            font-weight: bold;
-        }
-
-        @media (max-width: 768px) {
             .profile-container {
                 flex-direction: column;
                 text-align: center;
             }
-            .profile-container img {
-                width: 100px;
-                height: 100px;
-            }
-            .profile-container h2 {
+            .profile-info h2 {
                 font-size: 1.8em;
+            }
+            .icons {
+                font-size: 1.2em;
             }
         }
     </style>
@@ -164,7 +142,16 @@
     <div class="content-wrapper">
         <div class="profile-container">
             <img id="profile-pic" src="" alt="GitHub Profile Picture">
-            <h2 id="profile-name"></h2>
+            <div class="profile-info">
+                <h2 id="profile-name"></h2>
+                <div class="icons">
+                    <a href="mailto:your-email@example.com" title="Email"><i class="fa-light fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/your-profile" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/your-profile" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" title="Location"><i class="fa-solid fa-map-location-dot"></i></a>
+                    <a href="#" title="Phone"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                </div>
+            </div>
         </div>
         
         <div class="markdown-content"></div>
