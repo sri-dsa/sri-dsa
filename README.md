@@ -55,7 +55,7 @@
     </th>
     <th align="center" width="50%">
       <a href="https://sri-dsa.github.io/DA/" target="_blank">
-        <strong>Data Analytics Portfolio</strong>
+        <strong>Analytics Portfolio</strong>
       </a>
     </th>
   </tr>
