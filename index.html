@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Profile</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/YOUR-FONT-AWESOME-KIT.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <button class="theme-toggle" onclick="toggleTheme()">💡</button>
@@ -12,7 +13,16 @@
     <div class="content-wrapper">
         <div class="profile-container">
             <img id="profile-pic" src="" alt="GitHub Profile Picture">
-            <h2 id="profile-name"></h2>
+            <div class="profile-info">
+                <h2 id="profile-name"></h2>
+                <div class="icon-links">
+                    <a href="#" id="email-link"><i class="fa-light fa-envelope"></i></a>
+                    <a href="#" id="linkedin-link"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" id="github-link"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" id="location-link"><i class="fa-solid fa-map-location-dot"></i></a>
+                    <a href="#" id="phone-link"><i class="fa-solid fa-mobile-screen-button"></i></a>
+                </div>
+            </div>
         </div>
         
         <div class="markdown-content"></div>
@@ -29,7 +39,7 @@
                 document.getElementById('profile-pic').src = data.avatar_url;
                 document.getElementById('profile-name').textContent = data.name || "sri-dsa";
             });
-        
+
         fetch('README.md')
             .then(response => response.text())
             .then(markdown => {
@@ -37,7 +47,7 @@
                 document.querySelector('.markdown-content').innerHTML = converter.makeHtml(markdown);
             });
     </script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
 </body>
 </html>
