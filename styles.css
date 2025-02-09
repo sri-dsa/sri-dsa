@@ -77,16 +77,18 @@ body {
 }
 
 .icon-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1.8em;
-    color: var(--text-color);
+    color: var(--link-color);
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .icon-links a:hover {
-    transform: scale(1.2);
-    color: var(--link-hover);
+    transform: scale(1.2) !important;
+    color: var(--link-hover) !important;
 }
-
 
 
 .theme-toggle {
