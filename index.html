@@ -6,62 +6,11 @@
     <title>GitHub Profile</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style>
-        /* Ensure the body takes full height */
-        html, body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Ensure content wrapper fills the available space */
-        .content-wrapper {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        /* Profile container styling */
-        .profile-container {
-            text-align: center;
-            padding: 20px;
-        }
-
-        /* Footer styling */
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            margin-top: auto; /* Ensures the footer is always at the bottom */
-            width: 100%;
-        }
-
-        footer .icon-links {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-
-        footer .footer-text ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
-        }
-
-        footer .footer-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
-    </style>
 </head>
 <body>
     <button class="theme-toggle" onclick="toggleTheme()">💡</button>
     
     <div class="content-wrapper">
-        <!-- Profile Section -->
         <div class="profile-container">
             <img id="profile-pic" src="" alt="GitHub Profile Picture">
             <div class="profile-info">
@@ -79,7 +28,6 @@
             </div>
         </div>
         
-        <!-- Markdown content (your README file) -->
         <div class="markdown-content"></div>
     </div>
 
@@ -96,21 +44,11 @@
                 <a href="tel:+447442002336" id="phone-link"><i class="fa-solid fa-mobile-screen-button"></i></a>
             </div>
         </div>
-
         <div class="footer-text">
             <ul>
                 <li>© <span style="animation: blink 1s infinite;">👀</span> This site is under heavy surveillance because I'm too broke to copyright.</li>
                 <li>Designer/Editor: <a href="https://www.linkedin.com/in/srivak/"><span class="shaking-emoji">🎨</span> Srivathsan Karthikeyan</a></li>
             </ul>
-        </div>
-
-        <div class="footer-buttons">
-            <span class="badge" style="background: rgba(255, 255, 255, 0.1); color: #fff; padding: 5px 10px; border-radius: 12px; font-size: 0.9em; border: 1px solid rgba(255, 255, 255, 0.3); transition: transform 0.2s ease-in-out, background 0.3s ease-in-out; position: relative; cursor: pointer;" 
-                onmouseover="this.innerText=' No Pain ↔️ No Glory!🚀'" 
-                onmouseout="this.innerText='🔥 Runs on Perseverance'">🔥 Runs on Perseverance</span>
-            <span class="badge" style="background: rgba(255, 255, 255, 0.1); color: #fff; padding: 5px 10px; border-radius: 12px; font-size: 0.9em; border: 1px solid rgba(255, 255, 255, 0.3); transition: transform 0.2s ease-in-out, background 0.3s ease-in-out; position: relative; cursor: pointer;" 
-                onmouseover="this.innerText='Just Hire Me'" 
-                onmouseout="this.innerText='💰 Accepting Donations'">💰 Accepting Donations</span>
         </div>
     </footer>
 
