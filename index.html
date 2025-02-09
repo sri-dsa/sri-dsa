@@ -28,7 +28,6 @@
             align-items: center; /* Vertically center content */
             min-height: 100vh; /* Ensure it takes full screen height */
         }
-        
 
         /* Add a background color for content region */
         .content-wrapper {
@@ -81,40 +80,42 @@
         .markdown-content h5,
         .markdown-content h6 {
             text-align: left;
-}
+        }
 
         /* Apply scale effect to multiple elements inside markdown content */
-        /* Apply scale effect to multiple elements inside markdown content */
-        /* Apply scale effect to images inside links */
         .markdown-content a:hover img {
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
         }
-        /* Apply scale effect directly to links that are not images */
         .markdown-content a:hover {
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
         }
+
         /* Make sure the links are styled properly */
         .markdown-content a {
             text-decoration: underline; /* Remove underline */
             color: #007bff; /* Set link color */
         }
+
         /* Change link color on hover */
         .markdown-content a:hover {
             color: #0056b3; /* Change link color on hover */
         }
 
+        /* Modify the table styles */
         .markdown-content table {
             width: 100%;
             margin: 20px auto;
             border-collapse: collapse;
+            background-color: #ffffff; /* Set table background to white */
         }
 
         .markdown-content th, .markdown-content td {
             border: 1px solid #333; /* Darker borders */
             padding: 8px;
             text-align: center;
+            color: #000000; /* Set table text color to black */
         }
 
         .markdown-content th {
