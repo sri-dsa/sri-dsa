@@ -45,26 +45,36 @@
 
 # Portfolios
 
-<table style="max-width: 100%; width: 100%;">
-<tr>
-<!-- First Action Button: ML | DL | CV Projects -->
-<td align="center" width="50%">
- <a href="https://sri-dsa.github.io/ML/" target="_blank">
-   <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="width: 100%; max-width: 500px; border-radius: 1px;">
-   <br>
-   <p><strong>ML | DL | CV Portfolio </strong></p>
- </a>
-</td>
-<!-- Second Action Button: Data Analytics Projects -->
-<td align="center" width="50%">
- <a href="https://sri-dsa.github.io/DA/" target="_blank">
-   <img src="Azure.png" alt="Data Analytics" style="width: 100%; max-width: 500px; border-radius: 1px;">
-   <br>
-   <p><strong>Data Analytics Portfolio </strong></p>
- </a>
-</td>
-</tr>
+<table style="max-width: 100%; width: 100%; border: 1px solid black;">
+  <!-- Header Row -->
+  <tr>
+    <th align="center" width="50%">
+      <a href="https://sri-dsa.github.io/ML/" target="_blank">
+        <strong>ML | DL | CV Portfolio</strong>
+      </a>
+    </th>
+    <th align="center" width="50%">
+      <a href="https://sri-dsa.github.io/DA/" target="_blank">
+        <strong>Data Analytics Portfolio</strong>
+      </a>
+    </th>
+  </tr>
+  <!-- Data Row -->
+  <tr>
+    <td align="center">
+      <a href="https://sri-dsa.github.io/ML/" target="_blank">
+        <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="width: 100%; max-width: 500px; border-radius: 1px;">
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://sri-dsa.github.io/DA/" target="_blank">
+        <img src="Azure.png" alt="Data Analytics" style="width: 100%; max-width: 500px; border-radius: 1px;">
+      </a>
+    </td>
+  </tr>
 </table>
+
+
 
 # Education
 
