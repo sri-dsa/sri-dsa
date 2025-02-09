@@ -85,12 +85,12 @@
     <tr align="center" width="50%">
       <td>
         <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">
-          <img src="Uo.png" alt="🎓 University of Leeds" style="max-width: 100px; height: auto;">
+          <img src="Uo.png" alt="🎓 University of Leeds" style="max-width: 300px; height: auto;">
         </a>
       </td>
       <td>
         <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">
-          <img src="NIT.png" alt="🎓 National Institute of Technology" style="max-width: 100px; height: auto;">
+          <img src="NIT.png" alt="🎓 National Institute of Technology" style="max-width: 300px; height: auto;">
         </a>
       </td>
     </tr>
