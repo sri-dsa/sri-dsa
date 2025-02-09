@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <style>
-        /* Ensure body takes full height */
+        /* Ensure the body takes full height */
         html, body {
             height: 100%;
             margin: 0;
@@ -15,20 +15,26 @@
             flex-direction: column;
         }
 
-        /* Make sure profile content is properly displayed */
+        /* Ensure content wrapper fills the available space */
         .content-wrapper {
-            flex: 1; /* Allow content-wrapper to take up the remaining space */
+            flex: 1;
             display: flex;
             flex-direction: column;
         }
 
-        /* Footer Styling */
+        /* Profile container styling */
+        .profile-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Footer styling */
         footer {
             background-color: #333;
             color: white;
             padding: 20px;
             text-align: center;
-            margin-top: auto; /* Ensure footer stays at the bottom */
+            margin-top: auto; /* Ensures the footer is always at the bottom */
             width: 100%;
         }
 
@@ -73,10 +79,11 @@
             </div>
         </div>
         
+        <!-- Markdown content (your README file) -->
         <div class="markdown-content"></div>
     </div>
 
-    <!-- Footer Section (Placed outside content-wrapper) -->
+    <!-- Footer Section -->
     <footer>
         <div class="footer-icons">
             <div class="icon-links">
