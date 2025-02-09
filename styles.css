@@ -6,7 +6,7 @@
     --table-bg: #000000;
     --table-border: #333;
     --table-header-bg: #333333;
-    --link-color: #00FF00;
+    --link-color: #0000EE;
     --link-hover: #00FF00;
 }
 
@@ -19,7 +19,7 @@
     --table-border: #000000;
     --table-header-bg: #E0E0E0;
     --link-color: #0000EE;
-    --link-hover: #0000EE;
+    --link-hover: #00FF00;
 }
 
 body {
