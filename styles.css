@@ -171,3 +171,20 @@ body {
         font-size: 1.8em;
     }
 }
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking-eye {
+    animation: blink 1s infinite;
+}
