@@ -50,7 +50,7 @@
 <!-- First Action Button: ML | DL | CV Projects -->
 <td align="center" width="50%">
  <a href="https://sri-dsa.github.io/ML/" target="_blank">
-   <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="width: 100%; max-width: 600px; border-radius: 1px;">
+   <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="width: 100%; max-width: 500px; border-radius: 1px;">
    <br>
    <p><strong>ML | DL | CV Portfolio </strong></p>
  </a>
@@ -58,7 +58,7 @@
 <!-- Second Action Button: Data Analytics Projects -->
 <td align="center" width="50%">
  <a href="https://sri-dsa.github.io/DA/" target="_blank">
-   <img src="Azure.png" alt="Data Analytics" style="width: 100%; max-width: 600px; border-radius: 1px;">
+   <img src="Azure.png" alt="Data Analytics" style="width: 100%; max-width: 500px; border-radius: 1px;">
    <br>
    <p><strong>Data Analytics Portfolio </strong></p>
  </a>
@@ -85,12 +85,12 @@
     <tr align="center" width="50%">
       <td>
         <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">
-          <img src="Uo.png" alt="🎓 University of Leeds" style="max-width: 300px; height: auto;">
+          <img src="Uo.png" alt="🎓 University of Leeds" style="max-width: 500px; width: 100%; height: auto;">
         </a>
       </td>
       <td>
         <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">
-          <img src="NIT.png" alt="🎓 National Institute of Technology" style="max-width: 300px; height: auto;">
+          <img src="NIT.png" alt="🎓 National Institute of Technology" style="max-width: 500px; width: 100%; height: auto;">
         </a>
       </td>
     </tr>
@@ -226,26 +226,26 @@
 
 <!-- GitHub stats -->
 <p align="center">
-<img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" />
+<img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff style="max-width: 500px; width: 100%; height: auto;" />
 </p>
 
 
 
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true style="max-width: 500px; width: 100%; height: auto;"/>
 </p>
 
  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=sri-dsa" alt="Profile Views">  
+    <img src="https://komarev.com/ghpvc/?username=sri-dsa" alt="Profile Views style="max-width: 500px; width: 100%; height: auto;">  
     <a href="https://github.com/sri-dsa?tab=followers">
-      <img src="https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000" alt="GitHub followers">
+      <img src="https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000" alt="GitHub followers style="max-width: 500px; width: 100%; height: auto;">
     </a>
   </p>
 
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true style="max-width: 500px; width: 100%; height: auto;" />
 </p>
 
 
@@ -253,5 +253,5 @@
 
 
 <p align="center">
-<img src="https://github.com/sri-dsa/sri-dsa/raw/main/whydowefall.jpg"; alt="Why do we fall?" />
+<img src="https://github.com/sri-dsa/sri-dsa/raw/main/whydowefall.jpg"; alt="Why do we fall? style="max-width: 500px; width: 100%; height: auto;" />
 </p>
