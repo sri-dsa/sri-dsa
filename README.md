@@ -173,10 +173,8 @@
 
 </div>
 
-
-# Connect with me  
-
-<p align="center">
+<h1 style="display: inline; margin-right: 10px;">Connect with me :
+<p align="center" style="display: inline;">
   <a href="https://www.linkedin.com/in/srivak/" target="_blank">
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" height="30" style="display: inline-block;"/>
   </a>
@@ -188,6 +186,7 @@
   </a>
 </p>
 
+</h1>
 
 ---
 
