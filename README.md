@@ -174,7 +174,20 @@
 </div>
 
 
-# Connect with me  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srivak/) [![Email](https://img.shields.io/badge/Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sk.data@icloud.com) [![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/sk_data)
+# Connect with me  
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/srivak/" target="_blank">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="mailto:sk.data@icloud.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+  <a href="https://www.hackerrank.com/profile/sk_data" target="_blank">
+    <img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" height="30" style="display: inline-block;"/>
+  </a>
+</p>
+
 
 ---
 
