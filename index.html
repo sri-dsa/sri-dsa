@@ -5,46 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Profile</title>
     <style>
-        /* Fullscreen particles background */
-        #particles-js {
-            position: fixed; /* Fix it to the screen */
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1; /* Keep it behind other content */
-            overflow: hidden; /* Ensure particles don't overflow off the screen */
+        :root {
+            --bg-color: #000000;
+            --text-color: #FFFFFF;
+            --button-bg: #222;
+            --button-text: #FFD700;
+        }
+
+        .light-mode {
+            --bg-color: #FFFFFF;
+            --text-color: #000000;
+            --button-bg: #DDD;
+            --button-text: #FF8C00;
         }
 
         body {
             font-family: Arial, sans-serif;
-            margin: 0; /* Remove default margin */
-            padding: 0; /* Remove padding around body */
-            background-color: #000000; /* Transparent background to allow particles to show */
-            color: #FFFFFF; /* Darker text color for readability */
-            text-align: center; /* Center align the content */
-            display: flex; /* Make the body a flex container */
-            justify-content: center; /* Horizontally center content */
-            align-items: center; /* Vertically center content */
-            min-height: 100vh; /* Ensure it takes full screen height */
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        /* Add a background color for content region */
         .content-wrapper {
-            background-color: #000000; /* Light grey background for the content */
-            border-radius: 10px; /* Rounded corners for the content area */
-            padding: 20px; /* Reduced padding */
-            width: 100%; /* Make it responsive */
-            max-width: 1100px; /* Limit max width */
+            background-color: var(--bg-color);
+            padding: 20px;
+            max-width: 1100px;
+            width: 100%;
+            transition: background-color 0.3s;
         }
 
         .profile-container {
             display: flex;
             align-items: center;
-            gap: 20px;
-            margin-top: 0.75px; /* Reduced for most screens */
-            margin-bottom: 20px;
             justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
         }
 
         .profile-container img {
@@ -57,77 +59,40 @@
 
         .profile-container img:hover {
             transform: scale(1.2);
-            box-shadow: 0 0 10px rgba(0, 153, 255, 0.6);
         }
 
         .profile-container h2 {
             font-size: 3.5em;
-            text-align: center;
-            font-weight: bold;
             margin: 0;
         }
 
-        .markdown-content {
-            max-width: 100%;
-            margin: auto;
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--button-bg);
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: var(--button-text);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s, color 0.3s;
         }
 
-        /* Left align headers in markdown content */
-        .markdown-content h1,
-        .markdown-content h2,
-        .markdown-content h3,
-        .markdown-content h4,
-        .markdown-content h5,
-        .markdown-content h6 {
-            text-align: left;
+        .theme-toggle:hover {
+            background: var(--button-text);
+            color: var(--button-bg);
         }
 
-        /* Apply scale effect to multiple elements inside markdown content */
-        .markdown-content a:hover img {
-            transform: scale(1.1);
-            transition: transform 0.3s ease-in-out;
-        }
-        .markdown-content a:hover {
-            transform: scale(1.1);
-            transition: transform 0.3s ease-in-out;
-        }
-
-        /* Make sure the links are styled properly */
-        .markdown-content a {
-            text-decoration: underline; /* Remove underline */
-            color: #007bff; /* Set link color */
-        }
-
-        /* Change link color on hover */
-        .markdown-content a:hover {
-            color: #0056b3; /* Change link color on hover */
-        }
-/* Modify the table styles */
-.markdown-content table {
-    width: 100%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: #000000; /* Set table background to black */
-}
-
-.markdown-content th, .markdown-content td {
-    border: 1px solid #333; /* Darker borders */
-    padding: 8px;
-    text-align: center;
-    color: #FFFFFF; /* Set table text color to white */
-}
-
-.markdown-content th {
-    background-color: #333333; /* Slightly darker background for headers */
-    font-weight: bold;
-}
-
-        /* Responsive Design */
         @media (max-width: 768px) {
             .profile-container {
                 flex-direction: column;
                 text-align: center;
-                margin-top: 5px; /* Reduce gap further on smaller screens */
             }
             .profile-container img {
                 width: 100px;
@@ -140,151 +105,26 @@
     </style>
 </head>
 <body>
-    <!-- Particles background -->
-    <div id="particles-js"></div>
-
-    <!-- Content Wrapper -->
+    <button class="theme-toggle" onclick="toggleTheme()">💡</button>
+    
     <div class="content-wrapper">
         <div class="profile-container">
             <img id="profile-pic" src="" alt="GitHub Profile Picture">
             <h2 id="profile-name"></h2>
         </div>
-        
-        <div class="markdown-content">
-            <script>
-                fetch('https://api.github.com/users/sri-dsa')
-                    .then(response => response.json())
-                    .then(data => {
-                        document.getElementById('profile-pic').src = data.avatar_url;
-                        document.getElementById('profile-name').textContent = data.name || "sri-dsa";
-                    });
-            </script>
-            
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
-            <script>
-                fetch('README.md')
-                    .then(response => response.text())
-                    .then(markdown => {
-                        var converter = new showdown.Converter();
-                        document.querySelector('.markdown-content').innerHTML = converter.makeHtml(markdown);
-                    });
-            </script>
-        </div>
     </div>
 
-    <!-- Particles.js Script -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
-        particlesJS('particles-js', {
-            "particles": {
-                "number": {
-                    "value": 600,
-                    "density": {
-                        "enable": true,
-                        "value_area": 800
-                    }
-                },
-                "color": {
-                    "value": "#25D366"
-                },
-                "shape": {
-                    "type": "circle",
-                    "stroke": {
-                        "width": 11,
-                        "color": "#25D366"
-                    },
-                    "polygon": {
-                        "nb_sides": 5
-                    },
-                    "image": {
-                        "src": "img/github.svg",
-                        "width": 100,
-                        "height": 100
-                    }
-                },
-                "opacity": {
-                    "value": 1,
-                    "random": false,
-                    "anim": {
-                        "enable": false,
-                        "speed": 1,
-                        "opacity_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "size": {
-                    "value": 6,
-                    "random": true,
-                    "anim": {
-                        "enable": false,
-                        "speed": 40,
-                        "size_min": 0.1,
-                        "sync": false
-                    }
-                },
-                "line_linked": {
-                    "enable": true,
-                    "distance": 0,
-                    "color": "#ff0000",
-                    "opacity": 1,
-                    "width": 3.367165327817598
-                },
-                "move": {
-                    "enable": true,
-                    "speed": 6,
-                    "direction": "none",
-                    "random": false,
-                    "straight": false,
-                    "out_mode": "out",
-                    "bounce": false,
-                    "attract": {
-                        "enable": false,
-                        "rotateX": 600,
-                        "rotateY": 1200
-                    }
-                }
-            },
-            "interactivity": {
-                "detect_on": "window",
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "repulse"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "push"
-                    },
-                    "resize": true
-                },
-                "modes": {
-                    "grab": {
-                        "distance": 400,
-                        "line_linked": {
-                            "opacity": 1
-                        }
-                    },
-                    "bubble": {
-                        "distance": 400,
-                        "size": 40,
-                        "duration": 2,
-                        "opacity": 8,
-                        "speed": 3
-                    },
-                    "repulse": {
-                        "distance": 200,
-                        "duration": 0.4
-                    },
-                    "push": {
-                        "particles_nb": 4
-                    },
-                    "remove": {
-                        "particles_nb": 2
-                    }
-                }
-            },
-            "retina_detect": true
-        });
+        function toggleTheme() {
+            document.body.classList.toggle('light-mode');
+        }
+
+        fetch('https://api.github.com/users/sri-dsa')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('profile-pic').src = data.avatar_url;
+                document.getElementById('profile-name').textContent = data.name || "sri-dsa";
+            });
     </script>
 </body>
 </html>
