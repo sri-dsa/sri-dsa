@@ -262,5 +262,5 @@
 
 
 <p align="center">
-<img src="https://github.com/sri-dsa/sri-dsa/raw/main/whydowefall.jpg"; alt="Why do we fall? style="max-width: 500px; width: 70%; height: auto;" />
+<img src="https://github.com/sri-dsa/sri-dsa/raw/main/whydowefall.jpg"; alt="Why do we fall? style="width: 70%; height: auto;" />
 </p>
