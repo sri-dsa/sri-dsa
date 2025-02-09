@@ -22,6 +22,7 @@
     <a href="https://www.google.com/maps?q=Leeds,UK" target="_blank" id="location-link"><i class="fa-solid fa-map-location-dot"></i></a>
     <a href="tel:+447442002336" id="phone-link"><i class="fa-solid fa-mobile-screen-button"></i></a>
 </div>
+                <h3 id="location"></h3>
             </div>
         </div>
         
@@ -38,6 +39,7 @@
             .then(data => {
                 document.getElementById('profile-pic').src = data.avatar_url;
                 document.getElementById('profile-name').textContent = data.name || "sri-dsa";
+                document.getElementByID('location').textContent = data.location || "Not available";
             });
 
         fetch('README.md')
