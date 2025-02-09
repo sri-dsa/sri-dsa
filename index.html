@@ -15,21 +15,20 @@
             flex-direction: column;
         }
 
-        /* Make the content-wrapper take up the remaining space */
+        /* Make sure profile content is properly displayed */
         .content-wrapper {
-            flex-grow: 1;
+            flex: 1; /* Allow content-wrapper to take up the remaining space */
+            display: flex;
+            flex-direction: column;
         }
 
-        /* Ensure footer stays at the bottom */
+        /* Footer Styling */
         footer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
             background-color: #333;
             color: white;
             padding: 20px;
-            margin-top: auto;
+            text-align: center;
+            margin-top: auto; /* Ensure footer stays at the bottom */
             width: 100%;
         }
 
@@ -56,6 +55,7 @@
     <button class="theme-toggle" onclick="toggleTheme()">💡</button>
     
     <div class="content-wrapper">
+        <!-- Profile Section -->
         <div class="profile-container">
             <img id="profile-pic" src="" alt="GitHub Profile Picture">
             <div class="profile-info">
