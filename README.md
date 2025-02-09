@@ -248,11 +248,16 @@
 
 <!-- GitHub stats -->
 <p align="center">
-  <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" style="max-width: 500px; width: 70%; height: auto;" />
+  <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" style="max-width: 800px; width: 70%; height: auto;" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true" style="max-width: 800px; width: 70%; height: auto;"/>
+</p>
+
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" style="max-width: 800px; width: 70%; height: auto;" />
 </p>
 
 <p align="center">
@@ -262,15 +267,10 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" style="max-width: 500px; width: 70%; height: auto;" />
-</p>
 
 
 
 
-
-
-<p align="center">
-<img src="https://github.com/sri-dsa/sri-dsa/raw/main/whydowefall.jpg"; alt="Why do we fall? style="width: 70%; height: auto;" />
-</p>
+<!--<p align="center"> -->
+<!--<img src="https://github.com/sri-dsa/sri-dsa/raw/main/whydowefall.jpg"; alt="Why do we fall? style="width: 70%; height: auto;" />-->
+<!--</p>-->
