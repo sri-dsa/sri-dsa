@@ -8,6 +8,8 @@
     --table-header-bg: #333333;
     --link-color: #00FF00;
     --link-hover: #00FF00;
+    --icon-color: #FFFFFF;
+    --icon-hover: #FFD700;
 }
 
 .light-mode {
@@ -20,6 +22,8 @@
     --table-header-bg: #E0E0E0;
     --link-color: #0000EE;
     --link-hover: #0000EE;
+    --icon-color: #000000;
+    --icon-hover: #FF8C00;
 }
 
 body {
@@ -64,9 +68,32 @@ body {
     transform: scale(1.2);
 }
 
-.profile-container h2 {
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-info h2 {
     font-size: 3.5em;
     margin: 0;
+}
+
+.icon-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icon-links a {
+    font-size: 2em;
+    color: var(--icon-color);
+    transition: transform 0.3s, color 0.3s;
+}
+
+.icon-links a:hover {
+    transform: scale(1.2);
+    color: var(--icon-hover);
 }
 
 .theme-toggle {
@@ -92,51 +119,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .theme-toggle {
-        width: 50px;
-        height: 50px;
-        font-size: 24px;
-    }
-}
-
-.markdown-content a {
-    text-decoration: underline;
-    color: var(--link-color);
-    transition: transform 0.3s;
-}
-
-.markdown-content a:hover {
-    transform: scale(1.2);
-}
-
-.markdown-content a img {
-    transition: transform 0.3s;
-}
-
-.markdown-content a:hover img {
-    transform: scale(1.1);
-}
-
-.markdown-content table {
-    width: 100%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: var(--table-bg);
-}
-
-.markdown-content th, .markdown-content td {
-    border: 1px solid var(--table-border);
-    padding: 8px;
-    text-align: center;
-    color: var(--text-color);
-}
-
-.markdown-content th {
-    background-color: var(--table-header-bg);
-    font-weight: bold;
-}
-
-@media (max-width: 768px) {
     .profile-container {
         flex-direction: column;
         text-align: center;
@@ -145,7 +127,15 @@ body {
         width: 100px;
         height: 100px;
     }
-    .profile-container h2 {
+    .profile-info h2 {
         font-size: 1.8em;
+    }
+    .theme-toggle {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+    .icon-links a {
+        font-size: 1.5em;
     }
 }
