@@ -62,12 +62,16 @@
             box-shadow: 0 0 10px rgba(0, 153, 255, 0.6);
         }
 
-        .profile-container h2 {
+        /* Modified: Profile name (h2) with background and opacity */
+        .profile-name {
             font-size: 3.5em;
             text-align: center;
             font-weight: bold;
             margin: 0;
-            opacity: 0.8; /* Add opacity to make the text a bit transparent */
+            background-color: rgba(0, 0, 0, 0.7); /* Background with opacity */
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
         }
 
         .markdown-content {
@@ -138,7 +142,7 @@
                 width: 100px;
                 height: 100px;
             }
-            .profile-container h2 {
+            .profile-name {
                 font-size: 1.8em;
             }
         }
@@ -152,7 +156,7 @@
     <div class="content-wrapper">
         <div class="profile-container">
             <img id="profile-pic" src="" alt="GitHub Profile Picture">
-            <h2 id="profile-name"></h2>
+            <h2 id="profile-name" class="profile-name"></h2> <!-- Added class for profile name -->
         </div>
         
         <div class="markdown-content">
