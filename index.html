@@ -112,6 +112,8 @@
             <img id="profile-pic" src="" alt="GitHub Profile Picture">
             <h2 id="profile-name"></h2>
         </div>
+        
+        <div class="markdown-content"></div>
     </div>
 
     <script>
@@ -125,6 +127,15 @@
                 document.getElementById('profile-pic').src = data.avatar_url;
                 document.getElementById('profile-name').textContent = data.name || "sri-dsa";
             });
+        
+        fetch('README.md')
+            .then(response => response.text())
+            .then(markdown => {
+                var converter = new showdown.Converter();
+                document.querySelector('.markdown-content').innerHTML = converter.makeHtml(markdown);
+            });
     </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
 </body>
 </html>
