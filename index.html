@@ -8,25 +8,25 @@
         :root {
             --bg-color: #000000;
             --text-color: #FFFFFF;
-            --button-bg: #222;
+            --button-bg: #FFFFFF;
             --button-text: #FFD700;
             --table-bg: #000000;
             --table-border: #333;
             --table-header-bg: #333333;
-            --link-color: #4CAF50;
+            --link-color: #00FF00;
             --link-hover: #00FF00;
         }
 
         .light-mode {
             --bg-color: #FFFFFF;
             --text-color: #000000;
-            --button-bg: #DDD;
+            --button-bg: #000000;
             --button-text: #FF8C00;
             --table-bg: #FFFFFF;
             --table-border: #000000;
             --table-header-bg: #E0E0E0;
             --link-color: #0000EE;
-            --link-hover: #551A8B;
+            --link-hover: #0000EE;
         }
 
         body {
@@ -68,7 +68,7 @@
         }
 
         .profile-container img:hover {
-            transform: scale(1.2);
+            transform: scale(1.1);
         }
 
         .profile-container h2 {
@@ -80,13 +80,13 @@
             position: absolute;
             top: 20px;
             right: 20px;
-            width: 70px;
-            height: 70px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
             background: var(--button-bg);
             border: none;
             cursor: pointer;
-            font-size: 32px;
+            font-size: 36px;
             color: var(--button-text);
             display: flex;
             align-items: center;
@@ -109,10 +109,19 @@
         .markdown-content a {
             text-decoration: underline;
             color: var(--link-color);
+            transition: transform 0.3s;
         }
 
         .markdown-content a:hover {
-            color: var(--link-hover);
+            transform: scale(1.2);
+        }
+
+        .markdown-content a img {
+            transition: transform 0.3s;
+        }
+
+        .markdown-content a:hover img {
+            transform: scale(1.1);
         }
 
         .markdown-content table {
