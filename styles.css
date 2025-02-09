@@ -238,3 +238,16 @@ body {
         margin-top: 20px;
     }
 }
+
+
+/* Ensure the link within .designer-info uses the same styles as other links */
+.designer-info a {
+    color: var(--link-color); /* Set the color as your other links */
+    text-decoration: none; /* Remove underline if necessary */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.designer-info a:hover {
+    transform: scale(1.2); /* Adjust this as needed */
+    color: var(--link-hover); /* Hover color for the link */
+}
