@@ -253,6 +253,7 @@
   </a>
 </p>
 
+
 <p>
   <a href="https://drive.google.com/file/d/1p07bVaGmCpBVMMg7--TBaJIknOmsKVpc/view?usp=sharing" target="_blank">
           <img src="SIH.jpg" alt="🎓 Smart India Hackathon 2020" style="max-width: 700px; width: 100%; height: auto;">
@@ -271,7 +272,7 @@
   <a href="https://github.com/sri-dsa?tab=repositories">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" 
          style="max-width: 700px; width: 70%; height: auto;" 
-         alt="GitHub Streak Stats">
+         alt="GitHub Streak Stats"/>
   </a>
 </p>
 
