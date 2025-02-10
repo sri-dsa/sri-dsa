@@ -249,13 +249,20 @@
 <!-- GitHub stats -->
 <p align="center">
   <a href="https://github.com/sri-dsa?tab=repositories">
-  <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" style="max-width: 500px; width: 70%; height: auto;" />
+  <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" style="max-width: 700px; width: 70%; height: auto;" />
   </a>
 </p>
 
+<p>
+  <a href="https://drive.google.com/file/d/1p07bVaGmCpBVMMg7--TBaJIknOmsKVpc/view?usp=sharing" target="_blank">
+          <img src="SIH.jpg" alt="🎓 Smart India Hackathon 2020" style="max-width: 700px; width: 100%; height: auto;">
+        </a>
+</p>
+
+
 <p align="center">
   <a href="https://github.com/sri-dsa?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true" style="max-width: 500px; width: 70%; height: auto;"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true" style="max-width: 700px; width: 70%; height: auto;"/>
     </a>
 </p>
 
@@ -263,10 +270,11 @@
 <p align="center">
   <a href="https://github.com/sri-dsa?tab=repositories">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" 
-         style="max-width: 500px; width: 70%; height: auto;" 
+         style="max-width: 700px; width: 70%; height: auto;" 
          alt="GitHub Streak Stats">
   </a>
 </p>
+
 
 <p align="center">
   <a href="https://github.com/sri-dsa">
@@ -276,9 +284,6 @@
     <img src="https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000" alt="GitHub followers" style=" width: 15%; height: auto">
   </a>
 </p>
-
-
-
 
 
 <!--<p align="center"> -->
