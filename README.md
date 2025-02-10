@@ -184,7 +184,7 @@
 </div>
 
 <p>
-  <a href="https://drive.google.com/file/d/1p07bVaGmCpBVMMg7--TBaJIknOmsKVpc/view?usp=sharing" target="_blank">
+  <a href="https://timesofindia.indiatimes.com/india/pm-modi-to-address-grand-finale-of-smart-india-hackathon-on-august-1/articleshow/77204124.cms" target="_blank">
           <img src="SIH.jpg" alt="🎓 Smart India Hackathon 2020" style="max-width: 800px; width: 100%; height: auto;">
         </a>
 </p>
