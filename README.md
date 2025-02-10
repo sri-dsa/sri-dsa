@@ -255,21 +255,21 @@
 
 <!-- GitHub stats -->
 <p align="center">
-  <a href="https://github.com/sri-dsa?tab=repositories">
+  <a href="https://github.com/sri-dsa?tab=repositories" target="_blank">
   <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" style="max-width: 700px; width: 70%; height: auto;" />
   </a>
 </p>
 
 
 <p align="center">
-  <a href="https://github.com/sri-dsa?tab=repositories">
+  <a href="https://github.com/sri-dsa?tab=repositories" target="_blank">
   <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true" style="max-width: 700px; width: 70%; height: auto;"/>
     </a>
 </p>
 
 
 <p align="center">
-  <a href="https://github.com/sri-dsa?tab=repositories">
+  <a href="https://github.com/sri-dsa?tab=repositories" target="_blank">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" 
          style="max-width: 700px; width: 70%; height: auto;" 
          alt="GitHub Streak Stats"/>
@@ -278,10 +278,10 @@
 
 
 <p align="center">
-  <a href="https://github.com/sri-dsa">
+  <a href="https://github.com/sri-dsa" target="_blank">
   <img src="https://komarev.com/ghpvc/?username=sri-dsa" alt="Profile Views" style=" width: 15%; height: auto;">
     </a>
-  <a href="https://github.com/sri-dsa?tab=followers">
+  <a href="https://github.com/sri-dsa?tab=followers" target="_blank">
     <img src="https://img.shields.io/github/followers/sri-dsa.svg?style=social&label=Follow&maxAge=2592000" alt="GitHub followers" style=" width: 15%; height: auto">
   </a>
 </p>
