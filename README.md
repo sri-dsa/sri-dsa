@@ -183,6 +183,13 @@
 
 </div>
 
+<p>
+  <a href="https://drive.google.com/file/d/1p07bVaGmCpBVMMg7--TBaJIknOmsKVpc/view?usp=sharing" target="_blank">
+          <img src="SIH.jpg" alt="🎓 Smart India Hackathon 2020" style="max-width: 800px; width: 100%; height: auto;">
+        </a>
+</p>
+
+
 <h1 style="display: inline; margin-right: 10px;">Connect with me :
 <p align="center" style="display: inline;">
   <a href="https://www.linkedin.com/in/srivak/" target="_blank">
@@ -251,13 +258,6 @@
   <a href="https://github.com/sri-dsa?tab=repositories">
   <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" style="max-width: 700px; width: 70%; height: auto;" />
   </a>
-</p>
-
-
-<p>
-  <a href="https://drive.google.com/file/d/1p07bVaGmCpBVMMg7--TBaJIknOmsKVpc/view?usp=sharing" target="_blank">
-          <img src="SIH.jpg" alt="🎓 Smart India Hackathon 2020" style="max-width: 700px; width: 100%; height: auto;">
-        </a>
 </p>
 
 
