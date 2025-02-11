@@ -61,14 +61,9 @@
         <strong>ML | DL | CV Portfolio</strong>
       </a>
     </th>
-   <!-- 
-     <th align="center" width="50%">
-      <a href="https://sri-dsa.github.io/DA/" target="_blank">
-        <strong>Analytics Portfolio</strong>
-      </a>
-    </th>
-    -->
-  </tr>
+      </tr>
+   
+  
   <!-- Data Row -->
   <tr>
     <td align="center">
@@ -76,14 +71,26 @@
         <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="width: 100%; max-width: 400px; border-radius: 1px;">
       </a>
     </td>
+      </tr>
+      </table>
+
+
+      <!-- 
+     <th align="center" width="50%">
+      <a href="https://sri-dsa.github.io/DA/" target="_blank">
+        <strong>Analytics Portfolio</strong>
+      </a>
+    </th>
+    -->
+    
    <!--  <td align="center">
       <a href="https://sri-dsa.github.io/DA/" target="_blank">
         <img src="Azure.png" alt="Data Analytics" style="width: 100%; max-width: 400px; border-radius: 1px;">
       </a>
     </td>
     -->
-  </tr>
-</table>
+  
+
 
 
 
