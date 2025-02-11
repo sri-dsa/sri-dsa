@@ -19,7 +19,7 @@
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
 </a>
 
-<!-- Second Repository: Data Analytics Projects -->
+<!-- Second Repository: Data Analytics Projects 
 <a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black" height="30" style="display: inline-block;"/>
 </a>
@@ -42,6 +42,9 @@
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
   </a>
 </p>
+
+-->
+
 
 # Portfolio
 
@@ -231,7 +234,7 @@
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
 </a>
 
-<!-- Second Repository: Data Analytics Projects -->
+<!-- Second Repository: Data Analytics Projects
 <a href="https://sri-dsa.github.io/DA/" target="_blank">
 <img src="https://img.shields.io/badge/Power%20BI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black" height="30" style="display: inline-block;"/>
 </a>
@@ -254,6 +257,8 @@
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
   </a>
 </p>
+
+ -->
 
 
 <!-- GitHub stats -->
