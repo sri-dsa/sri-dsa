@@ -18,10 +18,9 @@
 <a href="https://sri-dsa.github.io/ML/" target="_blank">
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
 </a>
-
 <a href="https://github.com/sri-dsa" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
-  </a>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+</a>
 
 
 ---
