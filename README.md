@@ -53,11 +53,13 @@
         <strong>ML | DL | CV Portfolio</strong>
       </a>
     </th>
-    <th align="center" width="50%">
+   <!-- 
+     <th align="center" width="50%">
       <a href="https://sri-dsa.github.io/DA/" target="_blank">
         <strong>Analytics Portfolio</strong>
       </a>
     </th>
+    -->
   </tr>
   <!-- Data Row -->
   <tr>
