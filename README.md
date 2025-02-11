@@ -271,13 +271,15 @@
 </p>
 
 
-<p align="center">
+<!--p align="center">
   <a href="https://github.com/sri-dsa?tab=repositories" target="_blank">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=sri-dsa&theme=whatsapp-dark2&hide_border=true" 
          style="max-width: 700px; width: 70%; height: auto;" 
          alt="GitHub Streak Stats"/>
   </a>
 </p>
+
+-->
 
 
 <p align="center">
