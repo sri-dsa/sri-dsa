@@ -183,7 +183,7 @@
 
 </div>
 
-<p>
+<p align="center">
   <a href="https://www.sih.gov.in/hardwareFinalResult2020#search=YourSearchText" target="_blank">
           <img src="SIH.jpg" alt="🎓 Smart India Hackathon 2020" style="max-width: 800px; width: 80%; height: auto;">
         </a>
