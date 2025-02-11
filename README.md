@@ -43,7 +43,7 @@
   <tr>
     <td align="center">
       <a href="https://sri-dsa.github.io/ML/" target="_blank">
-        <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="width: 100%; max-width: 400px; border-radius: 1px;">
+        <img src="MLDLCV Vision.png" alt="ML | DL | CV" style="width: 100%; max-width: 700px; border-radius: 1px;">
       </a>
     </td>
       </tr>
