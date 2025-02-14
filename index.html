@@ -6,113 +6,65 @@
     <title></title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-   <!-- Particles.js Background -->
-<div id="particles-js"></div>
-
-<script src="particles.js"></script>
-<script>
-    function loadParticles(theme) {
-        const configFile = theme === 'light' ? 'light.json' : 'dark.json';
-        particlesJS.load('particles-js', configFile, function() {
-            console.log(`${configFile} loaded`);
-        });
-    }
-
-    // Detect current theme and load the correct particles.json
-    const isLightMode = document.body.classList.contains('light-mode');
-    loadParticles(isLightMode ? 'light' : 'dark');
-
-    // Theme toggle logic
-    document.querySelector('.theme-toggle').addEventListener('click', function() {
-        document.body.classList.toggle('light-mode');
-        const newTheme = document.body.classList.contains('light-mode') ? 'light' : 'dark';
-        loadParticles(newTheme);
-    });
-</script>
-
-<!-- Existing Script -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const themeToggle = document.querySelector(".theme-toggle");
-        const body = document.body;
-
-        // Load theme preference from localStorage
-        if (localStorage.getItem("theme") === "light") {
-            body.classList.add("light-mode");
+    <style>
+        /* Add any extra styling needed to fix alignment issues */
+        footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            width: 100%;
+            position: relative;
         }
 
-        themeToggle.addEventListener("click", function () {
-            body.classList.toggle("light-mode");
+        .footer-icons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
 
-            // Save theme preference
-            if (body.classList.contains("light-mode")) {
-                localStorage.setItem("theme", "light");
-            } else {
-                localStorage.setItem("theme", "dark");
-            }
-        });
-    });
-</script>
+        .footer-text {
+            text-align: center;
+            margin-bottom: 15px;
+        }
 
-<!-- Footer alignment fixes -->
-<style>
-    footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-        background-color: #333;
-        color: white;
-        width: 100%;
-        position: relative;
-    }
+        .funny-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
 
-    .footer-icons {
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        margin-bottom: 15px;
-    }
+        .badge {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 12px;
+            font-size: 0.9em;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+            cursor: pointer;
+        }
 
-    .footer-text {
-        text-align: center;
-        margin-bottom: 15px;
-    }
+        .badge:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
 
-    .funny-buttons {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 10px;
-    }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: space-between;
+        }
 
-    .badge {
-        background: rgba(255, 255, 255, 0.1);
-        color: #fff;
-        padding: 5px 10px;
-        border-radius: 12px;
-        font-size: 0.9em;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
-        cursor: pointer;
-    }
-
-    .badge:hover {
-        background: rgba(255, 255, 255, 0.3);
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        justify-content: space-between;
-    }
-
-    .content-wrapper {
-        flex-grow: 1;
-    }
-</style>
+        .content-wrapper {
+            flex-grow: 1;
+        }
+    </style>
 </head>
 <body>
     <button class="theme-toggle" onclick="toggleTheme()">💡</button>
