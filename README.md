@@ -135,7 +135,7 @@
         <br> <b>National Instruments</b>
       </td>
       <td style="padding: 8px;"><a href="https://education.ni.com/center-of-excellence" target="_blank">Centre of Excellence</a></td>
-      <td style="padding: 8px;"><i>Jan 2021 - Jun 2021</i></td>
+      <td style="padding: 8px;"><i>Jan 2021 - June 2021</i></td>
       <td style="padding: 8px;">Noida, India</td>
       <td style="padding: 8px;"><a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">📜 Click here</a></td>
     </tr>
