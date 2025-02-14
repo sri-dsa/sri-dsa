@@ -1,4 +1,5 @@
 :root {
+    --bg-color: #0d1b2a;
     --text-color: #FFFFFF;
     --button-bg: #FFC107;
     --button-text: #FFD700;
@@ -10,6 +11,7 @@
 }
 
 .light-mode {
+    --bg-color: #FFFFFF;
     --text-color: #000000;
     --button-bg: #000000;
     --button-text: #FF8C00;
@@ -24,27 +26,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: transparent !important;
+    background-color: var(--bg-color);
     color: var(--text-color);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    transition: color 0.3s;
-}
-
-#particles-js {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .content-wrapper {
-    background-color: transparent !important;
+    background-color: var(--bg-color);
     padding: 20px;
     max-width: 1100px;
     width: 100%;
@@ -96,6 +89,7 @@ body {
     transform: scale(2) !important;
     color: var(--link-hover) !important;
 }
+
 
 .theme-toggle {
     position: absolute;
@@ -178,6 +172,7 @@ body {
     }
 }
 
+/* For footer icons, use existing .icon-links CSS */
 .footer-icons {
     display: flex;
     gap: 15px;
@@ -199,16 +194,24 @@ body {
     color: var(--link-hover) !important;
 }
 
+/* Blinking eye animation (no change needed) */
 @keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .blinking-eye {
     animation: blink 1s infinite;
 }
 
+/* Ensure the copyright and designer info are styled properly */
 .footer-text p {
     margin: 10px 0;
     font-size: 1em;
@@ -220,26 +223,31 @@ body {
     margin-top: 5px;
 }
 
+/* Make the footer content stack on smaller screens */
 @media (max-width: 600px) {
     .footer-text, .funny-buttons {
         text-align: center;
     }
+
     .footer-icons {
         text-align: center;
         margin-bottom: 15px;
     }
+
     .funny-buttons {
         margin-top: 20px;
     }
 }
 
+
+/* Ensure the link within .designer-info uses the same styles as other links */
 .designer-info a {
-    color: #00FF00;
-    text-decoration: none;
+    color: #00FF00; /* Set the color as your other links */
+    text-decoration: none; /* Remove underline if necessary */
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .designer-info a:hover {
-    transform: scale(1.2);
-    color: var(--link-hover);
+    transform: scale(1.2); /* Adjust this as needed */
+    color: var(--link-hover); /* Hover color for the link */
 }
