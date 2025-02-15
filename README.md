@@ -212,7 +212,7 @@
 <!-- GitHub stats -->
 <p align="center">
   <a href="https://github.com/sri-dsa?tab=repositories" target="_blank">
-  <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=8&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" style="max-width: 700px; width: 70%; height: auto;" />
+  <img alt="sri-dsa's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=12&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff" style="max-width: 700px; width: 70%; height: auto;" />
   </a>
 </p>
 
