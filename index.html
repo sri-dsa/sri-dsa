@@ -1,144 +1,555 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style>
-        /* Add any extra styling needed to fix alignment issues */
-        footer {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            width: 100%;
-            position: relative;
-        }
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Srivathsan Karthikeyan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<style>
 
-        .footer-icons {
-            display: flex;
-            gap: 10px;
-            justify-content: center;
-            margin-bottom: 15px;
-        }
+		.blinking-eye {
+		  display: inline-block;
+		  animation: blink 1s infinite;
+		}
+	
+		@keyframes blink {
+		  0%, 50% { opacity: 1; }
+		  51%, 100% { opacity: 0; }
+		}
+		#four .row.gtr-uniform {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
-        .footer-text {
-            text-align: center;
-            margin-bottom: 15px;
-        }
+#four .row.gtr-uniform > section {
+    text-align: center;
+    margin: 0 auto;
+}
 
-        .funny-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 10px;
-        }
+#four .container {
+    max-width: 100%;
+    padding: 0 15px;
+}
 
-        .badge {
-            background: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            padding: 5px 10px;
-            border-radius: 12px;
-            font-size: 0.9em;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
-            cursor: pointer;
-        }
+</style>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
 
-        .badge:hover {
-            background: rgba(255, 255, 255, 0.3);
-        }
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">Srivathsan Karthikeyan</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li >
+								<a href="#">Contact</a>
+								<ul style="text-align: center; font-weight: bold;">
+									<li><a href="mailto:sk.data@icloud.com" id="email-link">Email  <i class="fa-solid fa-envelope"></i></a></li>
+									<li><a href="https://linkedin.com/in/srivak" target="_blank" id="linkedin-link">LinkedIn <i class="fa-brands fa-linkedin"></i></a></li>
+									<li><a href="https://github.com/sri-dsa" target="_blank" id="github-link">GitHub  <i class="fa-brands fa-github"></i></a></li>
+									<li><a href="https://www.hackerrank.com/profile/sk_data" target="_blank" id="hackerrank">HackerRank  <i class="fab fa-hackerrank"></i></a></li>
+									<li><a href="tel:+447442002336" id="phone-link">Call Me  <i class="fa-solid fa-mobile-screen-button"></i></a></li>
+								</ul>
+							</li>
+							<li><a href="#two" class="goto scrolly">Projects Portfolio</a></li>
+							<li><a href=#one class="goto scrolly">Education</a></li>
+							<li><a href=#four class="goto scrolly">Experience</a></li>
+							<li><a href=#three class="goto scrolly">Achievement</a></li>
+							<li><a href="https://linkedin.com/in/srivak" target="_blank">LinkedIn</a></li>
+							<li><a href="https://github.com/sri-dsa" target="_blank">GitHub</a></li>
+						</ul>
+					</nav>
+				</header>
 
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            justify-content: space-between;
-        }
+			<!-- Banner -->
+				<section id="banner">
+					<style>
+						#banner .icon-links a {
+						  color: #f9fafb;
+						  font-size: 1.3em;
+						  transition: transform 0.2s ease, color 0.3s ease;
+						  display: inline-block;
+						}
+					
+						#banner .icon-links a:hover {
+						  transform: scale(1.5);
+						  color: #fc0000;
+						}
+					
+						#banner .Somma a:hover {
+						  transform: scale(1.001);
+						}
+					  </style>
+					<div class="content">
+						<header style="text-align: center;">
+							<h1 id="profile-name" style="font-weight: bold;"></h1>
+							<div class="icon-links" style="font-size: 1.65em;">
+								<a href="mailto:sk.data@icloud.com" id="email-link"><i class="fa-solid fa-envelope"></i></a>
+								<a href="https://linkedin.com/in/srivak" target="_blank" id="linkedin-link"><i class="fa-brands fa-linkedin"></i></a>
+								<a href="https://github.com/sri-dsa" target="_blank" id="github-link"><i class="fa-brands fa-github"></i></a>
+								<a href="https://www.hackerrank.com/profile/sk_data" target="_blank" id="Hackerrank-link"><i class='fab fa-hackerrank'></i></a>
+								<a href="tel:+447442002336" id="phone-link"><i class="fa-solid fa-mobile-screen-button"></i></a>
+								<a href="https://www.google.com/maps?q=10+Spring+Grove+Walk,+Burley,+Leeds,+LS6+1RR" target="_blank" id="location-link">
+									<i class="fa-solid fa-map-location-dot"></i></a>
+							</div>
+							
+							<div id="Somma">
+								<!-- First Repository: ML | DL | CV Projects -->
+								<a href="https://sri-dsa.github.io/ML/" target="_blank">
+								<img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue&labelColor=grey" height="30" style="display: inline-block;"/>
+								</a>
+								<a href="https://sri-dsa.github.io/ML/" target="_blank">
+								<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" height="30" style="display: inline-block;"/>
+								</a>
+								<a href="https://sri-dsa.github.io/ML/" target="_blank">
+								<img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=keras&logoColor=white" height="30" style="display: inline-block;"/>
+								</a>
+								<a href="https://sri-dsa.github.io/ML/" target="_blank">
+								<img src="https://img.shields.io/badge/NLTK-%234A90E2.svg?style=for-the-badge&logo=python&logoColor=white" height="30" style="display: inline-block;"/>
+								</a>
+								<a href="https://sri-dsa.github.io/ML/" target="_blank">
+								<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+								</a>
+								<a href="https://sri-dsa.github.io/ML/" target="_blank">
+								<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+								</a>
+								
+								<a href="https://github.com/sri-dsa" target="_blank">
+									<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+								  </a>
+								</div>
+								  <p id="location"></p>
+						</header>
+						<span class="image"><img id="profile-pic" src="" alt="GitHub Profile Picture" /></span>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+			<!-- Two -->
+			<section id="two" class="spotlight style2 right">
+				<span class="image fit main"><img src="images/pic03.png" alt="" /></span>
+				<div class="content">
+					<header>
+						<h2>Projects Portfolio</h2>
+						<p>Artificial Intelligence Projects</p>
+						<h4>Author : Srivathsan Karthikeyan</h4>
+					</header>
+					<p>Includes the research projects accomplished in the domain of Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, collectively in the domain of Data Science</p>
+					<ul class="actions">
+						<li><a href="https://sri-dsa.github.io/ML/" target = "_blank" class="button">Click Here</a></li>
+					</ul>
+				</div>
+				<a href="#one" class="goto-next scrolly button primary">Next</a>
+			</section>
+			<!-- One -->
+			<section id="one" class="spotlight style1 bottom">
+				<style>
+				  #one a:hover {
+					transition: transform 0.2s ease, color 0.2s ease;
+					transform: scale(1.1);
+					color: #38bdf8 !important;
+				  }
+			  
+				  #one h3, #one h4 {
+					margin: 0.3em 0;
+					font-weight: 600;
+				  }
+			  
+				  #one p {
+					margin: 0.25em 0;
+					font-size: 0.95em;
+				  }
+			  
+				  .education-row {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-around;
+					gap: 2em;
+				  }
+			  
+				  .education-row > div {
+					flex: 1 1 30%;
+					text-align: center;
+				  }
+			  
+				  @media screen and (max-width: 768px) {
+					.education-row {
+					  flex-direction: column;
+					  align-items: center;
+					}
+			  
+					.education-row > div {
+					  width: 100%;
+					  margin-bottom: 1.5em;
+					}
+				  }
+				</style>
+			  
+				<span class="image fit main"><img src="images/pic02.png" alt="" /></span>
+			  
+				<div class="content">
+				  <div class="container" style="text-align: center;">
+					<div class="row education-row">
+			  
+					  <!-- Masters -->
+					  <div class="col-4 col-12-medium order-2-mobile" style="background: url('images/leeds-logo.png') no-repeat center 15px / 50px; padding-top: 30px;">
+						<h2><a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">Data Science and Analytics</a></h2>
+						<h3><a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">Masters Degree / MSc</a></h3>
+						<h3><a href="https://en.wikipedia.org/wiki/University_of_Leeds" target="_blank">University of Leeds</a></h3>
+						<p>2022–2024</p>
+						<p><b>Click to View:</b> <a href="https://drive.google.com/file/d/1fE_g1QdDP_7UnnN3q2OolZ3yB51ArjFK/view?usp=sharing" target="_blank">📜 Degree Certificate</a></p>
+					  </div>
+			  
+					  <!-- Education Header -->
+					  <div class="col-4 col-12-medium order-1-mobile">
+						<header>
+						  <h2><b>Education</b></h2>
+						  <a href="#four" class="goto-next scrolly">Next</a>
+						</header>
+					  </div>
+			  
+					  <!-- Undergrad -->
+					  <div class="col-4 col-12-medium order-3-mobile" style="background: url('images/nit-logo.png') no-repeat center 15px / 50px; padding-top: 30px;">
+						<h2><a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">Control Engineering</a></h2>
+						<h3><a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">Bachelors / Undergraduate</a></h3>
+						<h3><a href="https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli" target="_blank">NIT-Trichy</a></h3>
+						<p>2018–2022</p>
+						<p><b>Click to View:</b> <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">📜 Degree Certificate</a></p>
+					  </div>
+			  
+					</div>
+				  </div>
+				</div>
+			  </section>
+			  
+			  <!-- Add this in <style> tag or your custom.css -->
+			  <style>
+				/* Mobile-first override to control order */
+				@media (max-width: 736px) {
+				  .order-1-mobile { order: 1 !important; }
+				  .order-2-mobile { order: 2 !important; }
+				  .order-3-mobile { order: 3 !important; }
+				  .education-row {
+					display: flex;
+					flex-direction: column;
+				  }
+				}
+			  </style>
+			<!-- Four -->
+			<section id="four" class="wrapper style1 special fade-up" style="padding: 4em 0;">
+				<style>
+					a:hover {
+						display: inline-block;
+						transition: transform 0.2s ease, color 0.2s ease;
+						transform: scale(1.2);
+						color: #0077cc !important; /* or any other hex/RGB color */
+}
+				  .experience-grid {
+					display: grid;
+					grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+					gap: 1.5em;
+					justify-items: center;
+					align-items: stretch;
+					width: 95%;
+					margin: 0 auto;
+				  }
 
-        .content-wrapper {
-            flex-grow: 1;
-        }
-    </style>
-</head>
-<body>
-    <button class="theme-toggle" onclick="toggleTheme()">💡</button>
-    
-    <div class="content-wrapper">
-        <div class="profile-container">
-            <img id="profile-pic" src="" alt="GitHub Profile Picture">
-            <div class="profile-info">
-                <h2 id="profile-name"></h2>
-                <div class="icon-links">
-                    <a href="mailto:sk.data@icloud.com" id="email-link"><i class="fa-solid fa-envelope"></i></a>
-                    <a href="https://linkedin.com/in/srivak" target="_blank" id="linkedin-link"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/sri-dsa" target="_blank" id="github-link"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.google.com/maps?q=10+Spring+Grove+Walk,+Burley,+Leeds,+LS6+1RR" target="_blank" id="location-link">
-                        <i class="fa-solid fa-map-location-dot"></i>
-                    </a>
-                    <a href="tel:+447442002336" id="phone-link"><i class="fa-solid fa-mobile-screen-button"></i></a>
-                </div>
-                <h4 id="location"></h4>
-            </div>
-        </div>
-        
-        <div class="markdown-content"></div>
-    </div>
+				  
+			  
+				  .experience-card {
+					background: rgb(255, 255, 255);
+					border-radius: 1em;
+					box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+					padding: 1em;
+					text-align: center;
+					transition: transform 0.3s ease, box-shadow 0.3s ease;
+					width: 100%;
+					max-width: 700px;
+				  }
+			  
+				  .experience-card:hover {
+					transform: translateY(-5px);
+					box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+				  }
+			  
+				  .experience-card img {
+					max-width: 100px;
+					height: max-width;
+					margin-bottom: 1em;
+				  }
+			  
+				  .experience-card h3 {
+					font-size: 1.4em;
+					margin: 0.3em 0;
+					color: #000000;
+				  }
+			  
+				  .experience-card h4 {
+					font-size: 1.1em;
+					margin: 0.2em 0;
+					color: #000000;
+				  }
+			  
+				  .experience-card p {
+					font-size: 1em;
+					color: #666;
+					margin: 0.2em 0;
+				  }
+			  
+				  .experience-card .certificate {
+					display: inline-block;
+					margin-top: 1em;
+					font-weight: bold;
+					color: #0077cc;
+					text-decoration: none;
+				  }
+			  
+				  .experience-card .certificate:hover {
+					text-decoration: underline;
+				  }
+				</style>
+			  
+				<div class="container">
+				  <header class="major">
+					<h2>Experience</h2>
+				  </header>
+				  <div class="experience-grid">
+			  
+					<!-- Experience 1 -->
+					<div class="experience-card">
+					  <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">
+						<img src="nitt_l.svg" alt="NIT Trichy Logo" />
+					  </a>
+					  <h3> <a href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">Research Assistant</a></h3>
+					  <h4> <a href="https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli" target="_blank">NIT-Trichy</a></h4>
+					  <h4> <a href="https://www.nitt.edu/home/academics/departments/ece/facilitiesnservices/research_laboratories/artificial_intelligence_research/" target="_blank">Artificial Intelligence Research Laboratory, Department of ECE</a></h4>
+					  <h4> <a href="https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Tiruchirappalli" target="_blank">Trichy, India</a></h4>
+					  <a class="certificate" href="https://drive.google.com/file/d/1esKd2_C1NLxE0BZ3BUBC6ARaLAEvZtlH/view?usp=sharing" target="_blank">📜 View Certificate</a>
+					</div>
+			  
+					<!-- Experience 2 -->
+					<div class="experience-card">
+					  <a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">
+						<img src="NI.png" alt="National Instruments Logo" />
+					  </a>
+					  <h3><a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">Analytics Intern</a></h3>
+					  <h4><a href="https://en.wikipedia.org/wiki/National_Instruments" target="_blank">National Instruments Corporation</a></strong></h4>
+					  <h4><a href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">Centre of Excellence</a></h4>
+					  <h4><a href="https://www.ni.com/en/perspectives/engineering-education-from-a-distance.html" target="_blank">Greater Noida, India</a></h4>
+					  <a class="certificate" href="https://drive.google.com/file/d/1a9kMKXkOX11XjgUR2iWJ-Fx203d-Q8FW/view?usp=sharing" target="_blank">📜 View Certificate</a>
+					</div>
+			  
+					<!-- Experience 3 -->
+					<div class="experience-card">
+					  <a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">
+						<img src="unnamed.jpg" alt="Indian Servers Logo" />
+					  </a>
+					  <h3><a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">Machine Learning Intern</a></h3>
+					  <h4><a href="https://indianservers.com" target="_blank">Indian Servers</a></h4>
+					  <h4><a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">Hybrid – Vijayawada, Telangana, India</a></h4>
+					  <h4><a href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">Telangana, India</a></h4>
+					  <a class="certificate" href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">📜 View Certificate</a>
+					</div>
+					<div>
+						<a href="#three" class="goto-next scrolly">Next</a>
+					</div>
+				  </div>
+				  
+				</div>
+			  </section>
 
-    <footer>
-    <div class="footer-icons">
-        <a href="mailto:sk.data@icloud.com" id="email-link"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https://linkedin.com/in/srivak" target="_blank" id="linkedin-link"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/sri-dsa" target="_blank" id="github-link"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.google.com/maps?q=10+Spring+Grove+Walk,+Burley,+Leeds,+LS6+1RR" target="_blank" id="location-link">
-            <i class="fa-solid fa-map-location-dot"></i>
-        </a>
-        <a href="tel:+447442002336" id="phone-link"><i class="fa-solid fa-mobile-screen-button"></i></a>
-    </div>
 
-    <!-- Copyright and Designer Info -->
-    <div class="footer-text">
-        <p>© <span class="blinking-eye">👀</span> This site is under heavy surveillance because I'm too broke to copyright.</p>
-        <p class="designer-info">Designer/Editor: <a href="https://www.linkedin.com/in/srivak/"><span class="shaking-emoji">🎨</span> Srivathsan Karthikeyan</a></p>
-    </div>
+				<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="SIH.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Winner : Smart India Hackathon 2020</h2>
+							<h2>Recieved a Grant of 100,000 INR from Government of India</h2>
+						</header>
 
-    <!-- Funny Buttons Section -->
-    <div class="funny-buttons">
-        <a href="https://www.linkedin.com/in/srivak/" target="_blank"><span class="badge" onmouseover="this.innerText=' No Pain ↔️ No Glory!🚀'" onmouseout="this.innerText='🔥 Runs on Perseverance'">🔥 Runs on Perseverance</span></a>
-        <a href="https://www.linkedin.com/in/srivak/" target="_blank">
-            <span class="badge" onmouseover="this.innerText='Just Hire Me'" onmouseout="this.innerText='💰 Accepting Donations'">💰 Accepting Donations</span>
-        </a>
-    </div>
-</footer>
+						<ul class="actions">
+							<li><a href="https://timesofindia.indiatimes.com/city/varanasi/smart-india-hackathon-concludes-winners-announced/articleshow/77382109.cms" target="_blank" class="button">News Article</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="https://www.sih.gov.in/hardwareFinalResult2020" target="_blank" class="button">Shortlist of Winners</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="https://pib.gov.in/PressReleasePage.aspx?PRID=1643418" target="_blank" class="button">Grant</a></li>
+						</ul>
+						<ul class="actions">
+							<li><a href="https://www.sih.gov.in/sih2020Hardware" target="_blank" class="button">More about Event</a></li>
+							<a href="#five" class="goto-next scrolly">Next</a>
+						</ul>
+					</div>
+					
+				</section>
 
+				<section id="five" class="wrapper style1 special fade-up">
+					<h1 style="display: inline; margin-right: 10px;">Connect with me :
+						<p align="center" style="display: inline;">
+						  <a href="https://www.linkedin.com/in/srivak/" target="_blank">
+							<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" height="30" style="display: inline-block;"/>
+						  </a>
+						  <a href="mailto:sk.data@icloud.com" target="_blank">
+							<img src="https://img.shields.io/badge/Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" style="display: inline-block;"/>
+						  </a>
+						  <a href="https://www.hackerrank.com/profile/sk_data" target="_blank">
+							<img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white" height="30" style="display: inline-block;"/>
+						  </a>
+						</p>
+						
+						</h1>
+						<br><br>
+						<p align="center" >
+						<!-- First Repository: ML | DL | CV Projects -->
+						<a href="https://sri-dsa.github.io/ML/" target="_blank">
+						<img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue&labelColor=grey" height="30" style="display: inline-block;"/>
+						</a>
+						<a href="https://sri-dsa.github.io/ML/" target="_blank">
+						<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" height="30" style="display: inline-block;"/>
+						</a>
+						<a href="https://sri-dsa.github.io/ML/" target="_blank">
+						<img src="https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=keras&logoColor=white" height="30" style="display: inline-block;"/>
+						</a>
+						<a href="https://sri-dsa.github.io/ML/" target="_blank">
+						<img src="https://img.shields.io/badge/NLTK-%234A90E2.svg?style=for-the-badge&logo=python&logoColor=white" height="30" style="display: inline-block;"/>
+						</a>
+						<a href="https://sri-dsa.github.io/ML/" target="_blank">
+						<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+						</a>
+						<a href="https://sri-dsa.github.io/ML/" target="_blank">
+						<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+						</a>
+						
+						<a href="https://github.com/sri-dsa" target="_blank">
+							<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=grey" height="30" style="display: inline-block;"/>
+						  </a>
+						
+						
+						
+						
+						<!-- GitHub stats -->
+<section id="github-stats">
+	<style>
+	  #github-stats a.no-transform {
+		display: inline-block;
+		transition: none !important;
+		transform: none !important;
+	  }
+  
+	  #github-stats a.no-transform:hover {
+		transform: none !important;
+		color: inherit !important;
+	  }
+  
+	  #github-stats img.enlarge {
+		max-width: 1200px;
+		width: 90%;
+		transform: scale(1.3);
+		margin: 1em;
+	  }
+	</style>
+  
+	<p align="center">
+	  <a class="no-transform" href="https://github.com/sri-dsa?tab=repositories" target="_blank">
+		<img
+		  alt="sri-dsa's Top Languages"
+		  src="https://github-readme-stats.vercel.app/api/top-langs/?username=sri-dsa&langs_count=12&layout=compact&theme=midnight-purple&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=jupyter%20notebook,roff"
+		/>
+	  </a>
+	</p>
+  
+	<p align="center">
+	  <a class="no-transform" href="https://github.com/sri-dsa?tab=repositories" target="_blank">
+		<img
+		  src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true"
+		/>
+	  </a>
+	</p>
+  </section>
+					
+					<a href="#footer" class="goto-next scrolly">Next</a>
+				</section>
 
+			<!-- Footer -->
+				<footer id="footer" >
+					<ul class="icons" style="font-size: 1.75em;">
+						<li><a href="mailto:sk.data@icloud.com" id="email-link"><i class="fa-solid fa-envelope"></i></a></li>
+						<li><a href="https://linkedin.com/in/srivak" target="_blank" id="linkedin-link"><i class="fa-brands fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/sri-dsa" target="_blank" id="github-link"><i class="fa-brands fa-github"></i></a></li>
+						<li><a href="https://www.hackerrank.com/profile/sk_data" target="_blank" id="hackerrank"><i class="fab fa-hackerrank"></i></a></li>
+						<li> <a href="tel:+447442002336" id="phone-link"><i class="fa-solid fa-mobile-screen-button"></i></a></li>
+						<li><a href="https://www.google.com/maps?q=10+Spring+Grove+Walk,+Burley,+Leeds,+LS6+1RR" target="_blank" id="location-link"><i class="fa-solid fa-map-location-dot"></i>
+						</a></li>
+					</ul>
+					<ul class="copyright">
+						<h4 class="designer-info">Designer/Editor: <a href="https://www.linkedin.com/in/srivak/"><span class="shaking-emoji">🎨</span> Srivathsan Karthikeyan</a></h4>
+						<a href="https://www.linkedin.com/in/srivak/" target="_blank"><span class="button primary" onmouseover="this.innerText=' No Pain ↔️ No Glory!🚀'" onmouseout="this.innerText='🔥 Runs on Perseverance'">🔥 Runs on Perseverance</span></a>
+						<a href="https://www.linkedin.com/in/srivak/" target="_blank">
+							<span class="button primary" onmouseover="this.innerText='Just Hire Me'" onmouseout="this.innerText='💰 Accepting Donations'">💰 Accepting Donations</span>
+						</a>
+					</ul>
+					<ul class="copyright">
+						<p>© <span class="blinking-eye">👀</span> This site is under heavy surveillance because I'm too broke to copyright.<span style="display: inline-block; position: relative; animation: beeFlight1 4s infinite ease-in-out;">🐝</span></p>
+						<h4 style="display: inline; font-weight: bold;">
+							<span style="display: inline-block; position: relative; animation: beeFlight3 4s infinite ease-in-out;">🐝</span>&nbsp; Bumble Bee can fly, Not just in straight motion, but also Sideways, even in reverse<span style="display: inline-block; position: relative; animation: beeFlight2 4s infinite ease-in-out;">🐝</span>
+						  </h4>
+						  
+						  <style>
+						  @keyframes beeFlight1 {
+							0%   { transform: translate(0, 0); }
+							25%  { transform: translate(40px, -30px); }
+							50%  { transform: translate(80px, 10px); }
+							75%  { transform: translate(40px, 40px); }
+							100% { transform: translate(0, 0); }
+						  }
+						  
+						  @keyframes beeFlight2 {
+							0%   { transform: translate(0, 0); }
+							20%  { transform: translate(-40px, -20px); }
+							40%  { transform: translate(-80px, 30px); }
+							60%  { transform: translate(-60px, -40px); }
+							100% { transform: translate(0, 0); }
+						  }
+						  
+						  @keyframes beeFlight3 {
+							0%   { transform: translate(0, 0); }
+							30%  { transform: translate(60px, 50px); }
+							60%  { transform: translate(-30px, 80px); }
+							90%  { transform: translate(30px, -40px); }
+							100% { transform: translate(0, 0); }
+						  }
+						  </style>
+					</ul>
+				</footer>
 
-    <script>
-        function toggleTheme() {
-            document.body.classList.toggle('light-mode');
-        }
+		</div>
 
-        fetch('https://api.github.com/users/sri-dsa')
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('profile-pic').src = data.avatar_url;
-                document.getElementById('profile-name').textContent = data.name || "sri-dsa";
-                document.getElementById('location').textContent = data.location || "Not available";
-            });
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script>
+    fetch('https://api.github.com/users/sri-dsa')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('profile-pic').src = data.avatar_url;
+			document.getElementById('profile-name').textContent = data.name || "Srivathsan Karthikeyan";
+            document.getElementById('location').textContent = data.location || "Not available";
+        })
+        .catch(error => console.error('GitHub fetch error:', error));
+</script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-        fetch('README.md')
-            .then(response => response.text())
-            .then(markdown => {
-                var converter = new showdown.Converter();
-                document.querySelector('.markdown-content').innerHTML = converter.makeHtml(markdown);
-            });
-    </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
-</body>
+	</body>
 </html>
