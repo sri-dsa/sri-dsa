@@ -88,7 +88,32 @@
 					  </style>
 					<div class="content">
 						<header style="text-align: center;">
-							<h1 id="profile-name" style="font-weight: bold;"></h1>
+							<h1 id="profile-name"
+    style="
+        font-weight: bold;
+        font-size: 2.2em;
+        display: inline-block;
+        background: linear-gradient(90deg, #D6A90D 20%, #FFD700 40%, #FFEC8B 60%, #D6A90D 80%);
+        background-size: 400%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: background-position 2s ease-in-out;
+    "
+    onload="
+        let pos = 0;
+        setInterval(() => {
+            pos = (pos + 1) % 100;
+            this.style.backgroundPosition = pos + '% 50%';
+        }, 50);
+    "
+    onmouseover="
+        this.style.transform = 'scale(1.03)';
+    "
+    onmouseout="
+        this.style.transform = 'scale(1)';
+    "
+></h1>
 							<div class="icon-links" style="font-size: 1.65em;">
 								<a href="mailto:sk.data@icloud.com" id="email-link"><i class="fa-solid fa-envelope"></i></a>
 								<a href="https://linkedin.com/in/srivak" target="_blank" id="linkedin-link"><i class="fa-brands fa-linkedin"></i></a>
