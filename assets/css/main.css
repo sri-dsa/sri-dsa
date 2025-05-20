@@ -191,7 +191,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		color: #B68B4B;
+		color: #B68B4B; 
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -3201,7 +3201,7 @@ input, select, textarea {
 			height: 101%;
 			padding: 6em 3em;
 			top: 0;
-			width: 40em;
+			width: 32em;
 		}
 
 		.spotlight.left .content {
