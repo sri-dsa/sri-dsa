@@ -38,6 +38,50 @@
     padding: 0 15px;
 }
 
+/* Unified Scrolly Button Styling */
+.goto-next.scrolly {
+    display: block;
+    text-align: center;
+    padding: 0.5em 2em;
+    font-size: 1em; /* Slightly smaller for better fit */
+    background-color: #B06821;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 1rem auto; /* Reduced margin, centered */
+    width: fit-content;
+    transition: background-color 0.3s ease;
+    position: relative !important; /* Override absolute positioning */
+    left: 0 !important; /* Prevent right alignment */
+    transform: none !important; /* Prevent template transforms */
+    z-index: 1; /* Ensure visibility */
+}
+
+/* Hover effect */
+.goto-next.scrolly:hover {
+    background-color: #9E2C21;
+}
+
+/* Adjust for mobile view */
+@media screen and (max-width: 736px) {
+    .goto-next.scrolly {
+        font-size: 0.85em; /* Smaller for mobile */
+        padding: 0.4em 1.5em;
+        margin: 0.8rem auto; /* Reduced margin for mobile */
+    }
+}
+
+/* Section padding to accommodate button without excessive space */
+#banner, #one, #two, #three, #four, #five {
+    padding-bottom: 2rem; /* Reduced padding */
+}
+
+@media screen and (max-width: 736px) {
+    #banner, #one, #two, #three, #four, #five {
+        padding-bottom: 1.5rem; /* Reduced for mobile */
+    }
+}
+
 </style>
 	<body class="is-preload landing">
 		<div id="page-wrapper">
@@ -156,30 +200,27 @@
 								  </p>
 						</header>
 						<span class="image"><img id="profile-pic" src="" alt="GitHub Profile Picture" /></span>
+						<a href="#one" class="goto-next scrolly">Scrolly</a>
 					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
 				<!-- One -->
 			<section id="one" class="spotlight style1 bottom">
-			  
-				<span class="image fit main"><img src="images/pic03.png" alt="" /></span>
-			  
-				<div class="content">
-				  <div class="container" style="text-align: center;">
-					<header>
-						<h2>Artificial Intelligence Projects Portfolio</h2>
-						<ul class="actions" style="text-align: center; list-style: none; padding: 0; margin: 0 auto; display: flex; justify-content: center;">
-						<li style="display: inline-block;">
-							<a href="https://sri-dsa.github.io/ML/" target="_blank" class="button" style="display: inline-block; margin: 0;">Click Here</a>
-						</li>
-					</ul>
-						<h3>Author : Srivathsan Karthikeyan</h3>
-					</header>
-					
-				</div>
-				  </div>
-				</div>
-			</section>
+    <span class="image fit main"><img src="images/pic03.png" alt="" /></span>
+    <div class="content">
+        <div class="container" style="text-align: center; display: flex; align-items: center; justify-content: center; flex-wrap: wrap;">
+            <header style="flex: 1; min-width: 0;">
+                <h2>Artificial Intelligence Projects Portfolio</h2>
+                <ul class="actions" style="text-align: center; list-style: none; padding: 0; margin: 0 auto; display: flex; justify-content: center;">
+                    <li style="display: inline-block;">
+                        <a href="https://sri-dsa.github.io/ML/" target="_blank" class="button" style="display: inline-block; margin: 0;">Click Here</a>
+                    </li>
+                </ul>
+                <h3>Author: Srivathsan Karthikeyan</h3>
+            </header>
+            <a href="#two" class="goto-next scrolly" style="margin-left: 1rem;">Scrolly</a>
+        </div>
+    </div>
+</section>
 
 
 				<!-- Two -->
@@ -238,12 +279,13 @@
 						<p>2018–2022</p>
 						<p><b>Click to View:</b> <a href="https://drive.google.com/file/d/1WdcokM4yQRKNRQAXqa2_a1d_h_84f6JH/view?usp=sharing" target="_blank">📜 Degree Certificate</a></p>
 					  </div>
+					  <a href="#three" class="goto-next scrolly">Scrolly</a>
 					</div>
 				  </section>
 			
 				
 			<!-- Four -->
-			<section id="four" class="wrapper style1 special fade-up" style="padding: 4em 0;">
+			<section id="three" class="wrapper style1 special fade-up" style="padding: 4em 0;">
 				<style>
 					a:hover {
 						display: inline-block;
@@ -356,13 +398,13 @@
 					  <a class="certificate" href="https://drive.google.com/file/d/1neV-J7jXe2Klf0jRQO5-IIJIjJ6fqleW/view?usp=sharing" target="_blank">📜 View Certificate</a>
 					</div>
 					<div>
-						
 					</div>
 				  </div>
+				  <a href="#four" class="goto-next scrolly">Scrolly</a>
 				</div>
 			  </section>
 
-		<section id="four" class="wrapper style1 special fade-up">
+				<section id="four" class="wrapper style1 special fade-up">
     <div class="container">
         <header class="major">
             <h2>Highlighted Specialisations and Certifications</h2>
@@ -420,11 +462,13 @@
             </ul>
             <p>Click Above for viewing all certificates</p>
         </footer>
+		<a href="#five" class="goto-next scrolly">Scrolly</a>
     </div>
 </section>
 
-				<!-- Three -->
-				<section id="three" class="spotlight style3 left">
+
+<!-- Three -->
+				<section id="five" class="spotlight style3 left">
 					<span class="image fit main bottom"><img src="SIH.jpg" alt="" /></span>
 					<div class="content">
 						<header>
@@ -443,11 +487,12 @@
 							<li><a href="https://www.sih.gov.in/sih2020Hardware" target="_blank" class="button">More about Event</a></li>
 						</ul>
 						</header>
+						<a href="#six" class="goto-next scrolly">Scrolly</a>
 					</div>
 					
 				</section>
 
-				<section id="five" class="wrapper style1 special fade-up">
+				<section id="six" class="wrapper style1 special fade-up">
 					<h1 style="display: inline; margin-right: 10px;">Connect with me :
 						<p align="center" style="display: inline;">
 						  <a href="https://www.linkedin.com/in/srivak/" target="_blank">
@@ -531,7 +576,7 @@
 	</p>
   </section>
 					
-					<a href="#footer" class="goto-next scrolly">Next</a>
+					<a href="#footer" class="goto-next scrolly">Scrolly</a>
 				</section>
 
 			<!-- Footer -->
