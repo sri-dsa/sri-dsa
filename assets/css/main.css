@@ -36,6 +36,26 @@
     display: block;
 }
 
+#profile-name {
+    font-weight: bold;
+    opacity: 1;
+    transform: scale(1.03);
+    text-transform: uppercase;
+
+    /* Golden Gradient for Text */
+    background: linear-gradient(45deg, #d4af37, #f7d78a, #d4af37, #b8860b, #f7d78a, #d4af37);
+    background-size: 400% 400%;
+    
+    /* Apply gradient to text */
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* For Safari/Chrome */
+    color: transparent; /* Fallback for browsers that don't support -webkit-text-fill-color */
+
+    /* Animation */
+    animation: shimmer 8s ease-in-out infinite;
+}
+
 .profile-info h2 {
 
     margin: 0.5em 0;
