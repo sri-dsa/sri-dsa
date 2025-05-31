@@ -1,0 +1,827 @@
+/* assets/css/anime.css */
+
+/* --- Global Variables --- */
+:root {
+    --elite-text-color: white;
+    --elite-golden-gradient: linear-gradient(45deg, #d4af37, #f7d78a, #d4af37, #b8860b, #f7d78a, #d4af37);
+    --elite-golden-solid: #c5a240; /* Solid gold for underlines/icons */
+    --elite-accent-color-subtle: rgba(255, 255, 255, 0.7);
+    --elite-dropdown-bg: rgba(10, 25, 15, 0.96);
+    --elite-dropdown-border-glow: rgba(212, 175, 55, 0.35); /* For subtle border animation */
+
+    /* Transitions & Easing */
+    --elite-transition-duration-gentle: 0.4s; /* Slightly adjusted for new effects */
+    --elite-easing-gentle-hover: cubic-bezier(0.25, 0.1, 0.25, 1.0);
+    --elite-easing-underline: cubic-bezier(0.22, 0.61, 0.36, 1); /* Refined for underline */
+
+    --elite-entry-duration-header: 2s;
+    --elite-entry-duration-item: 1.5s;
+    --elite-easing-subtle-entry: cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+/* --- Header Section Animations (Entry animations retained from previous version) --- */
+
+@keyframes headerDeepSubtleEntry {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+#header {
+    animation: headerDeepSubtleEntry var(--elite-entry-duration-header) var(--elite-easing-subtle-entry) 0.3s forwards;
+}
+
+@keyframes classyTextMaterialize {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+#logo a {
+    display: inline-block; opacity: 0;
+    animation: classyTextMaterialize var(--elite-entry-duration-item) var(--elite-easing-subtle-entry) forwards;
+    animation-delay: calc(var(--elite-entry-duration-header) * 0.4);
+}
+#nav > ul > li > a {
+    display: inline-block; opacity: 0;
+    animation: classyTextMaterialize var(--elite-entry-duration-item) var(--elite-easing-subtle-entry) forwards;
+}
+#nav > ul > li:nth-child(1) > a { animation-delay: calc(var(--elite-entry-duration-header) * 0.5); }
+#nav > ul > li:nth-child(2) > a { animation-delay: calc(var(--elite-entry-duration-header) * 0.55); }
+#nav > ul > li:nth-child(3) > a { animation-delay: calc(var(--elite-entry-duration-header) * 0.6); }
+#nav > ul > li:nth-child(4) > a { animation-delay: calc(var(--elite-entry-duration-header) * 0.65); }
+#nav > ul > li:nth-child(5) > a { animation-delay: calc(var(--elite-entry-duration-header) * 0.7); }
+#nav > ul > li:nth-child(6) > a { animation-delay: calc(var(--elite-entry-duration-header) * 0.75); }
+#nav > ul > li:nth-child(7) > a { animation-delay: calc(var(--elite-entry-duration-header) * 0.8); }
+#nav > ul > li:nth-child(8) > a { animation-delay: calc(var(--elite-entry-duration-header) * 0.85); }
+
+/* --- Link Styling with Golden Gradient Hover (SHARED) --- */
+
+/* Initial state for ALL links that will get the golden gradient text on hover */
+#logo a,
+#nav > ul > li > a,
+#nav > ul > li > ul > li > a { /* <<<< CRITICAL: Includes dropdown <a> tags */
+    position: relative;
+    text-decoration: none;
+    color: var(--elite-text-color);
+    background: none; /* ESSENTIAL: No initial background */
+    -webkit-background-clip: initial; /* Reset */
+    background-clip: initial;         /* Reset */
+    -webkit-text-fill-color: initial; /* Reset: Allows 'color' to be visible */
+    text-shadow: none; /* Start clean or with a very subtle default shadow */
+    transition: transform var(--elite-transition-duration-gentle) var(--elite-easing-gentle-hover);
+}
+
+/* Padding for main nav links to accommodate underline */
+#nav > ul > li > a {
+    padding-bottom: 5px; /* Adjust if underline thickness changes */
+}
+
+/* Specific display and padding for dropdown items' <a> tags */
+#nav > ul > li > ul > li > a {
+    display: flex; /* Retained for icon alignment */
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 28px; /* Generous padding */
+}
+
+/* Golden Gradient Hover Effect (APPLIES TO LOGO, MAIN NAV, AND DROPDOWN NAV LINKS) */
+/* <<<< IF THIS IS NOT WORKING FOR DROPDOWN LINKS, PLEASE USE BROWSER DEV TOOLS TO INSPECT THE <a> TAG ON HOVER >>>> */
+/* <<<< Check for conflicting 'color', 'background', 'background-clip', or '-webkit-text-fill-color' rules from other CSS files. >>>> */
+#logo a:hover,
+#nav > ul > li > a:hover,
+#nav > ul > li > ul > li > a:hover { /* <<<< CRITICAL: Includes dropdown <a> tags hover */
+    transform: translateY(-1px); /* Extremely subtle lift */
+    color: transparent; /* Text becomes transparent */
+    background: var(--elite-golden-gradient); /* Gradient applied to background */
+    background-size: 100% 100%;
+    -webkit-background-clip: text; /* Clips background to text shape */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* Makes text fill transparent (WebKit) */
+    /* Optional subtle text-shadow for depth with gold: */
+    /* text-shadow: 0 1px 3px rgba(0,0,0,0.15); */
+}
+
+/* Underline for Main Navigation Links (excluding 'Contact' parent) - Refined Animation */
+#nav > ul > li > a:not(:has(+ ul))::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 1px; /* Thinner for more elegance */
+    background-color: var(--elite-accent-color-subtle);
+    opacity: 0;
+    /* Start slightly lower and centered for width animation */
+    transform: translateX(-50%) translateY(2px);
+    transition: width var(--elite-transition-duration-gentle) var(--elite-easing-underline),
+                background-color var(--elite-transition-duration-gentle) var(--elite-easing-gentle-hover),
+                opacity calc(var(--elite-transition-duration-gentle) * 0.7) ease-in, /* Faster opacity */
+                transform var(--elite-transition-duration-gentle) var(--elite-easing-underline);
+}
+
+#nav > ul > li > a:not(:has(+ ul)):hover::after {
+    width: 70%;
+    background-color: var(--elite-golden-solid);
+    opacity: 1;
+    transform: translateX(-50%) translateY(0); /* Settles into position */
+}
+
+#nav > ul > li > a:has(+ ul)::after {
+    content: none;
+}
+
+/* --- Contact Dropdown Menu Styling --- */
+#nav > ul > li > ul { /* The dropdown <ul> itself */
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px) scaleY(0.99);
+    transform-origin: top center;
+    background-color: var(--elite-dropdown-bg);
+    border-radius: 5px;
+    padding: 8px 0;
+    min-width: 230px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    list-style: none;
+    margin-top: 10px;
+    /* NEW: Subtle border for animation */
+    border: 1px solid transparent; /* Holds space, initially transparent */
+    transition: opacity 0.3s var(--elite-easing-gentle-hover),
+                transform 0.3s var(--elite-easing-gentle-hover),
+                visibility 0s 0.3s, /* Standard delay for visibility */
+                border-color 0.4s var(--elite-easing-gentle-hover) 0.1s; /* Border animates slightly delayed on open */
+}
+
+#nav > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scaleY(1);
+    border-color: var(--elite-dropdown-border-glow); /* NEW: Subtle gold border appears */
+    transition-delay: 0s, 0s, 0s, 0.1s; /* Ensure border-color delay is 0.1s on open */
+}
+
+/* Hover effect for individual dropdown <a> items */
+/* Golden gradient text and subtle lift are applied by the SHARED hover rule above. */
+/* This block is for any *additional* specific hover effects on dropdown items. */
+#nav > ul > li > ul > li > a:hover {
+    /* transform: translateY(-1px); is ALREADY APPLIED by the shared rule */
+    /* padding-left: 30px; /* Optional: Indent on hover. Remove if too much. */
+}
+
+/* Icons within Dropdown Links */
+#nav > ul > li > ul > li > a i {
+    color: var(--elite-accent-color-subtle);
+    transition: color var(--elite-transition-duration-gentle) var(--elite-easing-gentle-hover),
+                transform var(--elite-transition-duration-gentle) var(--elite-easing-gentle-hover); /* Added transform transition */
+    transform: scale(1); /* Initial scale */
+    font-size: 1em;
+}
+
+#nav > ul > li > ul > li > a:hover i {
+    color: var(--elite-golden-solid);
+    transform: scale(1.05); /* NEW: Very subtle scale on icon hover for polish */
+}
+
+
+/* assets/css/anime.css - Banner Section */
+
+/* --- Banner Element Entry Animations --- */
+
+/* 0. Overall Banner Content Subtle Fade-In */
+@keyframes bannerOverallContentFadeIn {
+    from { opacity: 0.3; } to { opacity: 1; }
+}
+#banner > .content {
+    opacity: 0.3;
+    animation: bannerOverallContentFadeIn 1.5s cubic-bezier(0.4, 0.0, 0.2, 1) 0.1s forwards;
+}
+
+/* 1. Profile Picture - "Dynamic Iris Focus" Reveal & Idle Breathe */
+@keyframes profilePicIrisFocus {
+    0% { opacity: 0; transform: scale(1.2); clip-path: circle(0% at 50% 50%); filter: brightness(1.5) blur(2px); }
+    70% { opacity: 1; transform: scale(1); clip-path: circle(70% at 50% 50%); filter: brightness(1) blur(0px); }
+    100% { opacity: 1; transform: scale(1); clip-path: circle(70% at 50% 50%); filter: brightness(1) blur(0px); }
+}
+@keyframes profilePicSubtleBreathe {
+    0%, 100% { transform: scale(1); } 50% { transform: scale(1.01); }
+}
+#banner span.image {
+    display: inline-block; position: relative; overflow: hidden;
+    /* opacity initially 0, handled by img animation now if span itself doesn't animate opacity */
+    /* width: 180px; height: 180px; border-radius: 50%; /* Example: ensure span has dimensions */
+}
+#banner span.image img#profile-pic {
+    display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 50%;
+    opacity: 0; transform: scale(1); /* Initial state for animation */
+    animation: profilePicIrisFocus 1.3s cubic-bezier(0.33, 1, 0.68, 1) 0.5s forwards, /* Iris reveal starts */
+               profilePicSubtleBreathe 7s ease-in-out infinite 2.5s; /* Breathing starts after entry */
+    transition: transform 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+#banner span.image:hover img#profile-pic { transform: scale(1.15); }
+
+@keyframes profileNameSwiftAscend {
+    0% {
+        opacity: 0;
+        /* Starts at the final scale but translated down & clipped */
+        transform: translateY(20px) scale(1.03);
+        clip-path: inset(100% 0% 0% 0%); /* Fully clipped from bottom */
+    }
+    30% {
+        opacity: 0.95; /* Becomes visible quickly while still rising/unveiling */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1.03); /* Final position & scale */
+        clip-path: inset(0% 0% 0% 0%); /* Fully revealed */
+    }
+}
+
+#banner #profile-name {
+    /* Initial states for the entry animation */
+    opacity: 0;
+    display: block; /* Or inline-block; important for clip-path and transform */
+    /* Your main CSS handles:
+        - font-weight, text-transform
+        - background gradient, background-size
+        - background-clip, text-fill-color, color (for gradient text)
+        - AND the 'shimmer' @keyframes definition
+    */
+
+    /* --- THIS IS THE KEY CHANGE --- */
+    /* Apply BOTH animations:
+       1. Our 'profileNameSwiftAscend' for the entry (runs once, forwards).
+       2. Your 'shimmer' animation (runs infinitely, starts after entry is complete).
+    */
+    animation:
+        profileNameSwiftAscend 0.7s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.8s forwards, /* Faster (0.7s), adjusted delay (0.8s) */
+        shimmer 8s ease-in-out infinite 1.5s; /* Your shimmer, starts after entry (0.8s delay + 0.7s duration = 1.5s) */
+    
+    /* NO color, background, or text-fill properties are set by anime.css here.
+       The 'profileNameSwiftAscend' only animates opacity, transform, and clip-path.
+       It will respect the scale(1.03) and opacity:1 from your main CSS as its end-state. */
+}
+
+/* 3. Icon Links - "Starlight Pop" Entry */
+@keyframes bannerIconGroupAppear {
+    from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); }
+}
+#banner .icon-links {
+    opacity: 0;
+    animation: bannerIconGroupAppear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.2s forwards; /* Delay for container */
+}
+
+@keyframes iconStarlightPop {
+    0% { opacity: 0; transform: scale(0.5); }
+    60% { opacity: 1; transform: scale(1.2); }
+    100% { opacity: 1; transform: scale(1); }
+}
+@keyframes iconSparkleEffect { /* Sparkle for the icon's ::before */
+    0% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+    20% { transform: translate(-50%, -50%) scale(3); opacity: 0.7; }
+    100% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+}
+#banner .icon-links a {
+    display: inline-block; opacity: 0; position: relative; transform: scale(0.5); /* Initial for pop */
+    animation: iconStarlightPop 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+#banner .icon-links a::before { /* Sparkle pseudo-element */
+    content: ''; position: absolute; top: 50%; left: 50%; width: 8px; height: 8px;
+    background: white; border-radius: 50%; transform: translate(-50%, -50%) scale(0); opacity: 0;
+    animation: iconSparkleEffect 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+/* Staggering for icons (apply to both <a> and its ::before) */
+#banner .icon-links a:nth-child(1), #banner .icon-links a:nth-child(1)::before { animation-delay: 1.5s; }
+#banner .icon-links a:nth-child(2), #banner .icon-links a:nth-child(2)::before { animation-delay: 1.6s; }
+#banner .icon-links a:nth-child(3), #banner .icon-links a:nth-child(3)::before { animation-delay: 1.7s; }
+#banner .icon-links a:nth-child(4), #banner .icon-links a:nth-child(4)::before { animation-delay: 1.8s; }
+#banner .icon-links a:nth-child(5), #banner .icon-links a:nth-child(5)::before { animation-delay: 1.9s; }
+#banner .icon-links a:nth-child(6), #banner .icon-links a:nth-child(6)::before { animation-delay: 2.0s; }
+
+/* Hover for icons - NO color change from anime.css */
+#banner .icon-links a i {
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), text-shadow 0.35s ease;
+}
+#banner .icon-links a:hover i {
+    transform: scale(1.25) translateY(-3px) rotateZ(5deg);
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5), 0 0 25px rgba(255, 255, 255, 0.3); /* Glow */
+}
+
+/* 4. Skill Badges (#Somma) - Sophisticated Reveal with Glint */
+@keyframes bannerBadgeUnfoldWithGlint {
+    0% { opacity: 0.3; transform: perspective(800px) rotateX(-80deg) translateY(20px) scale(0.95); filter: brightness(0.8); }
+    85% { opacity: 1; transform: perspective(800px) rotateX(0deg) translateY(0) scale(1); filter: brightness(1.0); }
+    90% { filter: brightness(1.3); } /* Glint */
+    100% { opacity: 1; transform: perspective(800px) rotateX(0deg) translateY(0) scale(1); filter: brightness(1); }
+}
+#banner #Somma { /* Container for badges */
+    opacity: 0;
+    animation: bannerIconGroupAppear 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.3s forwards; /* Adjusted delay */
+}
+#banner #Somma a { /* Individual badge links */
+    display: inline-block; opacity: 0; transform-style: preserve-3d;
+    animation: bannerBadgeUnfoldWithGlint 1.2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+/* Staggering for badges - delays adjusted */
+#banner #Somma a:nth-child(1) { animation-delay: 2.6s; }
+#banner #Somma a:nth-child(2) { animation-delay: 2.7s; }
+#banner #Somma a:nth-child(3) { animation-delay: 2.8s; }
+#banner #Somma a:nth-child(4) { animation-delay: 2.9s; }
+#banner #Somma a:nth-child(5) { animation-delay: 3.0s; }
+#banner #Somma a:nth-child(6) { animation-delay: 3.1s; }
+#banner #Somma a:nth-child(7) { animation-delay: 3.2s; }
+
+/* Hover for badges - retained */
+#banner #Somma a img {
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#banner #Somma a:hover img {
+    transform: scale(1.08) translateY(-4px) translateZ(10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 5. Location Text (h3#location) - Elegant Clip-Path Reveal */
+@keyframes locationElegantClipReveal {
+    0% { opacity: 0; transform: translateY(10px); clip-path: inset(0% 100% 0% 0%); }
+    40% { opacity: 1; }
+    100% { opacity: 1; transform: translateY(0); clip-path: inset(0% 0% 0% 0%); }
+}
+#banner #location {
+    opacity: 0; display: inline-block; transform: translateY(10px); clip-path: inset(0% 100% 0% 0%);
+    animation: locationElegantClipReveal 1.5s cubic-bezier(0.645, 0.045, 0.355, 1.000) 3.4s forwards; /* Adjusted delay */
+    /* Color for location text will come from your main CSS */
+}
+```Okay, "bro bro," let's get this done! We're going for optimal "royal, elite, non-cringey, classy, elegant" animations, with a faster "Rolex-style rise from nothing" for your name and more unique "stand-out" effects for other elements, building on what you liked.
+
+**Key Changes:**
+
+1.  **Profile Name Animation (Faster "Rolex Rise"):**
+    * The `profileNameSwiftAscend` animation using `clip-path` will be faster.
+    * Absolutely no color properties will be touched by `anime.css` for the name; your main CSS handles its appearance.
+
+2.  **More Unique "Stand-Out" Animations (Inspired by Somma's "Lightning"):**
+    * **Profile Picture:** A new "Dynamic Iris Focus" reveal – a sharp, quick circular expansion with a flash of brightness.
+    * **Icon Links:** A new "Starlight Pop" entry – icons will pop into view with a preceding tiny sparkle.
+    * **Location Text:** A new "Elegant Clip-Path Reveal" – text will smoothly unveil from one side.
+    * The Somma badge "unfold with glint" you liked is retained.
+    * All entry delays are re-orchestrated for a cohesive, luxurious build-up.
+
+Here's the updated `anime.css` for your `#banner` section:
+
+```css
+/* assets/css/anime.css - Banner Section */
+
+/* --- Banner Element Entry Animations --- */
+
+/* 0. Overall Banner Content Subtle Fade-In (Retained) */
+@keyframes bannerOverallContentFadeIn {
+    from { opacity: 0.3; } 
+    to { opacity: 1; }
+}
+#banner > .content {
+    opacity: 0.3; /* Initial state for the overall container */
+    animation: bannerOverallContentFadeIn 1.5s cubic-bezier(0.4, 0.0, 0.2, 1) 0.1s forwards;
+}
+
+/* 1. Profile Picture - NEW "Dynamic Iris Focus" Reveal & Retained Idle Breathe */
+@keyframes profilePicIrisFocus {
+    0% { 
+        opacity: 0; 
+        transform: scale(1.25); /* Start slightly larger for impact */
+        clip-path: circle(0% at 50% 50%); 
+        filter: brightness(1.7) blur(3px); /* Brighter initial flash */
+    }
+    70% { /* Iris expands, image sharpens and normalizes */
+        opacity: 1; 
+        transform: scale(1); 
+        clip-path: circle(75% at 50% 50%); /* Adjust final circle coverage */
+        filter: brightness(1) blur(0px);
+    }
+    100% { /* Hold final state */
+        opacity: 1; 
+        transform: scale(1); 
+        clip-path: circle(75% at 50% 50%);
+        filter: brightness(1) blur(0px);
+    }
+}
+@keyframes profilePicSubtleBreathe { /* Retained idle animation */
+    0%, 100% { transform: scale(1); } 
+    50% { transform: scale(1.008); } /* Even more subtle breathing */
+}
+
+#banner span.image { /* Container for overflow, sizing, and positioning */
+    display: inline-block; 
+    position: relative; 
+    overflow: hidden;
+    /* Ensure dimensions are set for span.image in your main CSS for clip-path to work as expected */
+    /* e.g., width: 180px; height: 180px; border-radius: 50%; */
+    /* Opacity for span.image itself is not animated; img inside handles its own reveal */
+}
+
+#banner span.image img#profile-pic {
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; /* Ensures image fills the span, may crop */
+    border-radius: 50%; /* Assuming circular */
+    opacity: 0; /* Start hidden */
+    transform: scale(1); /* Initial animation scale will override */
+    animation: profilePicIrisFocus 1.1s cubic-bezier(0.33, 1, 0.68, 1) 0.4s forwards, /* Faster, more impactful iris */
+               profilePicSubtleBreathe 8s ease-in-out infinite 2.2s; /* Breathing starts after reveal */
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Retained hover zoom */
+}
+#banner span.image:hover img#profile-pic { 
+    transform: scale(1.15); /* Retained Rolex-style zoom */
+}
+
+/* 2. Profile Name - MODIFIED Fast & Clean Royal Ascent (Rolex Style) */
+@keyframes profileNameSwiftAscend {
+    0% { 
+        opacity: 0; 
+        transform: translateY(20px) scale(1.03); /* Slightly less travel, final scale set */
+        clip-path: inset(100% 0% 0% 0%); /* Start fully clipped from bottom */
+    }
+    40% { /* Becomes visible earlier in its ascent */
+        opacity: 0.95; 
+    }
+    100% { 
+        opacity: 1; 
+        transform: translateY(0) scale(1.03); /* Final position & scale */
+        clip-path: inset(0% 0% 0% 0%); /* Fully revealed */
+    }
+}
+#banner #profile-name {
+    opacity: 0; /* Initial state for animation */
+    display: block; /* Or inline-block, ensure it allows transform & clip-path */
+    /* Your inline style transform: scale(1.03) is the animation's target end state */
+    animation: profileNameSwiftAscend 0.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.7s forwards; /* Faster, custom elegant ease (EaseInSine like start, EaseOutSine like end) */
+    /* NO color properties are set or transitioned by anime.css here */
+}
+
+/* 3. Icon Links - NEW "Starlight Pop" Entry */
+@keyframes bannerIconGroupAppear { /* Container animation retained */
+    from { opacity: 0; transform: translateY(15px); } 
+    to { opacity: 1; transform: translateY(0); }
+}
+#banner .icon-links {
+    opacity: 0;
+    animation: bannerIconGroupAppear 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.0s forwards; /* Adjusted delay */
+}
+
+@keyframes iconStarlightPop { /* Main icon pop animation */
+    0% { opacity: 0; transform: scale(0.4); }
+    60% { opacity: 1; transform: scale(1.25); } /* Pop bigger */
+    100% { opacity: 1; transform: scale(1); }   /* Settle */
+}
+@keyframes iconSparkleEffect { /* Pseudo-element sparkle animation */
+    0% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+    30% { transform: translate(-50%, -50%) scale(3.5); opacity: 0.8; } /* Sparkle expands large and bright */
+    100% { transform: translate(-50%, -50%) scale(0); opacity: 0; } /* Sparkle quickly fades */
+}
+
+#banner .icon-links a {
+    display: inline-block; 
+    opacity: 0; /* Handled by animation */
+    position: relative; /* For the ::before sparkle */
+    transform: scale(0.4); /* Initial state for iconStarlightPop */
+    animation: iconStarlightPop 0.7s cubic-bezier(0.68, -0.6, 0.265, 1.55) forwards; /* EaseInOutBack with overshoot */
+}
+#banner .icon-links a::before { /* The sparkle */
+    content: ''; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    width: 6px; /* Smaller, sharper sparkle base */
+    height: 6px;
+    background: white; /* Sparkle color - can be a faint gold too */
+    border-radius: 50%; 
+    transform: translate(-50%, -50%) scale(0); 
+    opacity: 0;
+    /* Sparkle animation runs slightly faster and almost concurrently */
+    animation: iconSparkleEffect 0.5s cubic-bezier(0.68, -0.6, 0.265, 1.55) forwards; 
+}
+/* Staggering for icons (<a> and its ::before share the delay) */
+#banner .icon-links a:nth-child(1), #banner .icon-links a:nth-child(1)::before { animation-delay: 1.3s; }
+#banner .icon-links a:nth-child(2), #banner .icon-links a:nth-child(2)::before { animation-delay: 1.4s; }
+#banner .icon-links a:nth-child(3), #banner .icon-links a:nth-child(3)::before { animation-delay: 1.5s; }
+#banner .icon-links a:nth-child(4), #banner .icon-links a:nth-child(4)::before { animation-delay: 1.6s; }
+#banner .icon-links a:nth-child(5), #banner .icon-links a:nth-child(5)::before { animation-delay: 1.7s; }
+#banner .icon-links a:nth-child(6), #banner .icon-links a:nth-child(6)::before { animation-delay: 1.8s; }
+
+/* Hover for icons - NO color change from anime.css, retain glow, lift, scale, tilt */
+#banner .icon-links a i {
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), text-shadow 0.3s ease;
+}
+#banner .icon-links a:hover i {
+    transform: scale(1.25) translateY(-3px) rotateZ(5deg); /* Retained transform */
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.6), 0 0 25px rgba(255, 255, 255, 0.4); /* Enhanced white glow */
+}
+
+/* 4. Skill Badges (#Somma) - Sophisticated Reveal with Glint (Retained & Polished) */
+#banner #Somma { /* Container for badges */
+    opacity: 0;
+    animation: bannerIconGroupAppear 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.1s forwards; /* Adjusted delay */
+}
+@keyframes bannerBadgeUnfoldWithGlint { /* Retained with slight polish to glint */
+    0% { opacity: 0.3; transform: perspective(800px) rotateX(-80deg) translateY(20px) scale(0.95); filter: brightness(0.8); }
+    80% { opacity: 1; transform: perspective(800px) rotateX(0deg) translateY(0) scale(1); filter: brightness(1.0); }
+    88% { filter: brightness(1.4); } /* Sharper, quicker glint */
+    100% { opacity: 1; transform: perspective(800px) rotateX(0deg) translateY(0) scale(1); filter: brightness(1); }
+}
+#banner #Somma a {
+    display: inline-block; opacity: 0; transform-style: preserve-3d;
+    animation: bannerBadgeUnfoldWithGlint 1.1s cubic-bezier(0.19, 1, 0.22, 1) forwards; /* Slightly shorter duration */
+}
+/* Staggering for badges - adjusted delays */
+#banner #Somma a:nth-child(1) { animation-delay: 2.4s; }
+#banner #Somma a:nth-child(2) { animation-delay: 2.5s; }
+#banner #Somma a:nth-child(3) { animation-delay: 2.6s; }
+#banner #Somma a:nth-child(4) { animation-delay: 2.7s; }
+#banner #Somma a:nth-child(5) { animation-delay: 2.8s; }
+#banner #Somma a:nth-child(6) { animation-delay: 2.9s; }
+#banner #Somma a:nth-child(7) { animation-delay: 3.0s; }
+
+/* Hover for badges - Retained */
+#banner #Somma a img {
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+#banner #Somma a:hover img {
+    transform: scale(1.08) translateY(-4px) translateZ(10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15), 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* 5. Location Text (h3#location) - NEW Elegant Clip-Path Reveal */
+@keyframes locationElegantClipReveal {
+    0% { 
+        opacity: 0; 
+        transform: translateY(8px); /* Less travel */
+        clip-path: inset(0% 100% 0% 0%); /* Start fully clipped from the right */
+    }
+    30% { /* Becomes visible earlier */
+        opacity: 0.9; 
+    }
+    100% { 
+        opacity: 1; 
+        transform: translateY(0); 
+        clip-path: inset(0% 0% 0% 0%); /* Fully revealed (wipe from right to left) */
+    }
+}
+#banner #location {
+    opacity: 0; /* Initial state */
+    display: inline-block; /* Important for clip-path to size correctly to content */
+    transform: translateY(8px); /* Initial position for animation */
+    clip-path: inset(0% 100% 0% 0%); /* Initial clip state */
+    animation: locationElegantClipReveal 1.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) 3.2s forwards; /* Adjusted delay & new ease */
+    /* Color for location text will come from your main CSS */
+}
+
+
+/* assets/css/anime.css - Section One (Projects Portfolio) - Further Enhanced Grand Animations */
+
+/* --- Overall Content Box for Section One: "Grand Unveiling" (Retained Complexity) --- */
+@keyframes sectionOneContentGrandUnveiling {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.90) perspective(1200px) rotateX(-20deg) rotateY(5deg);
+        filter: blur(6px) brightness(0.7);
+        clip-path: inset(40% 30% 40% 30% round 10px);
+    }
+    65% {
+        opacity: 0.9;
+        transform: translate(-50%, -50%) scale(1.03) perspective(1200px) rotateX(3deg) rotateY(-1deg);
+        filter: blur(1px) brightness(1.1);
+        clip-path: inset(5% 2% 5% 2% round 5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1) perspective(1200px) rotateX(0deg) rotateY(0deg);
+        filter: blur(0px) brightness(1);
+        clip-path: inset(0% 0% 0% 0% round 0px);
+    }
+}
+#one .content {
+    opacity: 0;
+    animation: sectionOneContentGrandUnveiling 2.3s cubic-bezier(0.65, 0.05, 0.36, 1) 0.2s forwards;
+}
+
+/* --- Main Heading (Portfolio Title): "Regal Text Cascade" (Retained Complexity) --- */
+@keyframes sectionOneTitleRegalCascade {
+    0% {
+        opacity: 0;
+        transform: translateY(35px) skewY(6deg) scaleY(0.8);
+        letter-spacing: -0.08em;
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+    30% {
+        opacity: 0.6;
+        letter-spacing: 0.05em;
+        transform: translateY(10px) skewY(-2deg) scaleY(1.02);
+    }
+    75% {
+        opacity: 1;
+        transform: translateY(0px) skewY(0deg) scaleY(1);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    100% {
+        letter-spacing: normal;
+        transform: translateY(0px) skewY(0deg) scaleY(1);
+    }
+}
+#one .content header > h3.royal-text-h3-one:first-of-type {
+    opacity: 0;
+    animation: sectionOneTitleRegalCascade 2.0s cubic-bezier(0.77, 0, 0.175, 1) 0.8s forwards;
+}
+
+/* --- NEW: Actions List Container (ul.actions) --- */
+@keyframes sectionOneActionsGroupAppear {
+    0% {
+        opacity: 0;
+        transform: translateY(15px) scaleY(0.85); /* Starts lower and vertically compressed */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scaleY(1);
+    }
+}
+#one .content .actions { /* Targeting the ul.actions */
+    opacity: 0;
+    /* Ensure display: flex; justify-content: center; from inline styles are respected */
+    animation: sectionOneActionsGroupAppear 1.0s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1.5s forwards;
+}
+
+/* --- ENHANCED: Action Button ("View Portfolio"): "Majestic Call Button" --- */
+@keyframes majesticCallButtonAppear {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(20px) perspective(500px) rotateX(-30deg);
+        clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%); /* Reveals from a horizontal line */
+        filter: brightness(0.8) blur(1px);
+    }
+    50% { /* Expanding and coming forward */
+        opacity: 1;
+        transform: scale(1.05) translateY(-5px) perspective(500px) rotateX(10deg);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Fully revealed */
+        filter: brightness(1.2) blur(0px);
+    }
+    80% { /* Slight recoil for impact */
+        transform: scale(0.98) translateY(0) perspective(500px) rotateX(-5deg);
+        filter: brightness(1.1);
+    }
+    100% { /* Final resting state */
+        opacity: 1;
+        transform: scale(1) translateY(0) perspective(500px) rotateX(0deg);
+        filter: brightness(1);
+    }
+}
+#one .content .actions .button.royal-action-button {
+    opacity: 0;
+    animation: majesticCallButtonAppear 1.9s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1.8s forwards;
+}
+
+/* --- Author Name: "Scribe's Flourish Reveal" (Retained Complexity) --- */
+@keyframes sectionOneAuthorScribesFlourish {
+    0% {
+        opacity: 0;
+        transform: translateY(25px) translateX(-15px) rotate(-4deg) scaleX(0.9);
+        clip-path: ellipse(0% 30% at 0% 50%);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(0px) translateX(0px) rotate(1deg) scaleX(1.02);
+    }
+    100% {
+        transform: translateY(0px) translateX(0px) rotate(0deg) scaleX(1);
+        clip-path: ellipse(150% 100% at 50% 50%);
+    }
+}
+#one .content header > h3.royal-text-h3-one:last-of-type {
+    opacity: 0;
+    animation: sectionOneAuthorScribesFlourish 1.9s cubic-bezier(0.23, 1, 0.32, 1) 2.2s forwards;
+}
+
+/* --- Scroll-to-Next Link: "Gentle Descent & Beckoning Hint" (Retained Complexity) --- */
+@keyframes sectionOneScrollyGentleDescent {
+    0% {
+        opacity: 0;
+        transform: translateY(-25px) scale(0.8);
+    }
+    60% {
+        opacity: 0.7;
+        transform: translateY(8px) scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+#one .content .goto-next.scrolly {
+    opacity: 0;
+    animation: sectionOneScrollyGentleDescent 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) 2.8s forwards;
+}
+
+
+
+
+/* assets/css/anime.css - Section Three (Experience) Animations */
+
+/* --- Section Title Plaque (Experience H3): "Imperial Decree Plaque" --- */
+@keyframes imperialDecreePlaqueAppear {
+    0% {
+        opacity: 0;
+        transform: scale(0.85) perspective(1200px) rotateX(70deg) rotateZ(-20deg) translateY(60px);
+        filter: brightness(0.6) blur(4px);
+        /* clip-path might be too aggressive with initial transform, relying on opacity/transform primarily */
+    }
+    60% { /* Mid-point: Dramatic swing into near-place */
+        opacity: 1;
+        transform: scale(1.05) perspective(1200px) rotateX(-12deg) rotateZ(3deg) translateY(0px);
+        filter: brightness(1.3) blur(0.5px);
+    }
+    85% { /* Subtle Glint/Focus */
+        filter: brightness(1.6) blur(0px); /* Quick flash of brightness */
+        transform: scale(1.02) perspective(1200px) rotateX(0deg) rotateZ(1deg) translateY(0px);
+    }
+    100% { /* Final state: Settled and clear */
+        opacity: 1;
+        transform: scale(1) perspective(1200px) rotateX(0deg) rotateZ(0deg) translateY(0px);
+        filter: brightness(1) blur(0px);
+    }
+}
+#three header.major > h3 { /* Targets your uniquely styled "Experience" title */
+    opacity: 0; /* Initial state for animation */
+    /* Inline styles for plaque look are respected */
+    animation: imperialDecreePlaqueAppear 2.2s cubic-bezier(0.645, 0.045, 0.355, 1.000) 0.3s forwards;
+}
+
+/* --- Experience Grid Container: "Grid Foundation Reveal" --- */
+@keyframes gridFoundationReveal {
+    0% {
+        opacity: 0;
+        transform: scaleY(0.75) perspective(1000px) rotateX(-15deg) translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: scaleY(1) perspective(1000px) rotateX(0deg) translateY(0px);
+    }
+}
+#three .experience-grid {
+    opacity: 0; /* Initial state for animation */
+    animation: gridFoundationReveal 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.6s forwards;
+}
+
+/* --- Individual Experience Cards: "Chronicle Card Presentation" --- */
+@keyframes chronicleCardPresentation {
+    0% {
+        opacity: 0;
+        transform: translateY(90px) scale(0.8) perspective(1000px) rotateX(-45deg) rotateY(15deg);
+        filter: blur(5px) brightness(0.7);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Softer initial shadow */
+        /* Using clip-path for an upward reveal */
+        clip-path: inset(100% 0% 0% 0%);
+    }
+    50% { /* Card swings into view, starts to unclip and focus */
+        opacity: 0.85;
+        transform: translateY(-15px) scale(1.03) perspective(1000px) rotateX(10deg) rotateY(-3deg);
+        filter: blur(1px) brightness(1.1);
+        clip-path: inset(20% 0% 0% 0%);
+    }
+    85% { /* Fully unclipped, overshoots slightly, sharpens */
+        opacity: 1;
+        transform: translateY(5px) scale(1.01) perspective(1000px) rotateX(-2deg) rotateY(1deg);
+        filter: blur(0px) brightness(1);
+        clip-path: inset(0% 0% 0% 0%);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.12); /* More pronounced shadow as it 'arrives' */
+    }
+    100% { /* Settles into its final state and shadow (matches your CSS) */
+        opacity: 1;
+        transform: translateY(0px) scale(1) perspective(1000px) rotateX(0deg) rotateY(0deg);
+        filter: blur(0px) brightness(1);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1); /* Matches the card's base shadow */
+    }
+}
+
+/* Applying the card animation with stagger */
+#three .experience-grid .experience-card {
+    opacity: 0; /* Initial state for all cards */
+    animation-name: chronicleCardPresentation;
+    animation-duration: 2.1s; /* Long animation for each card */
+    animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); /* Smooth ease-out */
+    animation-fill-mode: forwards;
+}
+#three .experience-grid .experience-card:nth-child(1) { animation-delay: 1.2s; }
+#three .experience-grid .experience-card:nth-child(2) { animation-delay: 1.7s; } /* 0.5s stagger */
+#three .experience-grid .experience-card:nth-child(3) { animation-delay: 2.2s; } /* 0.5s stagger */
+/* Add more nth-child delays if you have more cards */
+
+
+/* --- Scroll-to-Next Link: "Final Flourish Scroll" --- */
+@keyframes finalFlourishScrollAppearThree { /* Renamed to avoid conflict if used elsewhere */
+    0% {
+        opacity: 0;
+        transform: translateY(25px) scale(0.85);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+#three .goto-next.scrolly {
+    opacity: 0; /* Initial state for animation */
+    animation: finalFlourishScrollAppearThree 1.2s cubic-bezier(0.16, 1, 0.3, 1) 4.5s forwards; /* Delayed until last card should be settled */
+}
