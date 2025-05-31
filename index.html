@@ -6,6 +6,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
+         <link rel="stylesheet" href="assets/css/anime.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     </head>
@@ -222,25 +223,107 @@
             </section>
             <!-- One -->
             <section id="one" class="spotlight style1 bottom" style="overflow: visible; height: auto;">
-                <span class="image fit main" style="display: block; width: 100%; height: auto;">
-                    <video autoplay muted loop src="images/p2.webm" width="100%" height="100%">
-                    </video>
-                </span>
-                <div class="content" style="position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 100%; max-width: 900px; background: rgba(0, 0, 0, 0.7); padding: 0 0.5rem;">
-                    <div class="container" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0;">
-                        <header style="flex: 1; min-width: 0; color: #ffffff;">
-                            <h2 style="font-weight: bold; white-space: nowrap; margin: 0;">Artificial Intelligence Projects Portfolio</h2>
-                            <ul class="actions" style="text-align: center; list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
-                                <li style="display: inline-block;">
-                                    <a href="https://sri-dsa.github.io/ML/" target="_blank" class="button" style="display: inline-block; margin: 0; color: #ffffff; background: #600;">Click Here</a>
-                                </li>
-                            </ul>
-                            <h3 style="font-weight: bold; white-space: nowrap; margin: 0;">Author: Srivathsan Karthikeyan</h3>
-                        </header>
-                        <a href="#two" class="goto-next scrolly" style="margin-right: 0;">Scrolly</a>
-                    </div>
-                </div>
+    <span class="image fit main" style="display: block; width: 100%; height: auto;">
+        <video autoplay muted loop src="images/p2.webm" width="100%" height="100%"></video>
+    </span>
+    <div class="content" style="position: absolute; top: 70%; left: 50%; transform: translate(-50%, -50%); z-index: 2; width: 100%; max-width: 900px; background: rgba(0, 0, 0, 0.75); padding: 2rem 1rem; /* Increased padding for a better look */">
+        <div class="container" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem; /* Adjusted gap */">
+            <header style="flex: 1; min-width: 0;">
+                <h3 class="royal-text-h3-one" style="white-space: nowrap; margin: 0 0 0.5em 0;">Artificial Intelligence Projects Portfolio</h3>
+                <ul class="actions" style="text-align: center; list-style: none; padding: 0; margin: 0.75em 0; display: flex; justify-content: center;">
+                    <li style="display: inline-block;">
+                        <a href="https://sri-dsa.github.io/ML/" target="_blank" class="button royal-action-button">View Portfolio</a>
+                    </li>
+                </ul>
+                <h3 class="royal-text-h3-one" style="white-space: nowrap; margin: 0.5em 0 0 0;">Author: Srivathsan Karthikeyan</h3>
+            </header>
+            <a href="#two" class="goto-next scrolly" style="margin-right: 0;">Scrolly</a>
+        </div>
+    </div>
                 <style>
+
+                    @keyframes shimmer {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        #one .royal-text-h3-one {
+            font-family: 'Cinzel Decorative', Georgia, serif; /* Regal font */
+            font-weight: 700; /* Bold for Cinzel Decorative often looks better */
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background: linear-gradient(60deg, #d4af37, #f7d78a, #fffde4, #f7d78a, #d4af37, #b8860b, #d4af37); /* Enhanced golden gradient */
+            background-size: 300% 300%; /* Adjusted for smoother shimmer */
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent; /* Fallback */
+            animation: shimmer 10s ease-in-out infinite;
+            text-shadow: 0 0 5px rgba(212, 175, 55, 0.2), /* Subtle golden aura */
+                         0 0 15px rgba(247, 215, 138, 0.1);
+            margin-bottom: 0.75em; /* Spacing for H2 */
+        }
+        #one .royal-text-h2-one {
+            font-size: 2.2em; /* Adjust as needed */
+        }
+
+        #one .button.royal-action-button {
+            font-family: 'Montserrat', Arial, sans-serif; /* Clean, modern, elite */
+            font-weight: 600;
+            font-size: 0.9em;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: #181005; /* Deep rich brown/bronze for text, contrasts with gold */
+            
+            background: linear-gradient(135deg, #e6c67c, #d4af37, #c0982c, #d4af37, #e6c67c); /* Rich golden button */
+            background-size: 200% 200%; /* For subtle movement if animated */
+            
+            border: 1px solid #b8860b; /* Darker gold border for definition */
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+            border-radius: 4px; /* Subtle rounding */
+            
+            /* Regal badge-like chamfered corners */
+            clip-path: polygon(8px 0%, calc(100% - 8px) 0%, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0% calc(100% - 8px), 0% 8px);
+            
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1), /* Base shadow for depth */
+                        inset 0 1px 1px rgba(255, 235, 190, 0.3); /* Inner highlight for metallic feel */
+
+            transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1), 
+                        box-shadow 0.3s cubic-bezier(0.25, 0.1, 0.25, 1),
+                        border-color 0.3s ease;
+        }
+
+        #one .button.royal-action-button::before { /* Subtle sheen element */
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%; /* Start off-screen */
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 248, 225, 0.25), transparent); /* Faint light */
+            opacity: 0.7;
+            transition: left 0.6s cubic-bezier(0.25, 0.1, 0.25, 1) 0.2s; /* Delayed transition for sheen */
+        }
+        
+        #one .button.royal-action-button:hover {
+            scale: transform(1.1); /* Very subtle lift */
+            border-color: #f7d78a; /* Slightly brighter border */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15), /* Enhanced shadow */
+                        inset 0 1px 1px rgba(255, 235, 190, 0.4), /* Brighter inner highlight */
+                        0 0 15px rgba(212, 175, 55, 0.2); /* Faint outer golden glow */
+            /* No background color change, no text color change */
+        }
+        #one .button.royal-action-button:hover::before { /* Sheen sweeps across on hover */
+            left: 150%;
+        }
+
+        #one .button.royal-action-button:active {
+            transform: translateY(0px); /* Pressed down effect */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.1);
+        }
                     @media (max-width: 768px) {
                         section#one {
                             position: static !important;
@@ -313,6 +396,8 @@
                 </style>
             </section>
             <!-- Two -->
+
+
             <section id="two" class="spotlight style2 right" style="overflow: visible; height: auto; position: relative;">
                 <span class="image fit main" style="display: block; width: 100%; height: auto; overflow: visible; position: relative; z-index: 1;">
                     <video autoplay muted loop src="images/p02.webm" width="100%" height="auto" style="display: block; object-fit: cover;">
@@ -323,7 +408,30 @@
                 </span>
                 <div class="content" style="position: absolute; top: 50%; right: 0; transform: translateY(-50%); width: 100%; max-width: 40%; padding: 2em 1.5em; background: rgba(0, 0, 0, 0.7); z-index: 2;">
                     <header>
-                        <h2 style="text-align: center;background: #243533;">Education</h2>
+                        <h3 style="
+    /* Layout & Centering */
+    display: table; /* Makes the element only as wide as its content + padding */
+    margin: 1em auto; /* Centers the 'table' display element and adds vertical spacing */
+    padding: 0.6em 2em; /* Generous padding for a plaque feel */
+    text-align: center; /* Kept from your original style */
+
+    /* Royal Background & Text Color */
+    background: linear-gradient(135deg, #e6c67c, #d4af37, #c0982c, #d4af37, #e6c67c);
+    color: #181005; /* Dark text for contrast with golden background */
+
+    /* Border & Shape */
+    border: 1px solid #b8860b; /* Darker gold border for definition */
+    border-radius: 4px; /* Subtle rounding, works with clip-path */
+    clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px); /* Chamfered corners for badge/plaque look */
+
+    /* Depth & Text Styling */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15), inset 0 1px 2px rgba(255, 235, 190, 0.4); /* Subtle depth and inner highlight */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', Arial, sans-serif; /* <<<< FONT FAMILY ADDED HERE */
+    font-weight: bold; /* Ensuring it remains bold as an H2 */
+">Education</h3>
                     </header>
                     <style>
                         .edu-card {
@@ -487,7 +595,30 @@
 			  
 				<div class="container">
 				  <header class="major">
-					<h2>Experience</h2>
+					<h3 style="
+    /* Layout & Centering */
+    display: table; /* Makes the element only as wide as its content + padding */
+    margin: 1em auto; /* Centers the 'table' display element and adds vertical spacing */
+    padding: 0.6em 2em; /* Generous padding for a plaque feel */
+    text-align: center; /* Kept from your original style */
+
+    /* Royal Background & Text Color */
+    background: linear-gradient(135deg, #e6c67c, #d4af37, #c0982c, #d4af37, #e6c67c);
+    color: #181005; /* Dark text for contrast with golden background */
+
+    /* Border & Shape */
+    border: 1px solid #b8860b; /* Darker gold border for definition */
+    border-radius: 4px; /* Subtle rounding, works with clip-path */
+    clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px); /* Chamfered corners for badge/plaque look */
+
+    /* Depth & Text Styling */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15), inset 0 1px 2px rgba(255, 235, 190, 0.4); /* Subtle depth and inner highlight */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', Arial, sans-serif; /* <<<< FONT FAMILY ADDED HERE */
+    font-weight: bold; /* Ensuring it remains bold as an H2 */
+">Experience</h3>
 				  </header>
 				  <div class="experience-grid">
 			  
@@ -536,7 +667,30 @@
 				<section id="four" class="wrapper style1 special fade-up">
     <div class="container">
         <header class="major">
-            <h2 style="font-weight: bold;">Highlighted Specialisations and Certifications</h2>
+            <h3 style="
+    /* Layout & Centering */
+    display: table; /* Makes the element only as wide as its content + padding */
+    margin: 1em auto; /* Centers the 'table' display element and adds vertical spacing */
+    padding: 0.6em 2em; /* Generous padding for a plaque feel */
+    text-align: center; /* Kept from your original style */
+
+    /* Royal Background & Text Color */
+    background: linear-gradient(135deg, #e6c67c, #d4af37, #c0982c, #d4af37, #e6c67c);
+    color: #181005; /* Dark text for contrast with golden background */
+
+    /* Border & Shape */
+    border: 1px solid #b8860b; /* Darker gold border for definition */
+    border-radius: 4px; /* Subtle rounding, works with clip-path */
+    clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px); /* Chamfered corners for badge/plaque look */
+
+    /* Depth & Text Styling */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15), inset 0 1px 2px rgba(255, 235, 190, 0.4); /* Subtle depth and inner highlight */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', Arial, sans-serif; /* <<<< FONT FAMILY ADDED HERE */
+    font-weight: bold; /* Ensuring it remains bold as an H2 */
+">Highlighted Specialisations and Certifications</h3>
             <p></p>
         </header>
         <div class="box alt">
@@ -601,8 +755,54 @@
 					<span class="image fit main bottom"><img src="SIH.jpg" alt="" /></span>
 					<div class="content">
 						<header>
-							<h2>Winner : Smart India Hackathon 2020</h2>
-							<h2>Recieved a Grant of 100,000 INR from Government of India</h2>
+                            <h3 style="
+    /* Layout & Centering */
+    display: table; /* Makes the element only as wide as its content + padding */
+    margin: 1em auto; /* Centers the 'table' display element and adds vertical spacing */
+    padding: 0.6em 2em; /* Generous padding for a plaque feel */
+    text-align: center; /* Kept from your original style */
+
+    /* Royal Background & Text Color */
+    background: linear-gradient(135deg, #e6c67c, #d4af37, #c0982c, #d4af37, #e6c67c);
+    color: #181005; /* Dark text for contrast with golden background */
+
+    /* Border & Shape */
+    border: 1px solid #b8860b; /* Darker gold border for definition */
+    border-radius: 4px; /* Subtle rounding, works with clip-path */
+    clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px); /* Chamfered corners for badge/plaque look */
+
+    /* Depth & Text Styling */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15), inset 0 1px 2px rgba(255, 235, 190, 0.4); /* Subtle depth and inner highlight */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', Arial, sans-serif; /* <<<< FONT FAMILY ADDED HERE */
+    font-weight: bold; /* Ensuring it remains bold as an H2 */
+">Winner : Smart India Hackathon 2020</h3>
+<h3 style="
+    /* Layout & Centering */
+    display: table; /* Makes the element only as wide as its content + padding */
+    margin: 1em auto; /* Centers the 'table' display element and adds vertical spacing */
+    padding: 0.6em 2em; /* Generous padding for a plaque feel */
+    text-align: center; /* Kept from your original style */
+
+    /* Royal Background & Text Color */
+    background: linear-gradient(135deg, #e6c67c, #d4af37, #c0982c, #d4af37, #e6c67c);
+    color: #181005; /* Dark text for contrast with golden background */
+
+    /* Border & Shape */
+    border: 1px solid #b8860b; /* Darker gold border for definition */
+    border-radius: 4px; /* Subtle rounding, works with clip-path */
+    clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px); /* Chamfered corners for badge/plaque look */
+
+    /* Depth & Text Styling */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15), inset 0 1px 2px rgba(255, 235, 190, 0.4); /* Subtle depth and inner highlight */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', Arial, sans-serif; /* <<<< FONT FAMILY ADDED HERE */
+    font-weight: bold; /* Ensuring it remains bold as an H2 */
+">Recieved a Grant of ₹100,000 from Government of India</h3>
 							<ul class="actions">
 							<li><a href="https://timesofindia.indiatimes.com/city/varanasi/smart-india-hackathon-concludes-winners-announced/articleshow/77382109.cms" target="_blank" class="button">News Article</a></li>
 						</ul>
@@ -795,6 +995,7 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.umd.min.js"></script>
 			<script src="assets/js/main.js"></script>
 
 
@@ -818,7 +1019,7 @@ VANTA.CLOUDS({
 });
 
 VANTA.BIRDS({
-  el: "#si",
+  el: "#foote",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
@@ -830,6 +1031,8 @@ VANTA.BIRDS({
   separation: 100.00,
   quantity: 4.00
 })
+
+
 </script>
 
 
