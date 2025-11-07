@@ -218,9 +218,7 @@
 
 
 <p align="center">
-  <a href="https://github.com/sri-dsa?tab=repositories" target="_blank">
-  <img src="https://github-readme-stats.vercel.app/api?username=sri-dsa&theme=whatsapp-dark2&hide_border=false&include_all_commits=true&count_private=true" style="max-width: 700px; width: 70%; height: auto;"/>
-    </a>
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=sri-dsa&theme=whatsapp-dark2" alt="GitHub Streak" /></a>
 </p>
 
 
